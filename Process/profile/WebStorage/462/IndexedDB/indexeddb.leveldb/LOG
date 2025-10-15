@@ -1,0 +1,6 @@
+2025/05/26-19:52:13.116 2dfc Creating DB C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\462\IndexedDB\indexeddb.leveldb since it was missing.
+2025/05/26-19:52:13.126 2dfc Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\462\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2025/05/26-20:02:46.682 cfc Level-0 table #5: started
+2025/05/26-20:02:46.685 cfc Level-0 table #5: 11764 bytes OK
+2025/05/26-20:02:46.688 cfc Delete type=0 #3
+2025/05/26-20:02:46.689 cfc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2025/09/18-08:56:17.632 7acc Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\772\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2025/09/18-08:56:17.633 7acc Recovering log #4
+2025/09/18-08:56:17.634 7acc Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\772\IndexedDB\indexeddb.leveldb/000004.log 
+2025/09/18-09:30:59.991 7acc Level-0 table #8: started
+2025/09/18-09:30:59.994 7acc Level-0 table #8: 47473 bytes OK
+2025/09/18-09:30:59.997 7acc Delete type=0 #4
+2025/09/18-09:30:59.997 7acc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/09/18-09:30:59.998 7acc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\x04\xf7\xc8\x8cyB\x00\x03\x00\x00\x00\x00\x00\x00\x1c@' @ 357 : 1
+2025/09/18-09:30:59.998 7acc Compacting 1@1 + 1@2 files
+2025/09/18-09:31:00.000 7acc Generated table #9@1: 48 keys, 3357 bytes
+2025/09/18-09:31:00.000 7acc Compacted 1@1 + 1@2 files => 3357 bytes
+2025/09/18-09:31:00.002 7acc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/18-09:31:00.003 7acc Delete type=2 #5
+2025/09/18-09:31:00.003 7acc Delete type=2 #8
+2025/09/18-09:31:00.004 7acc Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\x04\xf7\xc8\x8cyB\x00\x03\x00\x00\x00\x00\x00\x00\x1c@' @ 357 : 1 .. (end); will stop at (end)

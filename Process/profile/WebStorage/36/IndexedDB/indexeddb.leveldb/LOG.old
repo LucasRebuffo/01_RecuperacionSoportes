@@ -1,0 +1,15 @@
+2025/09/30-13:31:23.872 5b64 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\36\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2025/09/30-13:31:23.873 5b64 Recovering log #55
+2025/09/30-13:31:23.874 5b64 Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\36\IndexedDB\indexeddb.leveldb/000055.log 
+2025/09/30-13:31:45.479 5b7c Level-0 table #60: started
+2025/09/30-13:31:45.489 5b7c Level-0 table #60: 139032 bytes OK
+2025/09/30-13:31:45.491 5b7c Delete type=0 #55
+2025/09/30-13:31:45.492 5b7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/09/30-13:31:45.492 5b7c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00p\xefn\xb7\x99yB\x00\x03\x00\x00\x00\x00\x00 n@' @ 16046 : 1
+2025/09/30-13:31:45.493 5b7c Compacting 1@1 + 1@2 files
+2025/09/30-13:31:45.496 5b7c Generated table #61@1: 70 keys, 10374 bytes
+2025/09/30-13:31:45.496 5b7c Compacted 1@1 + 1@2 files => 10374 bytes
+2025/09/30-13:31:45.497 5b7c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/30-13:31:45.497 5b7c Delete type=2 #57
+2025/09/30-13:31:45.497 5b7c Delete type=2 #60
+2025/09/30-13:31:45.498 5b7c Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00p\xefn\xb7\x99yB\x00\x03\x00\x00\x00\x00\x00 n@' @ 16046 : 1 .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+14-10-2025 09:17:37 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+14-10-2025 09:17:38 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+14-10-2025 09:17:38 | INFO | Task: 001_InicializarVariables | Desc: Resolución inicial: (1920, 1080)
+14-10-2025 09:17:38 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+14-10-2025 09:17:44 | ERROR | Task: 002_NotificacionCorreo | Desc: Ocurrió un error durante el proceso de conexión y notificación de correo. | Error: ''
+14-10-2025 09:17:57 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+14-10-2025 09:18:39 | ERROR | Task: 016_ObtenerInformacionArchivoBase | Desc: Ocurrió un error al obtener información de archivo de insumo. | Error: [Errno 2] No such file or directory: '//10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx'

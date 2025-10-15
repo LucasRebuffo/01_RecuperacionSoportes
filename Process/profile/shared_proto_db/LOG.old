@@ -1,0 +1,18 @@
+2025/09/30-09:45:42.168 5b7c Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\shared_proto_db/MANIFEST-000001
+2025/09/30-09:45:42.168 5b7c Recovering log #150
+2025/09/30-09:45:42.177 5b7c Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\shared_proto_db/000150.log 
+2025/09/30-13:02:58.054 5b7c Level-0 table #156: started
+2025/09/30-13:02:58.107 5b7c Level-0 table #156: 693004 bytes OK
+2025/09/30-13:02:58.110 5b7c Delete type=0 #150
+2025/09/30-13:02:58.205 5be0 Level-0 table #158: started
+2025/09/30-13:02:58.209 5be0 Level-0 table #158: 546703 bytes OK
+2025/09/30-13:02:58.210 5be0 Delete type=0 #155
+2025/09/30-13:02:59.646 5b7c Level-0 table #160: started
+2025/09/30-13:02:59.652 5b7c Level-0 table #160: 546656 bytes OK
+2025/09/30-13:02:59.654 5b7c Delete type=0 #157
+2025/10/01-14:05:35.477 5b7c Compacting 1@1 + 1@2 files
+2025/10/01-14:05:35.533 5b7c Generated table #161@1: 432 keys, 582592 bytes
+2025/10/01-14:05:35.533 5b7c Compacted 1@1 + 1@2 files => 582592 bytes
+2025/10/01-14:05:35.535 5b7c compacted to: files[ 2 0 1 0 0 0 0 ]
+2025/10/01-14:05:35.536 5b7c Delete type=2 #153
+2025/10/01-14:05:35.536 5b7c Delete type=2 #156

@@ -1,0 +1,29 @@
+2025/10/07-09:16:09.682 90c4 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_vortexit.teamwork.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/07-09:16:09.682 90c4 Recovering log #7
+2025/10/07-09:16:09.683 90c4 Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_vortexit.teamwork.com_0.indexeddb.leveldb/000007.log 
+2025/10/07-09:26:57.226 1e34 Level-0 table #12: started
+2025/10/07-09:26:57.236 1e34 Level-0 table #12: 2211364 bytes OK
+2025/10/07-09:26:57.239 1e34 Delete type=0 #7
+2025/10/07-09:28:07.802 81f8 Level-0 table #14: started
+2025/10/07-09:28:07.813 81f8 Level-0 table #14: 2135049 bytes OK
+2025/10/07-09:28:07.815 81f8 Delete type=0 #11
+2025/10/07-09:42:42.561 1e34 Level-0 table #16: started
+2025/10/07-09:42:42.565 1e34 Level-0 table #16: 8188 bytes OK
+2025/10/07-09:42:42.568 1e34 Delete type=0 #13
+2025/10/07-09:42:42.569 1e34 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x1b\x00z\x00o\x00J\x00k\x00D\x001\x00Y\x00b\x00w\x00c\x00c\x00g\x00s\x00_\x00f\x00W\x008\x00q\x00i\x00f\x002\x00j\x005\x00N\x00q\x00U\x00M' @ 3540 : 1
+2025/10/07-09:42:42.569 1e34 Compacting 2@0 + 1@1 files
+2025/10/07-09:42:42.592 1e34 Generated table #17@0: 1992 keys, 895863 bytes
+2025/10/07-09:42:42.592 1e34 Compacted 2@0 + 1@1 files => 895863 bytes
+2025/10/07-09:42:42.595 1e34 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/07-09:42:42.596 1e34 Delete type=2 #12
+2025/10/07-09:42:42.596 1e34 Delete type=2 #14
+2025/10/07-09:42:42.596 1e34 Delete type=2 #16
+2025/10/07-09:42:42.600 1e34 Manual compaction at level-0 from '\x00\x02\x01\x02\x01\x1b\x00z\x00o\x00J\x00k\x00D\x001\x00Y\x00b\x00w\x00c\x00c\x00g\x00s\x00_\x00f\x00W\x008\x00q\x00i\x00f\x002\x00j\x005\x00N\x00q\x00U\x00M' @ 3540 : 1 .. (end); will stop at (end)
+2025/10/07-09:42:42.600 1e34 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x1b\x00z\x00o\x00J\x00k\x00D\x001\x00Y\x00b\x00w\x00c\x00c\x00g\x00s\x00_\x00f\x00W\x008\x00q\x00i\x00f\x002\x00j\x005\x00N\x00q\x00U\x00M' @ 5120 : 1
+2025/10/07-09:42:42.600 1e34 Compacting 1@1 + 1@2 files
+2025/10/07-09:42:42.611 1e34 Generated table #18@1: 324 keys, 881338 bytes
+2025/10/07-09:42:42.612 1e34 Compacted 1@1 + 1@2 files => 881338 bytes
+2025/10/07-09:42:42.613 1e34 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/07-09:42:42.614 1e34 Delete type=2 #9
+2025/10/07-09:42:42.614 1e34 Delete type=2 #17
+2025/10/07-09:42:42.615 1e34 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x1b\x00z\x00o\x00J\x00k\x00D\x001\x00Y\x00b\x00w\x00c\x00c\x00g\x00s\x00_\x00f\x00W\x008\x00q\x00i\x00f\x002\x00j\x005\x00N\x00q\x00U\x00M' @ 5120 : 1 .. (end); will stop at (end)

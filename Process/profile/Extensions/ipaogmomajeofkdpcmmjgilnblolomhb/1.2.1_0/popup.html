@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Email Injector</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .main-container {
+            width: 600px;
+            padding: 16px;
+            background-color: white;
+        }
+        .editor-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            height: 300px;
+        }
+        textarea, .preview {
+            height: 100%;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+        textarea {
+            width: 60%;
+        }
+        .preview {
+            width: 40%;
+            overflow-y: auto;
+            position: relative;
+        }
+        .preview-content {
+            width: 100%;
+            transform: scale(0.8);
+            transform-origin: top left;
+        }
+        a {
+            color: #3b82f6; /* Tailwind blue-500 */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="editor-container">
+            <textarea id="htmlInput" class="border p-2"></textarea>
+            <div class="preview" id="htmlPreview">
+                <div class="preview-content"></div>
+            </div>
+        </div>
+        <button id="injectButton" class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full">
+            Inject HTML into Gmail
+        </button>
+        <p class="mt-4">Tips:
+            <ul style="padding-inline-start: 16px;">
+                <li>Download HTML email templates from <a href="https://htmlemail.io?ref=chrome" target="_blank">HTMLemail.io</a></li>
+                <li>Edit and test your email templates before sending with <a href="https://postdrop.io?ref=chrome" target="_blank">Postdrop</a></li>
+                <li>When fully tested, compose a new email in Gmail, paste your HTML email template above and inject</li>
+            </ul>
+        </p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rocketbot Recorder</title>
+    <link rel="icon" href="img/Grabador_ISO02.png">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-7 col-md-3 d-flex ">
+                <div class="input-group pb-3">
+                    <div class="input-group-prepend ">
+                        <span class="input-group-text" style="border:none;font-size: 14px;">Robot Name</span>
+                    </div>
+                    <input type="text" id="robot-name" class="form-control" value="Rocketbot" aria-label="Username"
+                           aria-describedby="basic-addon1" style="border:none;">
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-9 d-flex justify-content-end">
+                <div class="btn-group pb-3" role="group">
+                    <button id="webPro" class="btn btn-light"><a href="https://market.rocketbot.com/module/webpro" target="_blank">Web Pro <i class="fa fa-download"> </i></a></button>
+                    <button type="button" id="rec" class="btn btn-light"><i class="fa fa-dot-circle-o"> </i></button>
+                    <div class="dropleft">
+                        <button type="button" id="trashAll" class="btn btn-light"><i class="fa fa-trash"> </i></button>
+                    </div>
+                    <button type="button" id="save_project" class="btn btn-light"><i class="fa fa-save"> </i></button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9">
+            <div id="main" class="scrollbar">     
+                <table class="table table-hover" style="border-bottom: 3px solid #6F6F6E;">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Selector</th>
+                        <th scope="col" style="max-width: 100px">Value</th>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-3" id="side">
+            <div class="row">
+                <h3>Edit selector</h3>
+            </div>
+            <div class="row">
+                <form>
+                    <div class="form-group column">
+                        <label for="command">Command </label>
+                        <div>
+                            <select id="command" class="form-control">
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="target">Target </label>
+                        <div>
+                            <select id="target" class="form-control">
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="value_input">Value </label>
+                        <div>
+                            <input type="text" class="form-control" id="value_input">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="description_input">Description </label>
+                        <div>
+                            <input type="text" class="form-control" id="description_input">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="recModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Record</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer" class="d-flex justify-content-end">
+    <a href="https://rocketbot.com" target="blank"><img src="img/Powered.svg" alt=""></a>
+</div>
+<script src="js/ui.js"></script>
+<script src="js/robot.js"></script>
+</body>
+</html>

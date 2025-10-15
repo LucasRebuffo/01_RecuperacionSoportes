@@ -1,0 +1,6 @@
+2025/10/02-17:01:43.742 5b7c Creating DB C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_excalidraw.com_0.indexeddb.leveldb since it was missing.
+2025/10/02-17:01:43.750 5b7c Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_excalidraw.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/02-17:30:43.402 5b7c Level-0 table #5: started
+2025/10/02-17:30:43.404 5b7c Level-0 table #5: 1345 bytes OK
+2025/10/02-17:30:43.407 5b7c Delete type=0 #3
+2025/10/02-17:30:43.408 5b7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2025/10/06-23:20:46.055 90c4 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_acrobat.adobe.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/06-23:20:46.058 90c4 Recovering log #4
+2025/10/06-23:20:46.059 90c4 Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_acrobat.adobe.com_0.indexeddb.leveldb/000004.log 
+2025/10/07-02:48:42.303 1e34 Level-0 table #8: started
+2025/10/07-02:48:42.306 1e34 Level-0 table #8: 3728 bytes OK
+2025/10/07-02:48:42.308 1e34 Delete type=0 #4
+2025/10/07-02:48:42.309 1e34 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/10/07-02:48:42.309 1e34 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x014\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00u\x00t\x00h\x00.\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00s\x00.\x00a\x00d\x00o\x00b\x00e\x00.\x00c\x00o\x00m\x00/\x00i\x00m\x00s\x00l\x00i\x00b\x00/\x00i\x00m\x00s\x00l\x00i\x00b\x00.\x00m\x00i\x00n\x00.\x00j\x00s' @ 2367 : 1
+2025/10/07-02:48:42.309 1e34 Compacting 1@1 + 1@2 files
+2025/10/07-02:48:42.312 1e34 Generated table #9@1: 381 keys, 19525 bytes
+2025/10/07-02:48:42.312 1e34 Compacted 1@1 + 1@2 files => 19525 bytes
+2025/10/07-02:48:42.315 1e34 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/07-02:48:42.315 1e34 Delete type=2 #5
+2025/10/07-02:48:42.315 1e34 Delete type=2 #8
+2025/10/07-02:48:42.316 1e34 Manual compaction at level-1 from '\x00\x01\x01\x02\x014\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00u\x00t\x00h\x00.\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00s\x00.\x00a\x00d\x00o\x00b\x00e\x00.\x00c\x00o\x00m\x00/\x00i\x00m\x00s\x00l\x00i\x00b\x00/\x00i\x00m\x00s\x00l\x00i\x00b\x00.\x00m\x00i\x00n\x00.\x00j\x00s' @ 2367 : 1 .. (end); will stop at (end)

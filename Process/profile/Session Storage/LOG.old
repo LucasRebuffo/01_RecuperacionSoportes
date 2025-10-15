@@ -1,0 +1,75 @@
+2025/09/30-09:45:42.175 5ae4 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\Session Storage/MANIFEST-000001
+2025/09/30-09:45:42.181 5ae4 Recovering log #2526
+2025/09/30-09:45:42.193 5ae4 Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\Session Storage/002526.log 
+2025/09/30-09:48:14.307 5ad8 Level-0 table #2532: started
+2025/09/30-09:48:14.315 5ad8 Level-0 table #2532: 19645 bytes OK
+2025/09/30-09:48:14.317 5ad8 Delete type=0 #2526
+2025/09/30-11:56:37.028 5ad8 Level-0 table #2534: started
+2025/09/30-11:56:37.040 5ad8 Level-0 table #2534: 177430 bytes OK
+2025/09/30-11:56:37.046 5ad8 Delete type=0 #2531
+2025/09/30-12:00:49.336 5ae4 Level-0 table #2536: started
+2025/09/30-12:00:49.367 5ae4 Level-0 table #2536: 138421 bytes OK
+2025/09/30-12:00:49.371 5ae4 Delete type=0 #2533
+2025/09/30-13:39:26.293 5ad8 Level-0 table #2538: started
+2025/09/30-13:39:26.300 5ad8 Level-0 table #2538: 30143 bytes OK
+2025/09/30-13:39:26.302 5ad8 Delete type=0 #2535
+2025/09/30-13:39:26.303 5ad8 Compacting 4@0 + 2@1 files
+2025/09/30-13:39:26.363 5ad8 Generated table #2539@0: 96538 keys, 2129387 bytes
+2025/09/30-13:39:26.375 5ad8 Generated table #2540@0: 11658 keys, 309676 bytes
+2025/09/30-13:39:26.375 5ad8 Compacted 4@0 + 2@1 files => 2439063 bytes
+2025/09/30-13:39:26.376 5ad8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/09/30-13:39:26.377 5ad8 Delete type=2 #2528
+2025/09/30-13:39:26.377 5ad8 Delete type=2 #2529
+2025/09/30-13:39:26.377 5ad8 Delete type=2 #2532
+2025/09/30-13:39:26.377 5ad8 Delete type=2 #2534
+2025/09/30-13:39:26.377 5ad8 Delete type=2 #2536
+2025/09/30-13:39:26.377 5ad8 Delete type=2 #2538
+2025/10/01-17:23:08.869 5ad8 Level-0 table #2542: started
+2025/10/01-17:23:08.876 5ad8 Level-0 table #2542: 19403 bytes OK
+2025/10/01-17:23:08.878 5ad8 Delete type=0 #2537
+2025/10/01-19:24:58.133 5ad8 Level-0 table #2544: started
+2025/10/01-19:24:58.142 5ad8 Level-0 table #2544: 17140 bytes OK
+2025/10/01-19:24:58.145 5ad8 Delete type=0 #2541
+2025/10/01-20:47:36.351 5ad8 Level-0 table #2546: started
+2025/10/01-20:47:36.361 5ad8 Level-0 table #2546: 18305 bytes OK
+2025/10/01-20:47:36.364 5ad8 Delete type=0 #2543
+2025/10/01-21:48:16.900 5ad8 Level-0 table #2548: started
+2025/10/01-21:48:16.913 5ad8 Level-0 table #2548: 20015 bytes OK
+2025/10/01-21:48:16.916 5ad8 Delete type=0 #2545
+2025/10/01-21:48:16.917 5ad8 Compacting 4@0 + 2@1 files
+2025/10/01-21:48:17.022 5ad8 Generated table #2549@0: 108422 keys, 2137091 bytes
+2025/10/01-21:48:17.029 5ad8 Generated table #2550@0: 683 keys, 18616 bytes
+2025/10/01-21:48:17.030 5ad8 Compacted 4@0 + 2@1 files => 2155707 bytes
+2025/10/01-21:48:17.031 5ad8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/10/01-21:48:17.032 5ad8 Delete type=2 #2539
+2025/10/01-21:48:17.033 5ad8 Delete type=2 #2540
+2025/10/01-21:48:17.033 5ad8 Delete type=2 #2542
+2025/10/01-21:48:17.034 5ad8 Delete type=2 #2544
+2025/10/01-21:48:17.034 5ad8 Delete type=2 #2546
+2025/10/01-21:48:17.034 5ad8 Delete type=2 #2548
+2025/10/02-10:23:37.478 5ae4 Level-0 table #2552: started
+2025/10/02-10:23:37.502 5ae4 Level-0 table #2552: 15078 bytes OK
+2025/10/02-10:23:37.506 5ae4 Delete type=0 #2547
+2025/10/02-18:08:50.488 5ad8 Level-0 table #2554: started
+2025/10/02-18:08:50.497 5ad8 Level-0 table #2554: 18440 bytes OK
+2025/10/02-18:08:50.500 5ad8 Delete type=0 #2551
+2025/10/03-11:56:39.206 5ad8 Level-0 table #2556: started
+2025/10/03-11:56:39.213 5ad8 Level-0 table #2556: 17569 bytes OK
+2025/10/03-11:56:39.216 5ad8 Delete type=0 #2553
+2025/10/03-12:00:41.542 5ad8 Level-0 table #2558: started
+2025/10/03-12:00:41.551 5ad8 Level-0 table #2558: 141267 bytes OK
+2025/10/03-12:00:41.554 5ad8 Delete type=0 #2555
+2025/10/03-12:00:41.555 5ad8 Compacting 4@0 + 2@1 files
+2025/10/03-12:00:41.668 5ad8 Generated table #2559@0: 103612 keys, 2134286 bytes
+2025/10/03-12:00:41.681 5ad8 Generated table #2560@0: 6160 keys, 165007 bytes
+2025/10/03-12:00:41.681 5ad8 Compacted 4@0 + 2@1 files => 2299293 bytes
+2025/10/03-12:00:41.682 5ad8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/10/03-12:00:41.683 5ad8 Delete type=2 #2549
+2025/10/03-12:00:41.683 5ad8 Delete type=2 #2550
+2025/10/03-12:00:41.683 5ad8 Delete type=2 #2552
+2025/10/03-12:00:41.683 5ad8 Delete type=2 #2554
+2025/10/03-12:00:41.684 5ad8 Delete type=2 #2556
+2025/10/03-12:00:41.684 5ad8 Delete type=2 #2558
+2025/10/03-14:31:54.158 5ad8 Level-0 table #2562: started
+2025/10/03-14:31:54.167 5ad8 Level-0 table #2562: 18862 bytes OK
+2025/10/03-14:31:54.172 5ad8 Delete type=0 #2557

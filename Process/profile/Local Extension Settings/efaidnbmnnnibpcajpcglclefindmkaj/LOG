@@ -1,0 +1,12 @@
+2025/10/06-09:04:53.790 81f8 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\efaidnbmnnnibpcajpcglclefindmkaj/MANIFEST-000001
+2025/10/06-09:04:53.791 81f8 Recovering log #240
+2025/10/06-09:04:53.795 81f8 Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\efaidnbmnnnibpcajpcglclefindmkaj/000240.log 
+2025/10/07-12:43:01.986 1e34 Level-0 table #245: started
+2025/10/07-12:43:02.030 1e34 Level-0 table #245: 1541461 bytes OK
+2025/10/07-12:43:02.033 1e34 Delete type=0 #240
+2025/10/07-12:43:22.698 1e34 Compacting 1@1 + 1@2 files
+2025/10/07-12:43:22.705 1e34 Generated table #246@1: 166 keys, 109457 bytes
+2025/10/07-12:43:22.705 1e34 Compacted 1@1 + 1@2 files => 109457 bytes
+2025/10/07-12:43:22.708 1e34 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/07-12:43:22.709 1e34 Delete type=2 #242
+2025/10/07-12:43:22.709 1e34 Delete type=2 #245

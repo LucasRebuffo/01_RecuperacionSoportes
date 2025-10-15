@@ -1,0 +1,70 @@
+{
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/styles.css" ],
+      "exclude_matches": [ "https://store.steampowered.com/steamaccount/addfunds*", "https://store.steampowered.com/digitalgiftcards*", "https://store.steampowered.com/bundle/*" ],
+      "js": [ "js/helpers.js", "js/menu.js", "js/global_functions.js", "js/trigger.js" ],
+      "matches": [ "https://store.steampowered.com/*", "https://steamcommunity.com/app*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "js/helpers.js", "js/menu.js", "js/global_functions.js", "js/cart_trigger.js" ],
+      "matches": [ "https://store.steampowered.com/cart*" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "css/styles.css" ],
+      "js": [ "js/menu.js", "js/helpers.js", "js/global_functions.js", "js/addfunds_functions.js" ],
+      "matches": [ "https://store.steampowered.com/steamaccount/addfunds*", "https://store.steampowered.com/digitalgiftcards*" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "css/styles.css" ],
+      "js": [ "js/menu.js", "js/helpers.js", "js/global_functions.js", "js/regional_indicator.js" ],
+      "matches": [ "https://store.steampowered.com/app/*", "https://store.steampowered.com/sub/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "js/global_functions.js", "js/search.js" ],
+      "matches": [ "https://store.steampowered.com/search*" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "css/styles.css" ],
+      "js": [ "js/menu.js", "js/helpers.js", "js/global_functions.js", "js/bundle_functions.js" ],
+      "matches": [ "https://store.steampowered.com/bundle/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "js/updates.js" ],
+      "matches": [ "https://store.steampowered.com/?*", "https://store.steampowered.com/" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "js/menu.js", "js/helpers.js", "js/global_functions.js", "js/home.js" ],
+      "matches": [ "https://store.steampowered.com/", "https://store.steampowered.com/?*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "js/microtransactions.js" ],
+      "matches": [ "https://store.steampowered.com/checkout/approvetxn*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "js/helpers.js", "js/menu.js", "js/global_functions.js", "js/subscriptions.js" ],
+      "matches": [ "https://store.steampowered.com/account/subscriptions/*", "https://store.steampowered.com/app/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "js/helpers.js", "js/menu.js", "js/global_functions.js", "js/history.js" ],
+      "matches": [ "https://store.steampowered.com/account/history*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Muestra todos los productos de la tienda de Steam con todos los impuestos de Argentina incluidos",
+   "differential_fingerprint": "1.997a392660d20301a2a69e3855803397ea08923b58504e69ad3523bbdf646090",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0DI/M+wi66Uon7rqmxB6gG1HsPPduDzik++LnvXkpzm9UgGex9u4hS41EkuSodfomMKVBkygFSrrAHzdf0/YMae5qOOCTnvh/T+ng3gu+MN5NWeZkfJKXWg3jybFUHJK3DTldwo48mcCq+dvROxpd5XHuyhFkYO9PF6GrJ/kw341CleZ/HP0Vf4lBL8VOuG67F0x+vEP76oChqjX1TKqxTJQUDhQMU2GuB+uq6owXFrx/rFClAoFkGuEkCTKnfAwK5DcNxz7Svzt7gOONjRTMAR1IrqJDj8rqa3/ePsVg2Zm/QQD/dF6oTRB7hBHEqsyCWFoqFBbLyTe/mPhlsjrUQIDAQAB",
+   "manifest_version": 3,
+   "name": "Steamcito: Steam con impuestos Argentina 2024",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.71",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "emojis/*.woff", "emojis/*.eot", "emojis/*.ttf", "emojis/*.png" ]
+   } ]
+}

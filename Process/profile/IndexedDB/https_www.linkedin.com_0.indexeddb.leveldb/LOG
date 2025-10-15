@@ -1,0 +1,6 @@
+2025/10/01-20:21:17.574 5b64 Creating DB C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.linkedin.com_0.indexeddb.leveldb since it was missing.
+2025/10/01-20:21:17.582 5b64 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/01-20:21:25.106 5b7c Level-0 table #5: started
+2025/10/01-20:21:25.109 5b7c Level-0 table #5: 1663 bytes OK
+2025/10/01-20:21:25.113 5b7c Delete type=0 #3
+2025/10/01-20:21:25.113 5b7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

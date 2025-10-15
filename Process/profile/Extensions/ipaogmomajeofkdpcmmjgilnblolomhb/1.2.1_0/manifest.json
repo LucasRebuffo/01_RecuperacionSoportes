@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://mail.google.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Inject HTML into Gmail's compose message area to send HTML email templates.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhunevzMvJGkao39mzoIO78i7GBcslsdLqC53mcbYbkAIrdnwjXdNYBGGGbMqxDHlozo4CaYG6PmTL7rd9Sgezmex9K1MgNH7oyI/xdbk57zEm0HM0rhBDXzMpKXwHodhPufL5sOLdELuvmeTtOpYedjQs12EsO6fKhADacoqD1fVVRQTRllVsFYuR4l6JYHg/5wd3tEbPz8McBGXB+dHawG4l03x4NOXAVxyWzLpjoxw4NPnumZI3kDA9SZpnDaNZlKx5hE73AQMu1yYwiMg/Axiup/umm4SNXdfjtBniYkx9LOPHKeBbe7pTnm6u4z9O9VBqwltXzQntGep3Ch0+QIDAQAB",
+   "manifest_version": 3,
+   "name": "Send HTML in Gmail",
+   "permissions": [ "scripting", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1"
+}

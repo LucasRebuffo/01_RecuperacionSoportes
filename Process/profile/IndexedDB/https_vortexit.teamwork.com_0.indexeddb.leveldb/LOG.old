@@ -1,0 +1,15 @@
+2025/10/03-13:56:42.571 5be0 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_vortexit.teamwork.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/03-13:56:42.572 5be0 Recovering log #4
+2025/10/03-13:56:42.573 5be0 Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_vortexit.teamwork.com_0.indexeddb.leveldb/000004.log 
+2025/10/03-13:56:44.598 5b7c Level-0 table #8: started
+2025/10/03-13:56:44.601 5b7c Level-0 table #8: 209 bytes OK
+2025/10/03-13:56:44.604 5b7c Delete type=0 #4
+2025/10/03-13:56:44.604 5b7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/10/03-13:56:44.605 5b7c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 62 : 1
+2025/10/03-13:56:44.605 5b7c Compacting 1@1 + 1@2 files
+2025/10/03-13:56:44.608 5b7c Generated table #9@1: 23 keys, 559 bytes
+2025/10/03-13:56:44.608 5b7c Compacted 1@1 + 1@2 files => 559 bytes
+2025/10/03-13:56:44.610 5b7c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/03-13:56:44.611 5b7c Delete type=2 #5
+2025/10/03-13:56:44.611 5b7c Delete type=2 #8
+2025/10/03-13:56:44.612 5b7c Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 62 : 1 .. (end); will stop at (end)

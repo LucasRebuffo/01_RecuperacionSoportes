@@ -1,0 +1,6 @@
+2025/07/02-13:53:42.994 4bec Creating DB C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\674\IndexedDB\indexeddb.leveldb since it was missing.
+2025/07/02-13:53:43.002 4bec Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\WebStorage\674\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2025/07/02-13:54:30.381 4bec Level-0 table #5: started
+2025/07/02-13:54:30.384 4bec Level-0 table #5: 9377 bytes OK
+2025/07/02-13:54:30.387 4bec Delete type=0 #3
+2025/07/02-13:54:30.387 4bec Manual compaction at level-0 from (begin) .. (end); will stop at (end)

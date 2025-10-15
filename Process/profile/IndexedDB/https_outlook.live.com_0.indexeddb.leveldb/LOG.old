@@ -1,0 +1,18 @@
+2025/10/06-16:04:25.805 90c4 Creating DB C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_outlook.live.com_0.indexeddb.leveldb since it was missing.
+2025/10/06-16:04:25.813 90c4 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_outlook.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/06-16:04:25.822 81f8 Level-0 table #5: started
+2025/10/06-16:04:25.830 81f8 Level-0 table #5: 561 bytes OK
+2025/10/06-16:04:25.833 81f8 Delete type=0 #3
+2025/10/06-16:04:25.834 90c4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/06-16:04:27.831 1e34 Level-0 table #7: started
+2025/10/06-16:04:27.835 1e34 Level-0 table #7: 261 bytes OK
+2025/10/06-16:04:27.837 1e34 Delete type=0 #4
+2025/10/06-16:04:27.838 1e34 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/10/06-16:04:27.838 1e34 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 20 : 0
+2025/10/06-16:04:27.838 1e34 Compacting 1@1 + 1@2 files
+2025/10/06-16:04:27.841 1e34 Generated table #8@1: 6 keys, 253 bytes
+2025/10/06-16:04:27.841 1e34 Compacted 1@1 + 1@2 files => 253 bytes
+2025/10/06-16:04:27.843 1e34 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/06-16:04:27.843 1e34 Delete type=2 #5
+2025/10/06-16:04:27.843 1e34 Delete type=2 #7
+2025/10/06-16:04:27.844 1e34 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 20 : 0 .. (end); will stop at (end)

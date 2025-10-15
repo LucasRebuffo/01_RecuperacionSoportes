@@ -1,0 +1,3 @@
+06-10-2025 13:01:55 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+06-10-2025 13:01:55 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+06-10-2025 13:01:55 | ERROR | Task: 001_InicializarVariables | Desc: No se encontró la credecial PortalWeb_DEMO en el baúl de credenciales de Windows. Favor realizar o validar la configuración. | Error: Failure reading credential

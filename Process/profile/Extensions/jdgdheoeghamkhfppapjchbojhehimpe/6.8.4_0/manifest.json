@@ -1,0 +1,34 @@
+{
+   "author": "Pablo Matías Gomez",
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/guarani-helper.css" ],
+      "js": [ "js/guarani-helper.min.js" ],
+      "matches": [ "*://*.guarani.frba.utn.edu.ar/*" ]
+   }, {
+      "all_frames": true,
+      "css": [ "css/guarani-helper.css" ],
+      "js": [ "js/guarani-kolla-helper.min.js" ],
+      "matches": [ "*://*.kolla.frba.utn.edu.ar/*" ]
+   } ],
+   "description": "UTN.BA Helper facilita el uso de la web de la UTN - FRBA.",
+   "host_permissions": [ "*://*.kolla.frba.utn.edu.ar/*" ],
+   "icons": {
+      "128": "images/icons/icon128.png",
+      "16": "images/icons/icon16.png",
+      "48": "images/icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAil0xK2MAW+M9et8Lt2DuH7ADTRr+lqKnzwbJZlVNZaa/U3b/W9Kh/iSBphegn99Dh7XgeBAkwO3ShoKUup5mPolomOQi8fKY6cBMghS6ezeRLRTCxmXWpg0ngpCGGclViaNdx+E0Cf/rbPGfd9Tly1x58+FR23ZrCzjpAgDtIqzP3XY0Pv0oKYD6PV+ph2a6XW1BxwCgH/EnIs30duQqQOV0FOoWww4KPhnd2u4ko7NXub9t/dLl4+7VzvxjE1nBd5n5mrD/9pCHv+YgpuBibKfL8L2oFW/P7gol3NWsL0eE6OgB0xFF+Be2Msq/D2f15TeKppYr9QAaaxzfDp6JtQIDAQAB",
+   "manifest_version": 3,
+   "name": "UTN.BA Helper (ex Siga Helper)",
+   "permissions": [ "storage" ],
+   "short_name": "UTN.BA Helper",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.8.4",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.frba.utn.edu.ar/*" ],
+      "resources": [ "js/guarani/foreground.js" ]
+   } ]
+}

@@ -1,0 +1,23 @@
+2025/10/06-10:28:40.920 7ab4 Creating DB C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_vortex-it.atlassian.net_0.indexeddb.leveldb since it was missing.
+2025/10/06-10:28:40.932 7ab4 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_vortex-it.atlassian.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/06-10:32:10.104 1e34 Level-0 table #5: started
+2025/10/06-10:32:10.126 1e34 Level-0 table #5: 1765886 bytes OK
+2025/10/06-10:32:10.129 1e34 Delete type=0 #3
+2025/10/06-11:02:11.061 81f8 Level-0 table #7: started
+2025/10/06-11:02:11.082 81f8 Level-0 table #7: 1697752 bytes OK
+2025/10/06-11:02:11.085 81f8 Delete type=0 #4
+2025/10/06-11:02:11.138 90c4 Compacting 1@1 + 1@2 files
+2025/10/06-11:02:11.158 90c4 Generated table #8@1: 1953 keys, 233644 bytes
+2025/10/06-11:02:11.158 90c4 Compacted 1@1 + 1@2 files => 233644 bytes
+2025/10/06-11:02:11.161 90c4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/06-11:02:11.161 90c4 Delete type=2 #5
+2025/10/06-11:02:11.161 90c4 Delete type=2 #7
+2025/10/06-11:10:43.616 1e34 Level-0 table #10: started
+2025/10/06-11:10:43.644 1e34 Level-0 table #10: 1781205 bytes OK
+2025/10/06-11:10:43.647 1e34 Delete type=0 #6
+2025/10/06-11:10:45.714 81f8 Compacting 1@1 + 1@2 files
+2025/10/06-11:10:45.729 81f8 Generated table #11@1: 2478 keys, 185623 bytes
+2025/10/06-11:10:45.729 81f8 Compacted 1@1 + 1@2 files => 185623 bytes
+2025/10/06-11:10:45.730 81f8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/06-11:10:45.731 81f8 Delete type=2 #8
+2025/10/06-11:10:45.731 81f8 Delete type=2 #10

@@ -1,0 +1,77 @@
+14-10-2025 10:14:17 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+14-10-2025 10:14:17 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+14-10-2025 10:14:17 | INFO | Task: 001_InicializarVariables | Desc: Resolución inicial: (1920, 1080)
+14-10-2025 10:14:17 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+14-10-2025 10:14:23 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+14-10-2025 10:14:43 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+14-10-2025 10:14:43 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc: Archivo leido exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 7)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    Total de columnas: 7
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    empresa: 0 (0.0%)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    tipo_docto: 0 (0.0%)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    nro_docto: 0 (0.0%)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    detalle: 0 (0.0%)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    documento_cruce: 0 (0.0%)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    fecha_procesamiento: 0 (0.0%)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    estado_procesamiento: 0 (0.0%)
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    empresa: 2 valores unicos
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    tipo_docto: 48 valores unicos
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    nro_docto: 4,726 valores unicos
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    detalle: 5,091 valores unicos
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    documento_cruce: 469 valores unicos
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    fecha_procesamiento: 1 valores unicos
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc:    estado_procesamiento: 1 valores unicos
+14-10-2025 10:14:54 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         NQ        26               COMPROBANTE DE CAUSACION                                                Pendiente
+1  Ticenergi         NQ        27               COMPROBANTE DE CAUSACION                                                Pendiente
+2  Ticenergi         NI       129  ECANOLA TRASLADO AL COSTO NOMINA 2021                                                Pendiente
+3  Ticenergi         NQ        28               COMPROBANTE DE CAUSACION                                                Pendiente
+4  Ticenergi         LP        42               COMPROBANTE DE CAUSACION                                                Pendiente
+14-10-2025 10:14:54 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Extracción exitosa.
+14-10-2025 10:43:10 | INFO | Task: DeaultTask | Desc: Archivo cargado: 31048 filas
+14-10-2025 10:43:10 | INFO | Task: DeaultTask | Desc: Columnas disponibles: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento', 'fecha_procesamiento']
+14-10-2025 10:43:10 | WARNING | Task: DeaultTask | Desc: Se encontraron múltiples filas con la clave: NQ_26
+14-10-2025 10:43:10 | INFO | Task: DeaultTask | Desc: Actualización completada exitosamente
+14-10-2025 10:45:44 | INFO | Task: DeaultTask | Desc: Archivo cargado: 31048 filas
+14-10-2025 10:45:44 | INFO | Task: DeaultTask | Desc: Columnas disponibles: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento', 'fecha_procesamiento']
+14-10-2025 10:45:45 | INFO | Task: DeaultTask | Desc: Fila encontrada:          empresa tipo_docto nro_docto  ... estado_procesamiento fecha_procesamiento clave_compuesta
+0      Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+7      Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+26     Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+37     Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+54     Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+72     Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+91     Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+121    Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+126    Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+2478   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+2934   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+3079   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+3151   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+3206   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+3273   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+3388   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+3592   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+3779   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+4336   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+5056   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+5414   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+5549   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+5604   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+5726   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+5928   Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+10817  Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+10850  Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+10972  Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+11058  Ticenergi         NQ        26  ...            Pendiente                               NQ_26
+
+[29 rows x 8 columns]
+14-10-2025 10:45:45 | WARNING | Task: DeaultTask | Desc: Se encontraron múltiples filas con la clave: NQ_26
+14-10-2025 10:45:45 | INFO | Task: DeaultTask | Desc: Actualización completada exitosamente

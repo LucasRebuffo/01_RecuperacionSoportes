@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "img/Grabador_ISO02.png",
+         "16": "img/Grabador_ISO02.png"
+      }
+   },
+   "author": "Danilo Toro - José González",
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "description": "Rocketbot extension to record actions in the browser",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "img/Grabador_ISO02.png",
+      "16": "img/Grabador_ISO02.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoBDz8MMddeDgY66WgLZJThqZhLZMb919e8qdttQZ5sF9nAWKPNOtSIwgKxs6wQYeiJN8ENatBeu/RHL2zN5Snm6yQ7gH+3ycnr8kXstRg+hmr1bxu9bIS+YKUru78HMbCaSfnUYK5OUV+YIKWokTFktCXzMr/IiS3yLx6b19n2SU4ZEF2ouCrDAo46qZdSrnYs6zYg3fQhQhgKltZI/GVURkttYgnCAxjbG7pVDd8IzkR/bnhRudSG1Xm8H3Va4CYN+cAF98VY8w2IXE2u8k2u+KmzqoEyyVMB/8AyYpeU1R09KG3dOTMbMaWDITSL/m7MYlX9GhUWFr+7DnEmJZ9QIDAQAB",
+   "manifest_version": 3,
+   "name": "Web Recorder for Rocketbot",
+   "options_page": "options.html",
+   "permissions": [ "activeTab", "scripting", "tabs", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.2"
+}

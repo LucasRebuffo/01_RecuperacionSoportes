@@ -1,0 +1,4 @@
+2025/10/06-16:04:28.017 90c4 Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_outlook.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/06-16:04:28.018 90c4 Recovering log #6
+2025/10/06-16:04:28.019 90c4 Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_outlook.live.com_0.indexeddb.leveldb/000006.log 
+2025/10/06-16:04:28.035 90c4 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

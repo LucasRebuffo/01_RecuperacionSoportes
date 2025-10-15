@@ -1,0 +1,30 @@
+2025/09/30-09:45:42.624 5bec Reusing MANIFEST C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\efaidnbmnnnibpcajpcglclefindmkaj/MANIFEST-000001
+2025/09/30-09:45:42.626 5bec Recovering log #230
+2025/09/30-09:45:42.693 5bec Reusing old log C:\Users\lucas\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\efaidnbmnnnibpcajpcglclefindmkaj/000230.log 
+2025/09/30-10:19:41.706 5b7c Level-0 table #235: started
+2025/09/30-10:19:41.734 5b7c Level-0 table #235: 1383949 bytes OK
+2025/09/30-10:19:41.736 5b7c Delete type=0 #230
+2025/09/30-10:19:59.721 5b7c Compacting 1@1 + 1@2 files
+2025/09/30-10:19:59.732 5b7c Generated table #236@1: 166 keys, 108190 bytes
+2025/09/30-10:19:59.732 5b7c Compacted 1@1 + 1@2 files => 108190 bytes
+2025/09/30-10:19:59.733 5b7c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/30-10:19:59.734 5b7c Delete type=2 #232
+2025/09/30-10:19:59.734 5b7c Delete type=2 #235
+2025/10/01-21:47:31.408 5b7c Level-0 table #238: started
+2025/10/01-21:47:31.476 5b7c Level-0 table #238: 1626524 bytes OK
+2025/10/01-21:47:31.479 5b7c Delete type=0 #234
+2025/10/01-21:47:33.679 5b64 Compacting 1@1 + 1@2 files
+2025/10/01-21:47:33.691 5b64 Generated table #239@1: 166 keys, 109035 bytes
+2025/10/01-21:47:33.692 5b64 Compacted 1@1 + 1@2 files => 109035 bytes
+2025/10/01-21:47:33.694 5b64 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/01-21:47:33.695 5b64 Delete type=2 #236
+2025/10/01-21:47:33.695 5b64 Delete type=2 #238
+2025/10/03-19:01:05.597 5b7c Level-0 table #241: started
+2025/10/03-19:01:05.664 5b7c Level-0 table #241: 1498266 bytes OK
+2025/10/03-19:01:05.667 5b7c Delete type=0 #237
+2025/10/03-19:01:59.057 5b7c Compacting 1@1 + 1@2 files
+2025/10/03-19:01:59.070 5b7c Generated table #242@1: 167 keys, 109547 bytes
+2025/10/03-19:01:59.070 5b7c Compacted 1@1 + 1@2 files => 109547 bytes
+2025/10/03-19:01:59.072 5b7c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/03-19:01:59.072 5b7c Delete type=2 #239
+2025/10/03-19:01:59.073 5b7c Delete type=2 #241

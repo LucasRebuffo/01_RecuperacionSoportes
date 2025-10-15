@@ -1,0 +1,481 @@
+09-10-2025 12:19:29 | INFO | Task: DeaultTask | Desc: === LECTOR DE ARCHIVO EXCEL ===
+09-10-2025 12:19:29 | INFO | Task: DeaultTask | Desc: Leyendo columnas: Empresa, Tipo Docto, Nro Docto, Detalle, DOCUMENTO CRUCE
+09-10-2025 12:19:29 | INFO | Task: DeaultTask | Desc: Desde la linea 4 (cabecera)...
+09-10-2025 12:19:29 | INFO | Task: DeaultTask | Desc: ============================================================
+09-10-2025 12:20:00 | INFO | Task: DeaultTask | Desc: === LECTOR DE ARCHIVO EXCEL ===
+09-10-2025 12:20:00 | INFO | Task: DeaultTask | Desc: Leyendo columnas: Empresa, Tipo Docto, Nro Docto, Detalle, DOCUMENTO CRUCE
+09-10-2025 12:20:00 | INFO | Task: DeaultTask | Desc: Desde la linea 4 (cabecera)...
+09-10-2025 12:20:00 | INFO | Task: DeaultTask | Desc: ============================================================
+09-10-2025 12:20:00 | ERROR | Task: DeaultTask | Desc: Error: El archivo './Inusmo busqueda masiva - UT Ticenergi.xlsx' no existe en el directorio actual.
+09-10-2025 12:27:39 | INFO | Task: DeaultTask | Desc: === LECTOR DE ARCHIVO EXCEL ===
+09-10-2025 12:27:39 | INFO | Task: DeaultTask | Desc: Leyendo columnas: Empresa, Tipo Docto, Nro Docto, Detalle, DOCUMENTO CRUCE
+09-10-2025 12:27:39 | INFO | Task: DeaultTask | Desc: Desde la linea 4 (cabecera)...
+09-10-2025 12:27:39 | INFO | Task: DeaultTask | Desc: ============================================================
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 12:27:48 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 12:32:01 | INFO | Task: DeaultTask | Desc: === LECTOR DE ARCHIVO EXCEL ===
+09-10-2025 12:32:01 | INFO | Task: DeaultTask | Desc: Leyendo columnas: Empresa, Tipo Docto, Nro Docto, Detalle, DOCUMENTO CRUCE
+09-10-2025 12:32:01 | INFO | Task: DeaultTask | Desc: Desde la linea 4 (cabecera)...
+09-10-2025 12:32:01 | INFO | Task: DeaultTask | Desc: ============================================================
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 12:34:42 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 12:48:43 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 13:17:34 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 13:18:04 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc: Archivo le�do exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc: Columnas extra�das: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores �nicos
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores �nicos
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores �nicos
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores �nicos
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores �nicos
+09-10-2025 13:20:03 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc: Archivo le�do exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc: Columnas extra�das: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores �nicos
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores �nicos
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores �nicos
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores �nicos
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores �nicos
+09-10-2025 13:22:05 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 13:25:45 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 13:27:55 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['Empresa', 'Tipo\nDocto', 'Nro\nDocto', 'Detalle', 'DOCUMENTO CRUCE']
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Empresa: 0 (0.0%)
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 0 (0.0%)
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 0 (0.0%)
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Detalle: 1,239 (4.0%)
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 27,469 (88.5%)
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Empresa: 2 valores únicos
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Tipo
+Docto: 48 valores únicos
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Nro
+Docto: 4,726 valores únicos
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    Detalle: 5,090 valores únicos
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc:    DOCUMENTO CRUCE: 468 valores únicos
+09-10-2025 13:28:20 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     Empresa Tipo\nDocto Nro\nDocto                                Detalle DOCUMENTO CRUCE
+0  Ticenergi          NQ         26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi          NQ         27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi          NI        129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi          NQ         28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi          LP         42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce']
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    empresa: 0 (0.0%)
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    tipo_docto: 0 (0.0%)
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    nro_docto: 0 (0.0%)
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    detalle: 1,239 (4.0%)
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    documento_cruce: 27,469 (88.5%)
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    empresa: 2 valores únicos
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    tipo_docto: 48 valores únicos
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    nro_docto: 4,726 valores únicos
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    detalle: 5,090 valores únicos
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc:    documento_cruce: 468 valores únicos
+09-10-2025 13:30:21 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                detalle documento_cruce
+0  Ticenergi         NQ        26               COMPROBANTE DE CAUSACION             NaN
+1  Ticenergi         NQ        27               COMPROBANTE DE CAUSACION             NaN
+2  Ticenergi         NI       129  ECANOLA TRASLADO AL COSTO NOMINA 2021             NaN
+3  Ticenergi         NQ        28               COMPROBANTE DE CAUSACION             NaN
+4  Ticenergi         LP        42               COMPROBANTE DE CAUSACION             NaN
+09-10-2025 13:40:34 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce']
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    empresa: 0 (0.0%)
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    tipo_docto: 0 (0.0%)
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    nro_docto: 0 (0.0%)
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    detalle: 0 (0.0%)
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    documento_cruce: 0 (0.0%)
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    empresa: 2 valores únicos
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    tipo_docto: 48 valores únicos
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    nro_docto: 4,726 valores únicos
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    detalle: 5,091 valores únicos
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc:    documento_cruce: 469 valores únicos
+09-10-2025 13:41:41 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                detalle documento_cruce
+0  Ticenergi         NQ        26               COMPROBANTE DE CAUSACION                
+1  Ticenergi         NQ        27               COMPROBANTE DE CAUSACION                
+2  Ticenergi         NI       129  ECANOLA TRASLADO AL COSTO NOMINA 2021                
+3  Ticenergi         NQ        28               COMPROBANTE DE CAUSACION                
+4  Ticenergi         LP        42               COMPROBANTE DE CAUSACION                
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc: Columnas extraídas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce']
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    empresa: 0 (0.0%)
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    tipo_docto: 0 (0.0%)
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    nro_docto: 0 (0.0%)
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    detalle: 0 (0.0%)
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    documento_cruce: 0 (0.0%)
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    empresa: 2 valores únicos
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    tipo_docto: 48 valores únicos
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    nro_docto: 4,726 valores únicos
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    detalle: 5,091 valores únicos
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc:    documento_cruce: 469 valores únicos
+09-10-2025 13:45:07 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                detalle documento_cruce
+0  Ticenergi         NQ        26               COMPROBANTE DE CAUSACION                
+1  Ticenergi         NQ        27               COMPROBANTE DE CAUSACION                
+2  Ticenergi         NI       129  ECANOLA TRASLADO AL COSTO NOMINA 2021                
+3  Ticenergi         NQ        28               COMPROBANTE DE CAUSACION                
+4  Ticenergi         LP        42               COMPROBANTE DE CAUSACION                
+09-10-2025 13:55:02 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:55:23 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:55:24 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc: Archivo leido exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 5)
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce']
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    Total de columnas: 5
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    empresa: 0 (0.0%)
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    tipo_docto: 0 (0.0%)
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    nro_docto: 0 (0.0%)
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    detalle: 0 (0.0%)
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    documento_cruce: 0 (0.0%)
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    empresa: 2 valores unicos
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    tipo_docto: 48 valores unicos
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    nro_docto: 4,726 valores unicos
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    detalle: 5,091 valores unicos
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc:    documento_cruce: 469 valores unicos
+09-10-2025 13:55:33 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                detalle documento_cruce
+0  Ticenergi         NQ        26               COMPROBANTE DE CAUSACION                
+1  Ticenergi         NQ        27               COMPROBANTE DE CAUSACION                
+2  Ticenergi         NI       129  ECANOLA TRASLADO AL COSTO NOMINA 2021                
+3  Ticenergi         NQ        28               COMPROBANTE DE CAUSACION                
+4  Ticenergi         LP        42               COMPROBANTE DE CAUSACION                
+09-10-2025 13:55:34 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Extracción exitosa.
+09-10-2025 14:15:03 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 14:15:24 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 14:15:24 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc: Archivo leido exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc: Dimensiones del DataFrame: (31048, 6)
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento']
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc: RESUMEN DE DATOS:
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    Total de filas: 31,048
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    Total de columnas: 6
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc: VALORES NULOS POR COLUMNA:
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    empresa: 0 (0.0%)
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    tipo_docto: 0 (0.0%)
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    nro_docto: 0 (0.0%)
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    detalle: 0 (0.0%)
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    documento_cruce: 0 (0.0%)
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    estado_procesamiento: 0 (0.0%)
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc: ESTADISTICAS POR COLUMNA:
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    empresa: 2 valores unicos
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    tipo_docto: 48 valores unicos
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    nro_docto: 4,726 valores unicos
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    detalle: 5,091 valores unicos
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    documento_cruce: 469 valores unicos
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc:    estado_procesamiento: 1 valores unicos
+09-10-2025 14:15:33 | INFO | Task: DeaultTask | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                detalle documento_cruce estado_procesamiento
+0  Ticenergi         NQ        26               COMPROBANTE DE CAUSACION                            Pendiente
+1  Ticenergi         NQ        27               COMPROBANTE DE CAUSACION                            Pendiente
+2  Ticenergi         NI       129  ECANOLA TRASLADO AL COSTO NOMINA 2021                            Pendiente
+3  Ticenergi         NQ        28               COMPROBANTE DE CAUSACION                            Pendiente
+4  Ticenergi         LP        42               COMPROBANTE DE CAUSACION                            Pendiente
+09-10-2025 14:15:34 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Extracción exitosa.
+09-10-2025 16:53:03 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: 0 filas de datos
+09-10-2025 16:53:03 | INFO | Task: DeaultTask | Desc: Archivo existente cargado: 0 filas
+09-10-2025 16:53:03 | INFO | Task: DeaultTask | Desc: Columnas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento']
+09-10-2025 16:53:03 | INFO | Task: DeaultTask | Desc: Datos de entrada: 31048 filas
+09-10-2025 16:53:03 | INFO | Task: DeaultTask | Desc: Columnas entrada: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento']
+09-10-2025 16:53:03 | INFO | Task: DeaultTask | Desc: Filas nuevas a agregar: 31048
+09-10-2025 16:53:03 | INFO | Task: DeaultTask | Desc: Agregadas 31048 filas nuevas
+09-10-2025 16:53:07 | INFO | Task: DeaultTask | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Archivo de Seguimiento.xlsx
+09-10-2025 16:53:07 | INFO | Task: DeaultTask | Desc: Total de filas en el archivo: 31048
+14-10-2025 09:21:41 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+14-10-2025 09:21:42 | INFO | Task: DeaultTask | Desc: Archivo no existe, se creará uno nuevo
+14-10-2025 09:21:42 | INFO | Task: DeaultTask | Desc: Archivo existente cargado: 0 filas
+14-10-2025 09:21:42 | INFO | Task: DeaultTask | Desc: Columnas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento']
+14-10-2025 09:21:42 | INFO | Task: DeaultTask | Desc: Datos de entrada: 31048 filas
+14-10-2025 09:21:42 | INFO | Task: DeaultTask | Desc: Columnas entrada: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento']
+14-10-2025 09:21:42 | INFO | Task: DeaultTask | Desc: Filas nuevas a agregar: 31048
+14-10-2025 09:21:42 | INFO | Task: DeaultTask | Desc: Agregadas 31048 filas nuevas
+14-10-2025 09:21:46 | INFO | Task: DeaultTask | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Archivo de Seguimiento.xlsx
+14-10-2025 09:21:46 | INFO | Task: DeaultTask | Desc: Total de filas en el archivo: 31048
+14-10-2025 09:21:47 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+14-10-2025 09:21:47 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+14-10-2025 09:21:47 | INFO | Task: DeaultTask | Desc: Total de registros le�dos de gblItemsAProcesar: 31048
+14-10-2025 09:21:47 | INFO | Task: DeaultTask | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 500
+14-10-2025 09:21:47 | INFO | Task: DeaultTask | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes.
+14-10-2025 10:17:16 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+14-10-2025 10:17:20 | INFO | Task: DeaultTask | Desc: Archivo leído exitosamente: 31048 filas de datos
+14-10-2025 10:17:20 | INFO | Task: DeaultTask | Desc: Archivo existente cargado: 31048 filas
+14-10-2025 10:17:20 | INFO | Task: DeaultTask | Desc: Columnas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento', 'fecha_procesamiento']
+14-10-2025 10:17:20 | INFO | Task: DeaultTask | Desc: Datos de entrada: 31048 filas
+14-10-2025 10:17:20 | INFO | Task: DeaultTask | Desc: Columnas entrada: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento']
+14-10-2025 10:17:20 | INFO | Task: DeaultTask | Desc: Filas nuevas a agregar: 0
+14-10-2025 10:17:20 | INFO | Task: DeaultTask | Desc: No hay filas nuevas por agregar.
+14-10-2025 10:17:23 | INFO | Task: DeaultTask | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Archivo de Seguimiento.xlsx
+14-10-2025 10:17:23 | INFO | Task: DeaultTask | Desc: Total de filas en el archivo: 31048
+14-10-2025 10:17:24 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+14-10-2025 10:17:24 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+14-10-2025 10:17:24 | INFO | Task: DeaultTask | Desc: Total de registros le�dos de gblItemsAProcesar: 31048
+14-10-2025 10:17:24 | INFO | Task: DeaultTask | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 500
+14-10-2025 10:17:24 | INFO | Task: DeaultTask | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes.

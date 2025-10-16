@@ -3,7 +3,7 @@ global logger
 from VortexLibrary import logger
 
 logger.log_path = "{gblRutaLogs}"
-logger.task = tmp_global_obj["profile"]["name"]
+logger.task_name = tmp_global_obj["profile"]["name"]
 
 def actualizar_fila_especifica(input_data, archivo_excel):
     """

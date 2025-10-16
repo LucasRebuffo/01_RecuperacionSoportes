@@ -7,7 +7,7 @@ global normalizar_columna
 
 from VortexLibrary import logger 
 logger.log_path = "{gblRutaLogs}"
-logger.task = tmp_global_obj["profile"]["name"]
+logger.task_name = tmp_global_obj["profile"]["name"]
 
 # Nombre del archivo
 archivo = "{loc016RutaArchivoDescargado}"

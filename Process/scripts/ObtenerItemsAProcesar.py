@@ -11,7 +11,7 @@ def actualizar_archivo_seguimiento(input_data, archivo_excel):
     from VortexLibrary import logger
 
     logger.log_path = "{gblRutaLogs}"
-    logger.task = tmp_global_obj["profile"]["name"]
+    logger.task_name = tmp_global_obj["profile"]["name"]
 
     try:
         # Intentar leer el archivo Excel existente

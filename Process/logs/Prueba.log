@@ -1,0 +1,126 @@
+16-10-2025 11:51:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 11:51:42 | TRACE | Task: 003_AbrirSiesa8.5 | Desc: Se minimizan todas la ventanas.
+16-10-2025 11:52:06 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 11:52:08 | TRACE | Task: 003_AbrirSiesa8.5 | Desc: Se minimizan todas la ventanas.
+16-10-2025 11:52:08 | TRACE | Task: 003_AbrirSiesa8.5 | Desc: Se inicia la el aplicativo Siesa 8.5.
+16-10-2025 12:01:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:01:16 | TRACE | Task: 003_AbrirSiesa8.5 | Desc: Se minimizan todas la ventanas.
+16-10-2025 12:01:17 | TRACE | Task: 003_AbrirSiesa8.5 | Desc: Se inicia la el aplicativo Siesa 8.5.
+16-10-2025 12:08:11 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:08:11 | INFO | Task: DeaultTask | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:08:12 | INFO | Task: DeaultTask | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:08:12 | TRACE | Task: 003_AbrirSiesa8.5 | Desc: Se minimizan todas la ventanas.
+16-10-2025 12:08:13 | INFO | Task: DeaultTask | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:08:13 | INFO | Task: DeaultTask | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:08:13 | TRACE | Task: 003_AbrirSiesa8.5 | Desc: Se inicia la el aplicativo Siesa 8.5.
+16-10-2025 12:11:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:11:24 | INFO | Task: DeaultTask | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:11:25 | INFO | Task: DeaultTask | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:11:26 | INFO | Task: DeaultTask | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:11:26 | INFO | Task: DeaultTask | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:11:29 | INFO | Task: DeaultTask | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 12:11:29 | INFO | Task: DeaultTask | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'C:\\Rocketbot\\rocketbot.exe', '', '', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 12:11:29 | INFO | Task: DeaultTask | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+16-10-2025 12:11:30 | INFO | Task: DeaultTask | Desc: Ventana enfocada: Sistema Uno
+16-10-2025 12:19:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:19:36 | INFO | Task: DeaultTask | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:19:37 | INFO | Task: DeaultTask | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:19:37 | INFO | Task: DeaultTask | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:19:37 | INFO | Task: DeaultTask | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:19:40 | INFO | Task: DeaultTask | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 12:19:40 | INFO | Task: DeaultTask | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', '', '', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 12:19:40 | INFO | Task: DeaultTask | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+16-10-2025 12:19:41 | INFO | Task: DeaultTask | Desc: Ventana enfocada: Sistema Uno
+16-10-2025 12:19:44 | INFO | Task: DeaultTask | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 12:19:44 | INFO | Task: DeaultTask | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', '', '', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 12:19:44 | INFO | Task: DeaultTask | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+16-10-2025 12:19:44 | INFO | Task: DeaultTask | Desc: Ventana maximizada: Sistema Uno
+16-10-2025 12:24:45 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:24:45 | INFO | Task: DeaultTask | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:24:46 | INFO | Task: DeaultTask | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:24:46 | INFO | Task: DeaultTask | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:24:46 | INFO | Task: DeaultTask | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:24:49 | INFO | Task: DeaultTask | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 12:24:49 | INFO | Task: DeaultTask | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', '', '', 'logs', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 12:24:49 | INFO | Task: DeaultTask | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+16-10-2025 12:24:50 | INFO | Task: DeaultTask | Desc: Ventana enfocada: Sistema Uno
+16-10-2025 12:24:53 | INFO | Task: DeaultTask | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 12:24:53 | INFO | Task: DeaultTask | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', '', '', 'logs', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 12:24:53 | INFO | Task: DeaultTask | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+16-10-2025 12:24:53 | INFO | Task: DeaultTask | Desc: Ventana maximizada: Sistema Uno
+16-10-2025 12:27:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:27:31 | ERROR | Task: 003_AbrirSiesa8.5 | Desc: Ocurrio un error al iniciar el aplicativo de SIesa 8.5. | Error: name 'log_path' is not defined
+16-10-2025 12:37:03 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:40:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:40:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:40:47 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:42:11 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:42:11 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:42:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:42:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:42:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:42:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:42:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:42:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:45:54 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+16-10-2025 12:45:56 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+16-10-2025 12:45:56 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Filtrado por tipo_docto: de 31,048 a 22,526 filas.
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Dimensiones del DataFrame: (22526, 7)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: RESUMEN DE DATOS:
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    Total de filas: 22,526
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    Total de columnas: 7
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: VALORES NULOS POR COLUMNA:
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    empresa: 0 (0.0%)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    tipo_docto: 0 (0.0%)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    nro_docto: 0 (0.0%)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    detalle: 0 (0.0%)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    documento_cruce: 0 (0.0%)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    fecha_procesamiento: 0 (0.0%)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    estado_procesamiento: 0 (0.0%)
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: ESTADISTICAS POR COLUMNA:
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    empresa: 2 valores unicos
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    tipo_docto: 29 valores unicos
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    nro_docto: 3,463 valores unicos
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    detalle: 5,035 valores unicos
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    documento_cruce: 469 valores unicos
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    fecha_procesamiento: 1 valores unicos
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc:    estado_procesamiento: 1 valores unicos
+16-10-2025 12:46:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                  detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         NI       129    ECANOLA TRASLADO AL COSTO NOMINA 2021                                                Pendiente
+1  Ticenergi         LP        42                 COMPROBANTE DE CAUSACION                                                Pendiente
+2  Ticenergi         NI       138                          ECANOLA AJUSTES                                                Pendiente
+3  Ticenergi         NI       189  LRESTREP/MAYOR VALOR AJUSTADO EN NI 138                                                Pendiente
+4  Ticenergi         NI       129    ECANOLA TRASLADO AL COSTO NOMINA 2021                                                Pendiente
+16-10-2025 12:46:17 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Extracci√≥n exitosa.
+16-10-2025 12:59:22 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:59:23 | ERROR | Task: 003_AbrirSiesa8.5 | Desc: Ocurrio un error al iniciar el aplicativo de SIesa 8.5. | Error: invalid syntax (<string>, line 1)
+16-10-2025 12:59:48 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 12:59:48 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 12:59:49 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 12:59:49 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:59:49 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 12:59:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 12:59:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', '', '', 'Process', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 12:59:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+16-10-2025 12:59:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+16-10-2025 12:59:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 12:59:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', '', '', 'Process', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 12:59:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+16-10-2025 12:59:57 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+16-10-2025 13:28:45 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+16-10-2025 13:28:45 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+16-10-2025 13:28:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+16-10-2025 13:28:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 13:28:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+16-10-2025 13:28:50 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 13:28:50 | INFO | Task: 003_AbrirSiesa8.5 | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Process', '', '', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 13:28:50 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+16-10-2025 13:28:50 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+16-10-2025 13:28:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+16-10-2025 13:28:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: TÌtulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Process', '', '', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+16-10-2025 13:28:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+16-10-2025 13:28:54 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno

@@ -1,0 +1,6 @@
+16-10-2025 09:59:07 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+16-10-2025 09:59:07 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+16-10-2025 09:59:07 | INFO | Task: 001_InicializarVariables | Desc: Resolución inicial: (2880, 1620)
+16-10-2025 09:59:07 | INFO | Task: 001_InicializarVariables | Desc: Resoluciones permitidas: [(1920, 1080, 32)]
+16-10-2025 09:59:07 | INFO | Task: 001_InicializarVariables | Desc: Resolución actual: (2880, 1620)
+16-10-2025 09:59:07 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.

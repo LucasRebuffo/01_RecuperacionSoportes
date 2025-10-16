@@ -139,3 +139,113 @@
 14-10-2025 15:22:53 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
 14-10-2025 15:22:53 | INFO | Task: DeaultTask | Desc: Nombre original: 'VAD1687' convertido a: 'VAD1687'
 14-10-2025 15:22:53 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='VAD1687', loc015IdDocumento='480420', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:02:42 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+16-10-2025 10:02:42 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+16-10-2025 10:02:42 | ERROR | Task: 007_AbrirWorkManager | Desc: Ocurrio un error al abrir WorkManager. | Error: No module named 'VortexLibrary'
+16-10-2025 10:07:36 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+16-10-2025 10:07:37 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+16-10-2025 10:07:37 | ERROR | Task: 007_AbrirWorkManager | Desc: Ocurrio un error al abrir WorkManager. | Error: No module named 'VortexLibrary'
+16-10-2025 10:09:55 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+16-10-2025 10:09:55 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+16-10-2025 10:09:55 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+16-10-2025 10:09:55 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+16-10-2025 10:09:55 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Sistema Uno'
+16-10-2025 10:09:55 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+16-10-2025 10:09:55 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:09:55 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:09:55 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+16-10-2025 10:09:55 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+16-10-2025 10:15:01 | ERROR | Task: 007_AbrirWorkManager | Desc: Ocurrio un error al abrir WorkManager. | Error: Message: session not created: Chrome failed to start: crashed.  (session not created: DevToolsActivePort file doesn't exist)  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)Stacktrace:GetHandleVerifier [0x0x133fe83+66515]GetHandleVerifier [0x0x133fec4+66580](No symbol) [0x0x112dc48](No symbol) [0x0x1163923](No symbol) [0x0x115ea2a](No symbol) [0x0x11a6ffc](No symbol) [0x0x11a68fa](No symbol) [0x0x119afc6](No symbol) [0x0x116c2ca](No symbol) [0x0x116d154]GetHandleVerifier [0x0x15973b3+2521347]GetHandleVerifier [0x0x1592333+2500739]GetHandleVerifier [0x0x1367cd4+229924]GetHandleVerifier [0x0x1358238+165768]GetHandleVerifier [0x0x135eced+193085]GetHandleVerifier [0x0x1348198+100072]GetHandleVerifier [0x0x1348330+100480]GetHandleVerifier [0x0x13325ea+11066]BaseThreadInitThunk [0x0x76e762c4+36]RtlSubscribeWnfStateChangeNotification [0x0x77450969+1081]RtlSubscribeWnfStateChangeNotification [0x0x77450934+1028]
+16-10-2025 10:15:01 | WARNING | Task: 019_ProcesarFlujo1 | Desc: Ocurrio un error al abrir Workmanager.
+16-10-2025 10:15:36 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+16-10-2025 10:15:36 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+16-10-2025 10:15:36 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+16-10-2025 10:15:36 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+16-10-2025 10:15:36 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Sistema Uno'
+16-10-2025 10:15:36 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:15:36 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:15:36 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+16-10-2025 10:15:36 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+16-10-2025 10:15:36 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+16-10-2025 10:15:41 | WARNING | Task: 019_ProcesarFlujo1 | Desc: Ocurrio un error al iniciar sesion Workmanager.
+16-10-2025 10:18:30 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+16-10-2025 10:18:30 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+16-10-2025 10:18:30 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+16-10-2025 10:18:30 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+16-10-2025 10:18:30 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Sistema Uno'
+16-10-2025 10:18:30 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:18:30 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:18:30 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+16-10-2025 10:18:30 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+16-10-2025 10:18:31 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+16-10-2025 10:18:51 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+16-10-2025 10:18:51 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+16-10-2025 10:18:51 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+16-10-2025 10:18:55 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+16-10-2025 10:19:10 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+16-10-2025 10:19:12 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+16-10-2025 10:19:33 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 461503 bytes', 'extension': '.PDF', 'id': '488315', 'nombre': '2.435.898\t\t\n exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3575 bytes', 'extension': '.PDF', 'id': '488316', 'nombre': 'PE 057657'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3961 bytes', 'extension': '.PDF', 'id': '484796', 'nombre': 'CC 45366 FACT VAD 1687 $2.435.898'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 69173 bytes', 'extension': '.PDF', 'id': '484788', 'nombre': 'RequisiciÃ³n de Recursos'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 7089 bytes', 'extension': '.PDF', 'id': '484024', 'nombre': 'TO-067240 CC 110204 CCTV GUATAPE 2020'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 7416 bytes', 'extension': '.PDF', 'id': '484025', 'nombre': 'OC-043699'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 7437 bytes', 'extension': '.PDF', 'id': '484023', 'nombre': 'EA-049498'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 97326 bytes', 'extension': '.PDF', 'id': '480420', 'nombre': 'VAD1687'}]
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 461503 bytes', 'extension': '.PDF', 'id': '488315', 'nombre': '2.435.898\t\t\n exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3575 bytes', 'extension': '.PDF', 'id': '488316', 'nombre': 'PE 057657'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3961 bytes', 'extension': '.PDF', 'id': '484796', 'nombre': 'CC 45366 FACT VAD 1687 $2.435.898'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 69173 bytes', 'extension': '.PDF', 'id': '484788', 'nombre': 'Requisición de Recursos'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7089 bytes', 'extension': '.PDF', 'id': '484024', 'nombre': 'TO-067240 CC 110204 CCTV GUATAPE 2020'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7416 bytes', 'extension': '.PDF', 'id': '484025', 'nombre': 'OC-043699'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7437 bytes', 'extension': '.PDF', 'id': '484023', 'nombre': 'EA-049498'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 97326 bytes', 'extension': '.PDF', 'id': '480420', 'nombre': 'VAD1687'}]
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Se detectó que hay resultado (hay_resultado=True).
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Variable 'loc015CheckResultado' seteada a: True
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 461503 bytes', 'extension': '.PDF', 'id': '488315', 'nombre': '2.435.898\t\t\n exitoso'}
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Nombre original: '2.435.898		
+ exitoso' convertido a: '2.435.898    exitoso'
+16-10-2025 10:19:33 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='2.435.898    exitoso', loc015IdDocumento='488315', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:19:33 | ERROR | Task: 015_DescargarArchivosDeWorkflow | Desc: OcurriÃ³ un error al descargar archivos del workflow. | Error: [WinError 3] The system cannot find the path specified: 'C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas'
+16-10-2025 10:23:24 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+16-10-2025 10:23:24 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+16-10-2025 10:23:24 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+16-10-2025 10:23:24 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+16-10-2025 10:23:24 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Sistema Uno'
+16-10-2025 10:23:24 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:23:24 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+16-10-2025 10:23:25 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+16-10-2025 10:23:25 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+16-10-2025 10:23:25 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+16-10-2025 10:23:45 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+16-10-2025 10:23:45 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+16-10-2025 10:23:45 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+16-10-2025 10:23:49 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+16-10-2025 10:24:04 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+16-10-2025 10:24:06 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+16-10-2025 10:24:28 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 461503 bytes', 'extension': '.PDF', 'id': '488315', 'nombre': '2.435.898\t\t\n exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3575 bytes', 'extension': '.PDF', 'id': '488316', 'nombre': 'PE 057657'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3961 bytes', 'extension': '.PDF', 'id': '484796', 'nombre': 'CC 45366 FACT VAD 1687 $2.435.898'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 69173 bytes', 'extension': '.PDF', 'id': '484788', 'nombre': 'RequisiciÃ³n de Recursos'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 7089 bytes', 'extension': '.PDF', 'id': '484024', 'nombre': 'TO-067240 CC 110204 CCTV GUATAPE 2020'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 7416 bytes', 'extension': '.PDF', 'id': '484025', 'nombre': 'OC-043699'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 7437 bytes', 'extension': '.PDF', 'id': '484023', 'nombre': 'EA-049498'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 97326 bytes', 'extension': '.PDF', 'id': '480420', 'nombre': 'VAD1687'}]
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 461503 bytes', 'extension': '.PDF', 'id': '488315', 'nombre': '2.435.898\t\t\n exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3575 bytes', 'extension': '.PDF', 'id': '488316', 'nombre': 'PE 057657'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3961 bytes', 'extension': '.PDF', 'id': '484796', 'nombre': 'CC 45366 FACT VAD 1687 $2.435.898'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 69173 bytes', 'extension': '.PDF', 'id': '484788', 'nombre': 'Requisición de Recursos'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7089 bytes', 'extension': '.PDF', 'id': '484024', 'nombre': 'TO-067240 CC 110204 CCTV GUATAPE 2020'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7416 bytes', 'extension': '.PDF', 'id': '484025', 'nombre': 'OC-043699'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7437 bytes', 'extension': '.PDF', 'id': '484023', 'nombre': 'EA-049498'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 97326 bytes', 'extension': '.PDF', 'id': '480420', 'nombre': 'VAD1687'}]
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Se detectó que hay resultado (hay_resultado=True).
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Variable 'loc015CheckResultado' seteada a: True
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 461503 bytes', 'extension': '.PDF', 'id': '488315', 'nombre': '2.435.898\t\t\n exitoso'}
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Nombre original: '2.435.898		
+ exitoso' convertido a: '2.435.898    exitoso'
+16-10-2025 10:24:28 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='2.435.898    exitoso', loc015IdDocumento='488315', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:24:48 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3575 bytes', 'extension': '.PDF', 'id': '488316', 'nombre': 'PE 057657'}
+16-10-2025 10:24:48 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:24:48 | INFO | Task: DeaultTask | Desc: Nombre original: 'PE 057657' convertido a: 'PE 057657'
+16-10-2025 10:24:48 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='PE 057657', loc015IdDocumento='488316', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:24:54 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3961 bytes', 'extension': '.PDF', 'id': '484796', 'nombre': 'CC 45366 FACT VAD 1687 $2.435.898'}
+16-10-2025 10:24:54 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:24:54 | INFO | Task: DeaultTask | Desc: Nombre original: 'CC 45366 FACT VAD 1687 $2.435.898' convertido a: 'CC 45366 FACT VAD 1687 $2.435.898'
+16-10-2025 10:24:54 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='CC 45366 FACT VAD 1687 $2.435.898', loc015IdDocumento='484796', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:25:00 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 69173 bytes', 'extension': '.PDF', 'id': '484788', 'nombre': 'Requisición de Recursos'}
+16-10-2025 10:25:00 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:25:00 | INFO | Task: DeaultTask | Desc: Nombre original: 'Requisición de Recursos' convertido a: 'Requisición de Recursos'
+16-10-2025 10:25:00 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='Requisición de Recursos', loc015IdDocumento='484788', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:25:20 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7089 bytes', 'extension': '.PDF', 'id': '484024', 'nombre': 'TO-067240 CC 110204 CCTV GUATAPE 2020'}
+16-10-2025 10:25:20 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:25:20 | INFO | Task: DeaultTask | Desc: Nombre original: 'TO-067240 CC 110204 CCTV GUATAPE 2020' convertido a: 'TO-067240 CC 110204 CCTV GUATAPE 2020'
+16-10-2025 10:25:20 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='TO-067240 CC 110204 CCTV GUATAPE 2020', loc015IdDocumento='484024', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:25:40 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7416 bytes', 'extension': '.PDF', 'id': '484025', 'nombre': 'OC-043699'}
+16-10-2025 10:25:40 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:25:40 | INFO | Task: DeaultTask | Desc: Nombre original: 'OC-043699' convertido a: 'OC-043699'
+16-10-2025 10:25:40 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='OC-043699', loc015IdDocumento='484025', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:26:00 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 7437 bytes', 'extension': '.PDF', 'id': '484023', 'nombre': 'EA-049498'}
+16-10-2025 10:26:00 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:26:00 | INFO | Task: DeaultTask | Desc: Nombre original: 'EA-049498' convertido a: 'EA-049498'
+16-10-2025 10:26:00 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='EA-049498', loc015IdDocumento='484023', loc015Extension='.PDF', loc015ExtensionValida=True
+16-10-2025 10:26:20 | INFO | Task: DeaultTask | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 97326 bytes', 'extension': '.PDF', 'id': '480420', 'nombre': 'VAD1687'}
+16-10-2025 10:26:20 | INFO | Task: DeaultTask | Desc: Extensión '.PDF' es válida (extension_valida=True).
+16-10-2025 10:26:20 | INFO | Task: DeaultTask | Desc: Nombre original: 'VAD1687' convertido a: 'VAD1687'
+16-10-2025 10:26:20 | INFO | Task: DeaultTask | Desc: Variables seteadas: loc015NombreDocumento='VAD1687', loc015IdDocumento='480420', loc015Extension='.PDF', loc015ExtensionValida=True

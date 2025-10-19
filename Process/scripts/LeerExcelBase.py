@@ -51,28 +51,25 @@ df = df.fillna('')
 
 # --- INICIO FILTRO SOLICITADO ---
 
-# Filtrar los registros según condiciones sobre 'tipo_docto':
-# - Descartar: Donde 'tipo_docto' tenga más de 2 letras (alfabéticas).
-# - Descartar: Donde 'tipo_docto' contenga "NQ" (en cualquier posición y sin distinguir mayúsculas).
-if 'tipo_docto' in df.columns:
-    def filtro_tipo_docto(valor):
+# Filtrar los registros según condiciones sobre 'documento_cruce':
+# - Descartar: Donde 'documento_cruce' esté vacío o contenga "N/D"
+if 'documento_cruce' in df.columns:
+    def filtro_documento_cruce(valor):
         # Convierte a string por si acaso
         s = str(valor)
-        # Quitar espacios y convertir a mayúsculas para buscar "NQ"
+        # Quitar espacios y convertir a mayúsculas para buscar "N/D"
         s_strip = s.replace(" ", "").upper()
-        # Contar letras para la condición de longitud (sin contar digitos ni signos)
-        letras = ''.join([c for c in s if c.isalpha()])
-        # Condición 1: más de dos letras
-        if len(letras) > 2:
+        # Condición 1: está vacío
+        if s_strip == '' or s_strip == 'NAN':
             return False
-        # Condición 2: contiene "NQ"
-        if "NQ" in s_strip:
+        # Condición 2: contiene "N/D"
+        if "N/D" in s_strip:
             return False
         return True
 
     original_count = len(df)
-    df = df[df['tipo_docto'].apply(filtro_tipo_docto)].reset_index(drop=True)
-    logger.info(f"Filtrado por tipo_docto: de {original_count:,} a {len(df):,} filas.")
+    df = df[df['documento_cruce'].apply(filtro_documento_cruce)].reset_index(drop=True)
+    logger.info(f"Filtrado por documento_cruce: de {original_count:,} a {len(df):,} filas.")
 
 # --- FIN FILTRO SOLICITADO ---
 

@@ -1,0 +1,102 @@
+19-10-2025 13:22:18 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+19-10-2025 13:22:18 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+19-10-2025 13:22:18 | INFO | Task: 001_InicializarVariables | Desc: Resolución inicial: (1920, 1080)
+19-10-2025 13:22:18 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+19-10-2025 13:22:22 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+19-10-2025 13:22:42 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+19-10-2025 13:22:42 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce: de 31,048 a 3,579 filas.
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (3579, 7)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 3,579
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 1 valores unicos
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 10 valores unicos
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 1,925 valores unicos
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 1,504 valores unicos
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+19-10-2025 13:22:52 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                   detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         DS       265  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+1  Ticenergi         DS       407  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-195                                Pendiente
+2  Ticenergi         DS       266  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+3  Ticenergi         DS       126  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-162                                Pendiente
+4  Ticenergi         DS       333  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-203                                Pendiente
+19-10-2025 13:22:52 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Extracción exitosa.
+19-10-2025 13:23:01 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: El archivo de seguimiento no existe, se creará a partir del template: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Process/templates/Template Archivo de Seguimiento.xlsx
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo de seguimiento creado a partir del template: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leído exitosamente: 0 filas de datos
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 0 filas
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+19-10-2025 13:23:01 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 3579
+19-10-2025 13:23:02 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Agregadas 3579 filas nuevas
+19-10-2025 13:23:02 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 13:23:02 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 3579
+19-10-2025 13:23:02 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+19-10-2025 13:23:02 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+19-10-2025 13:23:02 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros le�dos de gblItemsAProcesar: 3579
+19-10-2025 13:23:02 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 500
+19-10-2025 13:23:02 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 500
+19-10-2025 13:23:02 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes.
+19-10-2025 13:27:52 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: El archivo de seguimiento no existe, se creará a partir del template: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Process/templates/Template Archivo de Seguimiento.xlsx
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo de seguimiento creado a partir del template: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leído exitosamente: 0 filas de datos
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 0 filas
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+19-10-2025 13:27:52 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 3579
+19-10-2025 13:27:53 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Agregadas 3579 filas nuevas
+19-10-2025 13:27:53 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 13:27:53 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 3579
+19-10-2025 13:27:53 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+19-10-2025 13:27:53 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+19-10-2025 13:27:53 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros le�dos de gblItemsAProcesar: 3579
+19-10-2025 13:27:53 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 500
+19-10-2025 13:27:53 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 500
+19-10-2025 13:27:53 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes.
+19-10-2025 13:32:14 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: El archivo de seguimiento no existe, se creará a partir del template: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Process/templates/Template Archivo de Seguimiento.xlsx
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo de seguimiento creado a partir del template: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leído exitosamente: 0 filas de datos
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 0 filas
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+19-10-2025 13:32:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 3579
+19-10-2025 13:32:14 | ERROR | Task: 017_ObtenerInformacionAProcesar | Desc: Error al actualizar el archivo: 'str' object has no attribute 'start_row'
+19-10-2025 13:32:14 | ERROR | Task: 017_ObtenerInformacionAProcesar | Desc: Ocurrió un error al cruzar información con archivo de seguimiento. | Error: 'str' object has no attribute 'start_row'
+19-10-2025 13:36:30 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leído exitosamente: 0 filas de datos
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 0 filas
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 3579
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tabla actualizada con nuevo rango: A1:G3580
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Agregadas 3579 filas nuevas
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 13:36:30 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 3579
+19-10-2025 13:36:30 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+19-10-2025 13:36:30 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+19-10-2025 13:36:31 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros le�dos de gblItemsAProcesar: 3579
+19-10-2025 13:36:31 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 500
+19-10-2025 13:36:31 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 500
+19-10-2025 13:36:31 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes.

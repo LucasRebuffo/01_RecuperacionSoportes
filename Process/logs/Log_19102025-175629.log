@@ -1,0 +1,361 @@
+19-10-2025 17:56:29 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+19-10-2025 17:56:29 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+19-10-2025 17:56:29 | INFO | Task: 001_InicializarVariables | Desc: ResoluciÃ³n inicial: (1920, 1080)
+19-10-2025 17:56:29 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+19-10-2025 17:56:32 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Copia de Inusmo busqueda masiva - UT Ticenergi.xlsx
+19-10-2025 17:56:53 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+19-10-2025 17:56:53 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce: de 31,048 a 3,579 filas.
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (3579, 7)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 3,579
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 1 valores unicos
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 10 valores unicos
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 1,925 valores unicos
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 1,504 valores unicos
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+19-10-2025 17:57:01 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                   detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         DS       265  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+1  Ticenergi         DS       407  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-195                                Pendiente
+2  Ticenergi         DS       266  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+3  Ticenergi         DS       126  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-162                                Pendiente
+4  Ticenergi         DS       333  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-203                                Pendiente
+19-10-2025 17:57:01 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: ExtracciÃ³n exitosa.
+19-10-2025 18:06:08 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leÃ­do exitosamente: 3579 filas de datos
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 3579 filas
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 0
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: No hay filas nuevas por agregar.
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 3579
+19-10-2025 18:06:09 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+19-10-2025 18:06:09 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros leídos de gblItemsAProcesar: 3579
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 500
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 500
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Registros después de eliminar duplicados por clave (Tipo Docto, Nro Docto, Documento Cruce): 500
+19-10-2025 18:06:09 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes y sin duplicados.
+19-10-2025 18:07:37 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:49:11', 'Observaciones': None}
+19-10-2025 18:07:37 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+19-10-2025 18:07:37 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+19-10-2025 18:07:40 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 18:07:40 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: '000_MasterProceso -RocketBot Studio - Google Chrome'
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:07:40 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 18:07:40 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 18:07:40 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 18:07:45 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 18:08:00 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 18:08:02 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 18:08:02 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:49:11', 'Observaciones': None}
+19-10-2025 18:08:02 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-163', 'PE163', 'PE 163']
+19-10-2025 18:08:17 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-163.
+19-10-2025 18:08:33 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE163.
+19-10-2025 18:08:45 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+19-10-2025 18:08:45 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_24315', 'id_h4': 'h4_descripcion_24315', 'texto': 'PE 163'}
+19-10-2025 18:08:45 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_24315
+19-10-2025 18:08:45 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+19-10-2025 18:08:51 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xls | TamaÃ±o: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xls | Tamaño: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE 163' convertido a: 'PE 163'
+19-10-2025 18:08:51 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE 163', loc015IdDocumento='24315', loc015Extension='.PDF', loc015ExtensionValida=True
+19-10-2025 18:08:51 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+19-10-2025 18:08:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 304, base: C:/Users/lucas/Desktop/SharedFolderPrueba
+19-10-2025 18:08:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: C:/Users/lucas/Desktop/SharedFolderPrueba\DS-304
+19-10-2025 18:08:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: C:/Users/lucas/Desktop/SharedFolderPrueba\DS-304
+19-10-2025 18:08:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: C:/Users/lucas/Desktop/SharedFolderPrueba/DS-304
+19-10-2025 18:08:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+19-10-2025 18:08:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+19-10-2025 18:08:56 | ERROR | Task: 015_DescargarArchivosDeWorkflow | Desc: OcurriÃ³ un error al descargar archivos del workflow. | Error: IndexError: list index out of range
+19-10-2025 18:08:56 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al procesar el flujo: 1.
+19-10-2025 18:08:56 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+19-10-2025 18:08:58 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+19-10-2025 18:20:54 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:49:11', 'Observaciones': None}
+19-10-2025 18:20:54 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+19-10-2025 18:20:54 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+19-10-2025 18:20:57 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 18:20:57 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:20:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 18:20:57 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 18:20:57 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 18:21:07 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 18:21:22 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 18:21:24 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 18:21:24 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:49:11', 'Observaciones': None}
+19-10-2025 18:21:24 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-163', 'PE163', 'PE 163']
+19-10-2025 18:21:39 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-163.
+19-10-2025 18:21:55 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE163.
+19-10-2025 18:22:06 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+19-10-2025 18:22:06 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_24315', 'id_h4': 'h4_descripcion_24315', 'texto': 'PE 163'}
+19-10-2025 18:22:06 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_24315
+19-10-2025 18:22:06 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+19-10-2025 18:22:12 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xls | TamaÃ±o: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xls | Tamaño: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE 163' convertido a: 'PE 163'
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE 163', loc015IdDocumento='24315', loc015Extension='.PDF', loc015ExtensionValida=True
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+19-10-2025 18:22:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+19-10-2025 18:22:12 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+19-10-2025 18:22:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+19-10-2025 18:22:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+19-10-2025 18:22:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+19-10-2025 18:22:26 | ERROR | Task: 015_DescargarArchivosDeWorkflow | Desc: OcurriÃ³ un error al descargar archivos del workflow. | Error: Message: element not interactable  (Session info: chrome=141.0.7390.108)Stacktrace:GetHandleVerifier [0x0x8dfe83+66515]GetHandleVerifier [0x0x8dfec4+66580](No symbol) [0x0x6cda6b](No symbol) [0x0x71990d](No symbol) [0x0x70e115](No symbol) [0x0x73b1cc](No symbol) [0x0x70db74](No symbol) [0x0x73b384](No symbol) [0x0x75cba7](No symbol) [0x0x73afc6](No symbol) [0x0x70c2ca](No symbol) [0x0x70d154]GetHandleVerifier [0x0xb373b3+2521347]GetHandleVerifier [0x0xb32333+2500739]GetHandleVerifier [0x0x907cd4+229924]GetHandleVerifier [0x0x8f8238+165768]GetHandleVerifier [0x0x8feced+193085]GetHandleVerifier [0x0x8e8198+100072]GetHandleVerifier [0x0x8e8330+100480]GetHandleVerifier [0x0x8d25ea+11066]BaseThreadInitThunk [0x0x773a5d49+25]RtlInitializeExceptionChain [0x0x7779d6db+107]RtlGetAppContainerNamedObjectPath [0x0x7779d661+561]
+19-10-2025 18:22:26 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al procesar el flujo: 1.
+19-10-2025 18:22:26 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+19-10-2025 18:22:28 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+19-10-2025 18:26:34 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:49:11', 'Observaciones': None}
+19-10-2025 18:26:34 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+19-10-2025 18:26:34 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+19-10-2025 18:26:36 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 18:26:36 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: ''
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:26:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 18:26:36 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 18:26:37 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 18:26:59 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+19-10-2025 18:26:59 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+19-10-2025 18:26:59 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+19-10-2025 18:27:04 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 18:27:19 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 18:27:21 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 18:27:21 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:49:11', 'Observaciones': None}
+19-10-2025 18:27:21 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-163', 'PE163', 'PE 163']
+19-10-2025 18:27:36 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-163.
+19-10-2025 18:27:52 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE163.
+19-10-2025 18:28:03 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+19-10-2025 18:28:03 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_24315', 'id_h4': 'h4_descripcion_24315', 'texto': 'PE 163'}
+19-10-2025 18:28:03 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_24315
+19-10-2025 18:28:03 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+19-10-2025 18:28:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xls | TamaÃ±o: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xls | Tamaño: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE 163' convertido a: 'PE 163'
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE 163', loc015IdDocumento='24315', loc015Extension='.PDF', loc015ExtensionValida=True
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+19-10-2025 18:28:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+19-10-2025 18:28:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+19-10-2025 18:28:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+19-10-2025 18:28:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+19-10-2025 18:28:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+19-10-2025 18:28:23 | ERROR | Task: 015_DescargarArchivosDeWorkflow | Desc: OcurriÃ³ un error al descargar archivos del workflow. | Error: Message: element not interactable  (Session info: chrome=141.0.7390.108)Stacktrace:GetHandleVerifier [0x0x8dfe83+66515]GetHandleVerifier [0x0x8dfec4+66580](No symbol) [0x0x6cda6b](No symbol) [0x0x71990d](No symbol) [0x0x70e115](No symbol) [0x0x73b1cc](No symbol) [0x0x70db74](No symbol) [0x0x73b384](No symbol) [0x0x75cba7](No symbol) [0x0x73afc6](No symbol) [0x0x70c2ca](No symbol) [0x0x70d154]GetHandleVerifier [0x0xb373b3+2521347]GetHandleVerifier [0x0xb32333+2500739]GetHandleVerifier [0x0x907cd4+229924]GetHandleVerifier [0x0x8f8238+165768]GetHandleVerifier [0x0x8feced+193085]GetHandleVerifier [0x0x8e8198+100072]GetHandleVerifier [0x0x8e8330+100480]GetHandleVerifier [0x0x8d25ea+11066]BaseThreadInitThunk [0x0x773a5d49+25]RtlInitializeExceptionChain [0x0x7779d6db+107]RtlGetAppContainerNamedObjectPath [0x0x7779d661+561]
+19-10-2025 18:28:23 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al procesar el flujo: 1.
+19-10-2025 18:28:23 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+19-10-2025 18:28:25 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+19-10-2025 18:28:26 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 3579 filas de datos
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [2]
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: DS_265_PE-163
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [2]
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 2):
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: DS
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 265
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-163
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 19-10-2025 17:49:11
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: None
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 2...
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: DS
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 265
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-163
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Pendiente
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 19-10-2025 17:49:11
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: None
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 2 actualizada exitosamente
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 19-10-2025 18:28:27
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 3580
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+19-10-2025 18:28:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+19-10-2025 18:28:28 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 407, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-195', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:50:59', 'Observaciones': None}
+19-10-2025 18:28:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+19-10-2025 18:28:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+19-10-2025 18:28:30 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 18:28:30 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:28:30 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 18:28:30 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 18:28:30 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 18:28:53 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+19-10-2025 18:28:53 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+19-10-2025 18:28:53 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+19-10-2025 18:28:57 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 18:29:13 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 18:29:14 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 18:29:14 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 407, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-195', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '19-10-2025 17:50:59', 'Observaciones': None}
+19-10-2025 18:29:14 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-195', 'PE195', 'PE 195']
+19-10-2025 18:29:30 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-195.
+19-10-2025 18:29:46 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE195.
+19-10-2025 18:29:57 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+19-10-2025 18:29:57 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_35309', 'id_h4': 'h4_descripcion_35309', 'texto': 'PE 195'}
+19-10-2025 18:29:57 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_35309
+19-10-2025 18:29:57 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+19-10-2025 18:30:03 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 15072 bytes', 'extension': '.PDF', 'id': '35309', 'nombre': 'PE 195'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 13709 bytes', 'extension': '.PDF', 'id': '35272', 'nombre': '$23,591,378.00'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 13718 bytes', 'extension': '.PDF', 'id': '27764', 'nombre': 'GestoresUT23M'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 251073 bytes', 'extension': '.PDF', 'id': '27532', 'nombre': '19 DS HONORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 11332 bytes', 'extension': '.XLSX', 'id': '27530', 'nombre': 'RELACIÃ“N CTAS BANCARIAS-PERSONAL Y DS'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 59792 bytes', 'extension': '.PDF', 'id': '26406', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 13423084 bytes', 'extension': '.PDF', 'id': '26399', 'nombre': 'CUENTAS DE COBRO REGIÃ“N OCCIDENTE'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 133460 bytes', 'extension': '.XLSX', 'id': '26400', 'nombre': 'RELACIÃ“N CUENTAS DE COBRO REGIÃ“N OCCIDENTE'}]
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 15072 bytes', 'extension': '.PDF', 'id': '35309', 'nombre': 'PE 195'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 13709 bytes', 'extension': '.PDF', 'id': '35272', 'nombre': '$23,591,378.00'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 13718 bytes', 'extension': '.PDF', 'id': '27764', 'nombre': 'GestoresUT23M'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 251073 bytes', 'extension': '.PDF', 'id': '27532', 'nombre': '19 DS HONORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 11332 bytes', 'extension': '.XLSX', 'id': '27530', 'nombre': 'RELACIÓN CTAS BANCARIAS-PERSONAL Y DS'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 59792 bytes', 'extension': '.PDF', 'id': '26406', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 13423084 bytes', 'extension': '.PDF', 'id': '26399', 'nombre': 'CUENTAS DE COBRO REGIÓN OCCIDENTE'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 133460 bytes', 'extension': '.XLSX', 'id': '26400', 'nombre': 'RELACIÓN CUENTAS DE COBRO REGIÓN OCCIDENTE'}]
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 15072 bytes', 'extension': '.PDF', 'id': '35309', 'nombre': 'PE 195'}
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE 195' convertido a: 'PE 195'
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE 195', loc015IdDocumento='35309', loc015Extension='.PDF', loc015ExtensionValida=True
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+19-10-2025 18:30:03 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+19-10-2025 18:30:03 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+19-10-2025 18:30:08 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+19-10-2025 18:30:08 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+19-10-2025 18:30:08 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+19-10-2025 18:30:17 | ERROR | Task: 015_DescargarArchivosDeWorkflow | Desc: OcurriÃ³ un error al descargar archivos del workflow. | Error: Message: element not interactable  (Session info: chrome=141.0.7390.108)Stacktrace:GetHandleVerifier [0x0x8dfe83+66515]GetHandleVerifier [0x0x8dfec4+66580](No symbol) [0x0x6cda6b](No symbol) [0x0x71990d](No symbol) [0x0x70e115](No symbol) [0x0x73b1cc](No symbol) [0x0x70db74](No symbol) [0x0x73b384](No symbol) [0x0x75cba7](No symbol) [0x0x73afc6](No symbol) [0x0x70c2ca](No symbol) [0x0x70d154]GetHandleVerifier [0x0xb373b3+2521347]GetHandleVerifier [0x0xb32333+2500739]GetHandleVerifier [0x0x907cd4+229924]GetHandleVerifier [0x0x8f8238+165768]GetHandleVerifier [0x0x8feced+193085]GetHandleVerifier [0x0x8e8198+100072]GetHandleVerifier [0x0x8e8330+100480]GetHandleVerifier [0x0x8d25ea+11066]BaseThreadInitThunk [0x0x773a5d49+25]RtlInitializeExceptionChain [0x0x7779d6db+107]RtlGetAppContainerNamedObjectPath [0x0x7779d661+561]
+19-10-2025 18:30:17 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al procesar el flujo: 1.
+19-10-2025 18:30:17 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+19-10-2025 18:30:19 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 3579 filas de datos
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [3]
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: DS_407_PE-195
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [3]
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 3):
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: DS
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 407
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-195
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 19-10-2025 17:50:59
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: None
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 3...
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: DS
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 407
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-195
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Pendiente
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 19-10-2025 17:50:59
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: None
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 3 actualizada exitosamente
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 19-10-2025 18:30:20
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 3580
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+19-10-2025 18:30:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+19-10-2025 18:30:21 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 266, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': None, 'Observaciones': None}
+19-10-2025 18:30:21 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+19-10-2025 18:30:21 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+19-10-2025 18:30:24 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 18:30:24 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 18:30:24 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 18:30:24 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 18:30:24 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 18:30:46 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+19-10-2025 18:30:46 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+19-10-2025 18:30:46 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+19-10-2025 18:30:51 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 18:31:06 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 18:31:08 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 18:31:08 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 266, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': None, 'Observaciones': None}
+19-10-2025 18:31:08 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-163', 'PE163', 'PE 163']
+19-10-2025 18:31:24 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-163.
+19-10-2025 18:31:39 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE163.
+19-10-2025 18:31:51 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+19-10-2025 18:31:51 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_24315', 'id_h4': 'h4_descripcion_24315', 'texto': 'PE 163'}
+19-10-2025 18:31:51 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_24315
+19-10-2025 18:31:51 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+19-10-2025 18:31:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÃ“N TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xls | TamaÃ±o: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 150645 bytes', 'extension': '.PDF', 'id': '24314', 'nombre': 'JESSICA LASSO CHOCO'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 33902 bytes', 'extension': '.PDF', 'id': '22820', 'nombre': '170.641.000 TIC'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 762241 bytes', 'extension': '.PDF', 'id': '19728', 'nombre': '58 DS - PARTE 2 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 697854 bytes', 'extension': '.PDF', 'id': '19727', 'nombre': '53 DS - PARTE 1 - HORORARIOS UT'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17508213 bytes', 'extension': '.PDF', 'id': '18471', 'nombre': '2 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 18090242 bytes', 'extension': '.PDF', 'id': '18466', 'nombre': '1 PARTE CUENTAS DE COBRO GESTORES PROMOCIÓN TRASLADO DE ENERGIZANDO A UT_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xls | Tamaño: 1624576 bytes', 'extension': '.XLS', 'id': '17972', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL traslado energizando a ut'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 103678 bytes', 'extension': '.XLSX', 'id': '17971', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 59285 bytes', 'extension': '.PDF', 'id': '17970', 'nombre': 'UT Energi'}]
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 27092 bytes', 'extension': '.PDF', 'id': '24315', 'nombre': 'PE 163'}
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE 163' convertido a: 'PE 163'
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE 163', loc015IdDocumento='24315', loc015Extension='.PDF', loc015ExtensionValida=True
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+19-10-2025 18:31:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+19-10-2025 18:31:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+19-10-2025 18:32:02 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+19-10-2025 18:32:02 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+19-10-2025 18:32:02 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.

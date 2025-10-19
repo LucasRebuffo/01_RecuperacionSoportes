@@ -459,3 +459,367 @@
 17-10-2025 11:15:32 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
 17-10-2025 11:15:32 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
 17-10-2025 11:15:32 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+19-10-2025 14:00:53 | ERROR | Task: 020_ActualizarArchivoDeSeguimiento | Desc: OcurriÃ³ un error al actualizar el archivo de seguimiento. | Error: 'charmap' codec can't decode byte 0x8d in position 4487: character maps to <undefined>
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 3579 filas de datos
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento']
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [520, 523, 533, 535, 539, 541, 545, 550, 558, 563, 702, 706, 707, 709, 716]
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 15 filas con la clave compuesta: PE_505_PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [520, 523, 533, 535, 539, 541, 545, 550, 558, 563, 702, 706, 707, 709, 716]
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 520):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 2 (indice 523):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 3 (indice 533):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 4 (indice 535):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 5 (indice 539):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 6 (indice 541):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 7 (indice 545):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 8 (indice 550):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 9 (indice 558):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 10 (indice 563):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 11 (indice 702):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 12 (indice 706):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 13 (indice 707):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 14 (indice 709):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 15 (indice 716):
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: SEGURIDAD SOCIAL JULIO TIC
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 520...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 520 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 523...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 523 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 533...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 533 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 535...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 535 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 539...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 539 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 541...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 541 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 545...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 545 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 550...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 550 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 558...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 558 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 563...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 563 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 702...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 702 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 706...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 706 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 707...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 707 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 709...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 709 actualizada exitosamente
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 716...
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: PE
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-505
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 
+19-10-2025 14:02:05 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 716 actualizada exitosamente
+19-10-2025 14:02:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: D:/Laburo/VORTEX/PROYECTOS/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+19-10-2025 14:02:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 19-10-2025 14:02:05
+19-10-2025 14:02:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 15
+19-10-2025 14:02:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 3580
+19-10-2025 14:02:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+19-10-2025 14:45:51 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 14:45:51 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: '019_ProcesarFlujo1 -RocketBot Studio - Google Chrome'
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 14:45:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 14:45:51 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 15:30:18 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 15:30:18 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:30:18 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 15:30:18 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 15:30:19 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 15:30:25 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 15:30:41 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 15:30:43 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 15:30:43 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': None}
+19-10-2025 15:30:43 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['']
+19-10-2025 15:48:31 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 15:48:31 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:48:31 | INFO | Task: 014_BuscarDocumento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 15:48:31 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 15:48:32 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 15:48:52 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+19-10-2025 15:48:52 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+19-10-2025 15:48:52 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+19-10-2025 15:48:56 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 15:49:12 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 15:49:14 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 15:49:14 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-505', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': None}
+19-10-2025 15:49:14 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['']
+19-10-2025 15:49:35 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: .
+19-10-2025 15:49:35 | WARNING | Task: 014_BuscarDocumento | Desc: La bÃºsqueda no fue exitosa.
+19-10-2025 15:50:16 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 15:50:16 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:50:16 | INFO | Task: 014_BuscarDocumento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 15:50:16 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 15:50:17 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 15:50:37 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+19-10-2025 15:50:37 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+19-10-2025 15:50:37 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+19-10-2025 15:50:41 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 15:50:57 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 15:50:59 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 15:50:59 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-505', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': None}
+19-10-2025 15:50:59 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE505', 'PE 505', 'PE-505']
+19-10-2025 15:51:20 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE505.
+19-10-2025 15:51:31 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+19-10-2025 15:51:31 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_301819', 'id_h4': 'h4_descripcion_301819', 'texto': 'PE 505'}
+19-10-2025 15:51:31 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_301819
+19-10-2025 15:51:31 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+19-10-2025 15:54:05 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+19-10-2025 15:54:05 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: ''
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+19-10-2025 15:54:05 | INFO | Task: 014_BuscarDocumento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+19-10-2025 15:54:05 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+19-10-2025 15:54:06 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+19-10-2025 15:54:26 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+19-10-2025 15:54:26 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+19-10-2025 15:54:26 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+19-10-2025 15:54:31 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+19-10-2025 15:54:46 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+19-10-2025 15:54:48 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+19-10-2025 15:54:49 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-505', 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': None}
+19-10-2025 15:54:49 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-505', 'PE505', 'PE 505']
+19-10-2025 15:55:04 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-505.
+19-10-2025 15:55:20 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE505.
+19-10-2025 15:55:31 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+19-10-2025 15:55:31 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_301819', 'id_h4': 'h4_descripcion_301819', 'texto': 'PE 505'}
+19-10-2025 15:55:31 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_301819
+19-10-2025 15:55:31 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.

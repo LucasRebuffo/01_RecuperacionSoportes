@@ -7,9 +7,10 @@ def actualizar_archivo_seguimiento(input_data, archivo_excel, template_excel):
     Si el archivo no existe lo crea a partir de un template que tiene el estilo de tabla correcto.
     """
 
-    import pandas as pd
     import os
     import shutil
+    import openpyxl
+    from openpyxl.utils import get_column_letter
     from VortexLibrary import logger
 
     logger.log_path = "{gblRutaLogs}"
@@ -26,126 +27,174 @@ def actualizar_archivo_seguimiento(input_data, archivo_excel, template_excel):
             shutil.copyfile(template_excel, archivo_excel)
             logger.info(f"Archivo de seguimiento creado a partir del template: {archivo_excel}")
 
-        # Leer el archivo Excel existente (ya sea creado recién o preexistente)
+        # Leer el archivo Excel existente usando openpyxl
         try:
-            df_existente = pd.read_excel(archivo_excel, header=0)
-            # Filtrar solo las filas que tienen datos válidos (no NaN en empresa)
-            if 'empresa' in df_existente.columns:
-                df_existente = df_existente.dropna(subset=['empresa']).copy()
-            # Normalizar nombres de columnas
-            def normalizar_columna(col):
-                col = str(col).strip()
-                col = col.lower()
-                col = col.replace('\n', '_')
-                col = col.replace(' ', '_')
-                return col
-            df_existente.columns = [normalizar_columna(col) for col in df_existente.columns]
-
-            # Asegurar que todas las columnas necesarias existen
-            columnas_requeridas = ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'estado_procesamiento', 'fecha_procesamiento']
-            for col in columnas_requeridas:
-                if col not in df_existente.columns:
-                    df_existente[col] = ''
-            logger.info(f"Archivo leído exitosamente: {len(df_existente)} filas de datos")
-
+            wb = openpyxl.load_workbook(archivo_excel)
+            ws = wb.active
+            
+            # Encontrar la fila de encabezado
+            header_row_idx = None
+            expected_first_col = 'Empresa'
+            
+            for row in ws.iter_rows(min_row=1, max_col=1):
+                if row[0].value == expected_first_col:
+                    header_row_idx = row[0].row
+                    break
+            
+            if not header_row_idx:
+                header_row_idx = 1  # Fallback: primera fila
+            
+            # Obtener encabezados
+            header_row = [cell.value for cell in ws[header_row_idx]]
+            logger.info(f"Encabezados encontrados: {header_row}")
+            
+            # Leer datos existentes
+            datos_existentes = []
+            for row in ws.iter_rows(min_row=header_row_idx + 1, values_only=True):
+                if row and row[0] is not None:  # Solo filas con datos válidos (empresa no vacía)
+                    datos_existentes.append(list(row))
+            
+            logger.info(f"Archivo leído exitosamente: {len(datos_existentes)} filas de datos")
+            
         except Exception as e:
             logger.error(f"Error al leer archivo existente: {e}")
-            # Si hay problema leyendo la "estructura", crearla vacía usando el template
-            df_existente = pd.DataFrame(columns=[
-                'empresa', 'tipo_docto', 'nro_docto', 'detalle',
-                'documento_cruce', 'estado_procesamiento', 'fecha_procesamiento'
-            ])
+            raise e
 
-        # Convertir NaN a string vacío
-        df_existente = df_existente.fillna('')
+        # Asegurar que todas las columnas necesarias existen
+        columnas_requeridas = ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Estado Procesamiento', 'Fecha Procesamiento','Observaciones']
+        for col in columnas_requeridas:
+            if col not in header_row:
+                header_row.append(col)
+                # Agregar columna vacía a datos existentes
+                for fila in datos_existentes:
+                    fila.append('')
 
-        logger.info(f"Archivo existente cargado: {len(df_existente)} filas")
-        logger.info(f"Columnas: {list(df_existente.columns)}")
+        logger.info(f"Archivo existente cargado: {len(datos_existentes)} filas")
+        logger.info(f"Columnas: {header_row}")
 
-        # Convertir input_data a DataFrame
-        df_nuevo = pd.DataFrame(input_data)
-        logger.info(f"Datos de entrada: {len(df_nuevo)} filas")
-        logger.info(f"Columnas entrada: {list(df_nuevo.columns)}")
+        # Convertir input_data a lista de listas
+        datos_nuevos = []
+        for item in input_data:
+            fila = []
+            for col in header_row:
+                if col == 'Empresa':
+                    fila.append(item.get('empresa', ''))
+                elif col == 'Tipo Docto':
+                    fila.append(item.get('tipo_docto', ''))
+                elif col == 'Nro Docto':
+                    fila.append(item.get('nro_docto', ''))
+                elif col == 'Detalle':
+                    fila.append(item.get('detalle', ''))
+                elif col == 'Documento Cruce':
+                    fila.append(item.get('documento_cruce', ''))
+                elif col == 'Estado Procesamiento':
+                    fila.append(item.get('estado_procesamiento', ''))
+                elif col == 'Fecha Procesamiento':
+                    fila.append(item.get('fecha_procesamiento', ''))
+                elif col == 'Observaciones':
+                    fila.append(item.get('observaciones', ''))
+                else:
+                    fila.append('')
+            datos_nuevos.append(fila)
 
-        # Crear clave compuesta para identificar filas existentes
-        df_existente['clave_compuesta'] = df_existente['tipo_docto'].astype(str) + '_' + df_existente['nro_docto'].astype(str)
-        df_nuevo['clave_compuesta'] = df_nuevo['tipo_docto'].astype(str) + '_' + df_nuevo['nro_docto'].astype(str)
+        logger.info(f"Datos de entrada: {len(datos_nuevos)} filas")
 
-        # Filas a agregar (nuevas, es decir, las que NO existen en el archivo)
-        filas_nuevas = df_nuevo[~df_nuevo['clave_compuesta'].isin(df_existente['clave_compuesta'])]
-        logger.info(f"Filas nuevas a agregar: {len(filas_nuevas)}")
+        # Crear claves compuestas para identificar filas existentes
+        claves_existentes = set()
+        for fila in datos_existentes:
+            if len(fila) >= 3:  # Asegurar que hay al menos empresa, tipo_docto, nro_docto
+                tipo_idx = header_row.index('Tipo Docto') if 'Tipo Docto' in header_row else 1
+                nro_idx = header_row.index('Nro Docto') if 'Nro Docto' in header_row else 2
+                clave = str(fila[tipo_idx]) + '_' + str(fila[nro_idx])
+                claves_existentes.add(clave)
 
-        # Agregar filas nuevas
-        if len(filas_nuevas) > 0:
-            # Eliminar la columna clave_compuesta antes de concatenar
-            filas_nuevas_clean = filas_nuevas.drop('clave_compuesta', axis=1)
-            # Normalizar columnas por si el orden difiere
-            for col in df_existente.columns:
-                if col not in filas_nuevas_clean.columns:
-                    filas_nuevas_clean[col] = ''
-            filas_nuevas_clean = filas_nuevas_clean[df_existente.columns]  # orden y presencia
-            df_existente = pd.concat([df_existente, filas_nuevas_clean], ignore_index=True)
-            logger.info(f"Agregadas {len(filas_nuevas)} filas nuevas")
+        # Filtrar datos nuevos (que no existen)
+        datos_a_agregar = []
+        for fila in datos_nuevos:
+            if len(fila) >= 3:
+                tipo_idx = header_row.index('Tipo Docto') if 'Tipo Docto' in header_row else 1
+                nro_idx = header_row.index('Nro Docto') if 'Nro Docto' in header_row else 2
+                clave = str(fila[tipo_idx]) + '_' + str(fila[nro_idx])
+                if clave not in claves_existentes:
+                    datos_a_agregar.append(fila)
+
+        logger.info(f"Filas nuevas a agregar: {len(datos_a_agregar)}")
+
+        # Agregar filas nuevas al archivo
+        if len(datos_a_agregar) > 0:
+            # Detectar si existe una tabla en el archivo
+            tabla_existente = None
+            for table in ws.tables.values():
+                # Parsear el rango de la tabla para obtener filas de inicio y fin
+                try:
+                    # El formato del rango es "A1:C10" por ejemplo
+                    rango_parts = table.ref.split(':')
+                    if len(rango_parts) == 2:
+                        # Extraer número de fila del inicio y fin del rango
+                        inicio_fila = int(''.join(filter(str.isdigit, rango_parts[0])))
+                        fin_fila = int(''.join(filter(str.isdigit, rango_parts[1])))
+                        
+                        # Verificar si la tabla incluye la fila de encabezado
+                        if inicio_fila <= header_row_idx <= fin_fila:
+                            tabla_existente = table
+                            break
+                except (ValueError, IndexError) as e:
+                    logger.warning(f"Error al parsear rango de tabla {table.name}: {e}")
+                    continue
+            
+            # Borrar todas las filas de datos debajo del header
+            max_row = ws.max_row
+            data_start_idx = header_row_idx + 1
+            if max_row >= data_start_idx:
+                ws.delete_rows(data_start_idx, max_row - data_start_idx + 1)
+            
+            # Escribir datos existentes + nuevos
+            todos_los_datos = datos_existentes + datos_a_agregar
+            
+            for r_idx, fila_datos in enumerate(todos_los_datos, start=data_start_idx):
+                for c_idx, valor in enumerate(fila_datos, start=1):
+                    ws.cell(row=r_idx, column=c_idx, value=valor)
+            
+            # Si existe una tabla, actualizar su rango para incluir los nuevos datos
+            if tabla_existente:
+                try:
+                    # Calcular el nuevo rango de la tabla
+                    num_columnas = len(header_row)
+                    nueva_fila_final = header_row_idx + len(todos_los_datos)
+                    nuevo_rango = f"{get_column_letter(1)}{header_row_idx}:{get_column_letter(num_columnas)}{nueva_fila_final}"
+                    
+                    # Actualizar el rango de la tabla
+                    tabla_existente.ref = nuevo_rango
+                    logger.info(f"Tabla actualizada con nuevo rango: {nuevo_rango}")
+                    
+                except Exception as e:
+                    logger.warning(f"No se pudo actualizar el rango de la tabla: {e}")
+            
+            wb.save(archivo_excel)
+            logger.info(f"Agregadas {len(datos_a_agregar)} filas nuevas")
         else:
             logger.info("No hay filas nuevas por agregar.")
 
-        # Eliminar la columna clave_compuesta del resultado final
-        if 'clave_compuesta' in df_existente.columns:
-            df_existente = df_existente.drop('clave_compuesta', axis=1)
-
-        # Guardar el archivo actualizado. Esta acción NO altera el estilo/tabla porque el archivo fue creado desde template.
-        # Para evitar perder el formato de tabla, usar openpyxl para guardar solo los datos sobre el template si se agregaron filas nuevas.
-        try:
-            import openpyxl
-            from openpyxl.utils.dataframe import dataframe_to_rows
-
-            # Abrir el archivo existente (con formato tipo tabla)
-            wb = openpyxl.load_workbook(archivo_excel)
-            ws = wb.active
-
-            # Buscar el encabezado (asume desde la primera fila)
-            header_row_idx = None
-            first_row = [cell.value for cell in ws[1]]
-            # Normalizar nombre de columnas del excel
-            def norm(x):
-                return str(x).strip().lower().replace('\n', '_').replace(' ', '_') if x else ''
-            normalized_header = [norm(x) for x in first_row]
-            excel_cols = normalized_header
-            expected_first_col = 'empresa'
-            # Encontrar fila header (flexible)
-            for row in ws.iter_rows(min_row=1, max_col=1):
-                if norm(row[0].value) == expected_first_col:
-                    header_row_idx = row[0].row
-                    break
-            if not header_row_idx:
-                header_row_idx = 1 # Fallback: primera fila
-            data_start_idx = header_row_idx + 1
-
-            # Borrar todas las filas de datos debajo de header
-            max_row = ws.max_row
-            if max_row >= data_start_idx:
-                ws.delete_rows(data_start_idx, max_row-data_start_idx+1)
-            # Escribir nuevas filas (solo datos, sin header)
-            # Ordenar columnas según el excel
-            df_save = df_existente.copy()
-            df_save = df_save[[col for col in excel_cols if col in df_save.columns]]  # solo columnas presentes en el excel
-            # Llenar datos debajo del header
-            for r_idx, row in enumerate(dataframe_to_rows(df_save, index=False, header=False), start=data_start_idx):
-                for c_idx, value in enumerate(row, start=1):
-                    ws.cell(row=r_idx, column=c_idx, value=value)
-            wb.save(archivo_excel)
-        except Exception as ee:
-            logger.warning(f"No se pudo sobrescribir el archivo con formato con openpyxl, se guarda solo el contenido plano: {str(ee)}")
-            df_existente.to_excel(archivo_excel, index=False)
-
         logger.info(f"Archivo actualizado exitosamente: {archivo_excel}")
-        logger.info(f"Total de filas en el archivo: {len(df_existente)}")
+        logger.info(f"Total de filas en el archivo: {len(datos_existentes) + len(datos_a_agregar)}")
 
-        SetVar("gblItemsAProcesar", df_existente.to_dict('records'))
+        # Preparar datos para SetVar
+        todos_los_datos = datos_existentes + datos_a_agregar
+        datos_para_setvar = []
+        for fila in todos_los_datos:
+            dict_fila = {}
+            for i, col in enumerate(header_row):
+                if i < len(fila):
+                    dict_fila[col] = fila[i]
+                else:
+                    dict_fila[col] = ''
+            datos_para_setvar.append(dict_fila)
+
+        SetVar("gblItemsAProcesar", datos_para_setvar)
 
     except Exception as e:
         logger.error(f"Error al actualizar el archivo: {str(e)}")
-        SetVar("gblItemsAProcesar", [])
+        raise e
 
 # Datos de entrada del ejemplo original
 input_data = {gblDatosArchivoBase}

@@ -1,0 +1,5 @@
+20-10-2025 10:40:19 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+20-10-2025 10:40:19 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+20-10-2025 10:40:19 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+20-10-2025 10:40:19 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+20-10-2025 10:40:19 | ERROR | Task: 001_InicializarVariables | Desc: No se encontró la credencial  en el baúl de credenciales de Windows. Favor realizar o validar la configuración. | Error: Failure reading credential

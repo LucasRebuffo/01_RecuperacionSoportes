@@ -14,7 +14,7 @@ def actualizar_fila_especifica(input_data, archivo_excel):
         input_data (dict): Diccionario con los datos a actualizar
         archivo_excel (str): Ruta del archivo Excel a actualizar
     """
-    import openpyxl
+    
     from openpyxl import load_workbook
     import os
     from datetime import datetime
@@ -90,6 +90,7 @@ def actualizar_fila_especifica(input_data, archivo_excel):
             logger.info("Claves disponibles en el archivo:")
             for idx, clave in enumerate(claves_encontradas[:10]):  # Mostrar solo las primeras 10
                 logger.info(f"  {idx+1}. {clave}")
+            workbook.close()  # Cerrar el archivo antes de retornar
             return False
         
         logger.info(f"Se encontraron {len(filas_encontradas)} filas con la clave compuesta: {clave_buscar}")
@@ -132,6 +133,9 @@ def actualizar_fila_especifica(input_data, archivo_excel):
 
         # Guardar el archivo actualizado
         workbook.save(archivo_excel)
+        
+        # Cerrar el archivo explícitamente
+        workbook.close()
 
         logger.info(f"Archivo actualizado exitosamente: {archivo_excel}")
         logger.info(f"Fecha de procesamiento: {fecha_actual}")
@@ -140,6 +144,12 @@ def actualizar_fila_especifica(input_data, archivo_excel):
 
 
     except Exception as e:
+        # Asegurar que el archivo se cierre en caso de error
+        try:
+            if 'workbook' in locals():
+                workbook.close()
+        except:
+            pass
         logger.error(f"Error al actualizar la fila: {str(e)}")
         raise e
 

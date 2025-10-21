@@ -1,2 +1,3 @@
-2025/10/20-10:56:00.383 7e8 Creating DB C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\GCM Store since it was missing.
-2025/10/20-10:56:00.586 7e8 Reusing MANIFEST C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\GCM Store/MANIFEST-000001
+2025/10/21-07:37:05.034 11fc Reusing MANIFEST C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\GCM Store/MANIFEST-000001
+2025/10/21-07:37:05.035 11fc Recovering log #3
+2025/10/21-07:37:05.035 11fc Reusing old log C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\GCM Store/000003.log 

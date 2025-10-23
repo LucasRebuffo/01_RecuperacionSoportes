@@ -1,0 +1,238 @@
+22-10-2025 18:34:43 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+22-10-2025 18:34:43 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+22-10-2025 18:34:43 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+22-10-2025 18:34:43 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+22-10-2025 18:34:43 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+22-10-2025 18:34:44 | INFO | Task: 001_InicializarVariables | Desc: ResoluciÃ³n inicial: (2880, 1620)
+22-10-2025 18:34:44 | INFO | Task: 001_InicializarVariables | Desc: Resoluciones permitidas: [(1920, 1080, 32)]
+22-10-2025 18:34:44 | INFO | Task: 001_InicializarVariables | Desc: ResoluciÃ³n actual: (2880, 1620)
+22-10-2025 18:34:44 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+22-10-2025 18:35:01 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 18:35:07 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 18:35:11 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 18:35:12 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 18:35:13 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 18:37:31 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:37:31 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:38:16 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:38:16 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:41:51 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:41:51 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:41:51 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 18:41:51 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 18:42:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:42:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:42:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 18:42:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 18:46:37 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 18:46:41 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 18:46:42 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 18:46:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 18:46:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:46:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:46:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 18:46:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 18:48:04 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 18:48:08 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 18:48:09 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 18:48:10 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 18:48:11 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:48:11 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:48:11 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 18:48:11 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 18:48:34 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 18:48:38 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 18:48:39 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 18:48:41 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 18:48:42 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:48:42 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:48:42 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 18:48:42 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 18:49:26 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 18:49:30 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 18:49:31 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 18:49:32 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 18:49:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 18:49:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 18:49:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 18:49:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 19:07:23 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:07:27 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:07:28 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:07:29 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:07:30 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:07:30 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:07:30 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:07:30 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 19:07:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:07:49 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:07:50 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:07:51 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:07:52 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:07:52 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:07:52 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:07:52 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 19:07:53 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 3
+22-10-2025 19:07:53 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:07:54 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 1
+22-10-2025 19:07:55 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 2
+22-10-2025 19:07:56 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:07:56 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:07:57 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:07:58 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:08:00 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:08:00 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+22-10-2025 19:13:22 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:13:26 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:13:27 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:13:28 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:13:29 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:13:29 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:13:29 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:13:29 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 7
+22-10-2025 19:13:30 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 7
+22-10-2025 19:13:30 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:13:32 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 1
+22-10-2025 19:13:32 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 2
+22-10-2025 19:13:33 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 3
+22-10-2025 19:13:34 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 4
+22-10-2025 19:13:34 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 5
+22-10-2025 19:13:35 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 6
+22-10-2025 19:13:35 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:13:36 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:13:37 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:13:38 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:13:40 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:13:40 | INFO | Task: 023_NavegacionContabilizacion | Desc: No fue posible encontrar la palabra de referencia 'reg' columna inicial de la tabla, la navegacion no se realizo con exito
+22-10-2025 19:13:40 | WARNING | Task: 023_NavegacionContabilizacion | Desc: No fue posible realizar la navegacion hacia la tabla en el aplicativo donde se obtiene el doc_cruce de Siesa 8.5 correctamente
+22-10-2025 19:50:39 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:50:43 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:50:44 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:50:45 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:50:46 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:50:46 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:50:46 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:50:46 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 6
+22-10-2025 19:50:47 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 6
+22-10-2025 19:50:47 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:50:49 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 1
+22-10-2025 19:50:49 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 2
+22-10-2025 19:50:50 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 3
+22-10-2025 19:50:51 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 4
+22-10-2025 19:50:51 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 5
+22-10-2025 19:50:53 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:50:53 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:50:55 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:50:56 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:50:57 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:50:57 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+22-10-2025 19:52:05 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:52:09 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:52:10 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:52:11 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:52:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:52:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:52:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:52:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 1
+22-10-2025 19:52:13 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 1
+22-10-2025 19:52:14 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:52:16 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:52:17 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:52:18 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:52:19 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:52:21 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:52:21 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+22-10-2025 19:53:15 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:53:19 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:53:20 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:53:21 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:53:22 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:53:22 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:53:22 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:53:22 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 5
+22-10-2025 19:53:23 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 5
+22-10-2025 19:53:23 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:53:24 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 1
+22-10-2025 19:53:25 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 2
+22-10-2025 19:53:25 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 3
+22-10-2025 19:53:26 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 4
+22-10-2025 19:53:28 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:53:29 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:53:30 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:53:31 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:53:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:53:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+22-10-2025 19:54:28 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:54:32 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:54:33 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:54:35 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:54:36 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:54:36 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:54:36 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:54:36 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 3
+22-10-2025 19:54:36 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 3
+22-10-2025 19:54:37 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:54:38 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 1
+22-10-2025 19:54:38 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 2
+22-10-2025 19:54:40 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:54:41 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:54:42 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:54:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:54:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:54:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+22-10-2025 19:55:47 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:55:51 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:55:53 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:55:54 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:55:55 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:55:55 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:55:55 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:55:55 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 4
+22-10-2025 19:55:56 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 4
+22-10-2025 19:55:56 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:55:57 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 1
+22-10-2025 19:55:58 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 2
+22-10-2025 19:55:58 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 3
+22-10-2025 19:56:00 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:56:01 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:56:02 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:56:03 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:56:05 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:56:05 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+22-10-2025 19:57:38 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:57:42 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:57:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:57:44 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:57:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:57:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:57:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:57:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 1
+22-10-2025 19:57:46 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 1
+22-10-2025 19:57:46 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:57:48 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:57:49 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:57:50 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:57:51 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:57:53 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:57:53 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+22-10-2025 19:59:26 | INFO | Task: 023_NavegacionContabilizacion | Desc: Inicia bot que buscara la opcion Contabilizacion en el aplicativo Siesa 8.5 e identificara cuanto debe desplazarse para ingresar en ella
+22-10-2025 19:59:30 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:59:31 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:59:32 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:59:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra clave 'opciones a consultar' indice de la tabla
+22-10-2025 19:59:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: se ha limpiado el texto correctamente
+22-10-2025 19:59:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se ha logrado estructurar la lista de columnas de la tabla
+22-10-2025 19:59:33 | INFO | Task: 023_NavegacionContabilizacion | Desc: Esta es la posicion en la que se encontro la opcion Contabilizacion 6
+22-10-2025 19:59:34 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la opcion 'Contabilizacion' en la posicion 6
+22-10-2025 19:59:35 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 0
+22-10-2025 19:59:36 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 1
+22-10-2025 19:59:36 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 2
+22-10-2025 19:59:37 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 3
+22-10-2025 19:59:38 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 4
+22-10-2025 19:59:38 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se realiza desplazamiento en el aplicativo Siesa 8.5 para ingresar a la opcion 'Contabilizacion', iteracion: 5
+22-10-2025 19:59:40 | TRACE | Task: 023_NavegacionContabilizacion | Desc: Se envia la tecla Enter para ingresar en la opcion 'Contabilizacion'
+22-10-2025 19:59:41 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+22-10-2025 19:59:42 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+22-10-2025 19:59:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+22-10-2025 19:59:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
+22-10-2025 19:59:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente

@@ -236,3 +236,33 @@
 22-10-2025 19:59:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
 22-10-2025 19:59:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se obtiene la información del portapapeles
 22-10-2025 19:59:45 | INFO | Task: 023_NavegacionContabilizacion | Desc: Se encontro la palabra de referencia 'reg' columna inicial de la tabla en la informacion procesada del aplicativo Siesa, la navegacion se realizo exitosamente
+23-10-2025 10:05:51 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+23-10-2025 10:05:53 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+23-10-2025 10:05:54 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+23-10-2025 10:30:45 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+23-10-2025 10:30:46 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+23-10-2025 10:30:47 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+23-10-2025 10:30:48 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+23-10-2025 10:30:50 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+23-10-2025 10:30:51 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada:
+23-10-2025 10:30:51 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada:
+23-10-2025 10:31:22 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+23-10-2025 10:31:23 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+23-10-2025 10:31:24 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+23-10-2025 10:31:25 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+23-10-2025 10:31:27 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+23-10-2025 10:31:27 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada:
+23-10-2025 10:31:28 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada:
+23-10-2025 10:33:33 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+23-10-2025 10:33:34 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+23-10-2025 10:33:35 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+23-10-2025 10:33:36 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+23-10-2025 10:33:37 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+23-10-2025 10:33:38 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada:
+23-10-2025 10:33:39 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada:
+23-10-2025 11:14:05 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+23-10-2025 11:14:05 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doc.Alt.:
+23-10-2025 11:14:05 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: NI
+23-10-2025 11:35:53 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+23-10-2025 11:35:53 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doc.Alt.:
+23-10-2025 11:35:53 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: NI 119

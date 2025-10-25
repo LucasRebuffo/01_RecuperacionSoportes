@@ -1,0 +1,132 @@
+24-10-2025 13:20:28 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+24-10-2025 13:20:28 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+24-10-2025 13:20:28 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+24-10-2025 13:20:28 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+24-10-2025 13:20:28 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+24-10-2025 13:20:28 | INFO | Task: 001_InicializarVariables | Desc: ResoluciÃ³n inicial: (2880, 1620)
+24-10-2025 13:20:28 | INFO | Task: 001_InicializarVariables | Desc: Resoluciones permitidas: [(1920, 1080, 32)]
+24-10-2025 13:20:28 | INFO | Task: 001_InicializarVariables | Desc: ResoluciÃ³n actual: (2880, 1620)
+24-10-2025 13:20:28 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+24-10-2025 13:20:29 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+24-10-2025 13:20:30 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+24-10-2025 13:20:30 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce: de 31,048 a 3,579 filas.
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (3579, 7)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 3,579
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 1 valores unicos
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 10 valores unicos
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 1,925 valores unicos
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 1,504 valores unicos
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+24-10-2025 13:20:49 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                   detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         DS       265  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+1  Ticenergi         DS       407  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-195                                Pendiente
+2  Ticenergi         DS       266  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+3  Ticenergi         DS       126  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-162                                Pendiente
+4  Ticenergi         DS       333  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-203                                Pendiente
+24-10-2025 13:20:49 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: ExtracciÃ³n exitosa.
+24-10-2025 13:20:50 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leÃ­do exitosamente: 2750 filas de datos
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 2750 filas
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 0
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: No hay filas nuevas por agregar.
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 2750
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Eliminando duplicados basados en 'Tipo Docto', 'Nro Docto', 'Documento Cruce'...
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Indices columnas - Tipo Docto: 1, Nro Docto: 2, Documento Cruce: 4
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas duplicadas eliminadas: 0
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas sin duplicados: 2750
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Preparando datos finales para SetVar. Total de filas: 2750
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: NÃºmero de registros preparados para SetVar: 2750
+24-10-2025 13:20:51 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+24-10-2025 13:20:51 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros leídos de gblItemsAProcesar: 2750
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 200
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 200
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Registros después de eliminar duplicados por clave (Tipo Docto, Nro Docto, Documento Cruce): 200
+24-10-2025 13:20:51 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes y sin duplicados.
+24-10-2025 13:20:53 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '24-10-2025 12:55:28', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+24-10-2025 13:20:53 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+24-10-2025 13:20:53 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+24-10-2025 13:20:57 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+24-10-2025 13:20:57 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+24-10-2025 13:20:57 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+24-10-2025 13:20:57 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+24-10-2025 13:20:57 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: '000_MasterProceso -RocketBot Studio - Google Chrome'
+24-10-2025 13:20:57 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+24-10-2025 13:20:57 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+24-10-2025 13:20:57 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+24-10-2025 13:20:57 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+24-10-2025 13:20:57 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+24-10-2025 13:21:01 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+24-10-2025 13:21:16 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+24-10-2025 13:21:18 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+24-10-2025 13:21:18 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 265, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '24-10-2025 12:55:28', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+24-10-2025 13:21:18 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-163', 'PE163', 'PE 163']
+24-10-2025 13:21:33 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-163.
+24-10-2025 13:21:49 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE163.
+24-10-2025 13:22:01 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+24-10-2025 13:22:01 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_24315', 'id_h4': 'h4_descripcion_24315', 'texto': 'PE 163'}
+24-10-2025 13:22:01 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_24315
+24-10-2025 13:22:01 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+24-10-2025 13:22:07 | TRACE | Task: 014_BuscarDocumento | Desc: Se extrae el numero de proceso: 12023
+24-10-2025 13:22:07 | ERROR | Task: 014_BuscarDocumento | Desc: OcurriÃ³ un error al navegar al realizar la busqueda del documento. | Error: name 'item' is not defined
+24-10-2025 13:22:07 | WARNING | Task: 019_ProcesarFlujo1 | Desc: Ocurrio un error al buscar a el documento.
+24-10-2025 13:22:07 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al procesar el flujo: 1.
+24-10-2025 13:22:07 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+24-10-2025 13:22:10 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+24-10-2025 13:22:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [2]
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: DS_265_PE-163
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [2]
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 2):
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: DS
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 265
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-163
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 24-10-2025 12:55:28
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 2...
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: DS
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 265
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-163
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Pendiente
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 24-10-2025 12:55:28
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: Ocurrio un error al buscar el documento en Workmanager o no se encontraron resultados de la busqueda. Revisar archivo de logs.
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 2 actualizada exitosamente
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 24-10-2025 13:22:12
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+24-10-2025 13:22:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.

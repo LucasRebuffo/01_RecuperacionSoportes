@@ -1,0 +1,5 @@
+2025/10/24-13:14:29.887 bac Creating DB C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\EdgeCoupons/coupons_data.db since it was missing.
+2025/10/24-13:14:30.860 bac Reusing MANIFEST C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/10/24-13:14:38.025 2034 Level-0 table #5: started
+2025/10/24-13:14:38.092 2034 Level-0 table #5: 672241 bytes OK
+2025/10/24-13:14:38.126 2034 Delete type=0 #3

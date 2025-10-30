@@ -1,0 +1,17 @@
+27-10-2025 13:52:05 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+27-10-2025 13:52:05 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+27-10-2025 13:52:05 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+27-10-2025 13:52:05 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+27-10-2025 13:52:05 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+27-10-2025 13:52:05 | INFO | Task: 001_InicializarVariables | Desc: Resolución inicial: (2880, 1620)
+27-10-2025 13:52:05 | INFO | Task: 001_InicializarVariables | Desc: Resoluciones permitidas: [(1920, 1080, 32)]
+27-10-2025 13:52:05 | INFO | Task: 001_InicializarVariables | Desc: Resolución actual: (2880, 1620)
+27-10-2025 13:52:05 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+27-10-2025 13:52:11 | TRACE | Task: 002_NotificacionCorreo | Desc: Conexión exitosa con el servidor de correos. Tipo de notificación: INICIO
+27-10-2025 13:52:11 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecución | [Recupercion de Soportes] | 27102025-135205 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+27-10-2025 13:52:12 | TRACE | Task: 002_NotificacionCorreo | Desc: Notificación enviada.
+27-10-2025 13:53:37 | TRACE | Task: 002_NotificacionCorreo | Desc: Conexión exitosa con el servidor de correos. Tipo de notificación: INICIO
+27-10-2025 13:53:37 | ERROR | Task: 002_NotificacionCorreo | Desc: Ocurrió un error durante el proceso de conexión y notificación de correo. | Error: invalid syntax (<string>, line 359)
+27-10-2025 13:58:41 | TRACE | Task: 002_NotificacionCorreo | Desc: Conexión exitosa con el servidor de correos. Tipo de notificación: INICIO
+27-10-2025 13:58:41 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecución | [Recupercion de Soportes] | 27102025-135205 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+27-10-2025 13:58:42 | TRACE | Task: 002_NotificacionCorreo | Desc: Notificación enviada.

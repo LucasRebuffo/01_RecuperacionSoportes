@@ -1,0 +1,9 @@
+26-10-2025 10:00:16 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+26-10-2025 10:00:16 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+26-10-2025 10:00:16 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+26-10-2025 10:00:16 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+26-10-2025 10:00:16 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+26-10-2025 10:00:16 | INFO | Task: 001_InicializarVariables | Desc: Resolución inicial: (1536, 1152)
+26-10-2025 10:00:16 | INFO | Task: 001_InicializarVariables | Desc: Resoluciones permitidas: [(1280, 960, 32), (1280, 960, 32), (1280, 1024, 32), (1280, 1024, 32), (1280, 1024, 32), (1600, 1200, 32), (1600, 1200, 32), (1600, 1200, 32), (1600, 1200, 32), (1600, 1200, 32), (640, 480, 32), (640, 480, 32), (640, 480, 32), (640, 480, 32), (800, 600, 32), (800, 600, 32), (800, 600, 32), (800, 600, 32), (1024, 768, 32), (1024, 768, 32), (1024, 768, 32), (1024, 768, 32), (1152, 864, 32)]
+26-10-2025 10:00:16 | WARNING | Task: 001_InicializarVariables | Desc: La resolución 1920 x 1080 no se encuentra disponible para garantizar la correcta ejecución del robot.
+26-10-2025 10:00:16 | WARNING | Task: 002_NotificacionCorreo | Desc: No se estableció el tipo de notificación.

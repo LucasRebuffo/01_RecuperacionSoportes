@@ -5,9 +5,10 @@ ccoDestinatarios = "rpa.vortex@gmail.com"
 # Obtener datos y parametros generales
 nombreProceso = "{gblNombreProceso}"
 nombreBot = "Prueba"
-fechaProceso = "{gblFecha}"
+fechaProceso = "{gblFechaHoy}"
 htmlTemplate = """{gblHtmlTemplate}"""
 tipoNotificacion = "{gblTipoNotificacion}"
+
 
 # Obtener valores de la configuracion
 destinatarios = diccNotificaciones[tipoNotificacion]['Destinatarios']
@@ -25,6 +26,9 @@ cuerpo = cuerpo.replace("[Mensaje]","""{gblMensajeError}""")
 # Reemplazar parametros especificos de cada tipo de notificacion
 if tipoNotificacion == "FALLA-RESOLUCION":
   cuerpo = cuerpo.replace("[ResolucionActual]","{locResolucionActual}").replace("[ResolucionesDisponibles]","{locResolucionesPermitidas}")
+
+elif tipoNotificacion == "FALLO EN TRATAMIENTO DE ITEM":
+  cuerpo = cuerpo.replace("[NroDoc]","{gblNroDoc}").replace("[TipoDoc]","{gblTipoDoc}")
 
 elif tipoNotificacion == "FIN":
   adjunto = "{gblRutaLogs}"

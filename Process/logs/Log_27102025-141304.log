@@ -1,0 +1,441 @@
+27-10-2025 14:13:04 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+27-10-2025 14:13:04 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+27-10-2025 14:13:04 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+27-10-2025 14:13:04 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+27-10-2025 14:13:04 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+27-10-2025 14:13:04 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+27-10-2025 14:13:05 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: INICIO
+27-10-2025 14:13:05 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecuciÃ³n | [Recupercion de Soportes] | 27102025-141304 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+27-10-2025 14:13:06 | TRACE | Task: 002_NotificacionCorreo | Desc: NotificaciÃ³n enviada.
+27-10-2025 14:13:06 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+27-10-2025 14:13:07 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+27-10-2025 14:13:07 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce: de 31,048 a 3,579 filas.
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (3579, 7)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 3,579
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 1 valores unicos
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 10 valores unicos
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 1,925 valores unicos
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 1,504 valores unicos
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+27-10-2025 14:13:25 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                   detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         DS       265  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+1  Ticenergi         DS       407  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-195                                Pendiente
+2  Ticenergi         DS       266  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+3  Ticenergi         DS       126  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-162                                Pendiente
+4  Ticenergi         DS       333  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-203                                Pendiente
+27-10-2025 14:13:25 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: ExtracciÃ³n exitosa.
+27-10-2025 14:13:25 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leÃ­do exitosamente: 2750 filas de datos
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 2750 filas
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 0
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: No hay filas nuevas por agregar.
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 2750
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Eliminando duplicados basados en 'Tipo Docto', 'Nro Docto', 'Documento Cruce'...
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Indices columnas - Tipo Docto: 1, Nro Docto: 2, Documento Cruce: 4
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas duplicadas eliminadas: 0
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas sin duplicados: 2750
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Preparando datos finales para SetVar. Total de filas: 2750
+27-10-2025 14:13:26 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: NÃºmero de registros preparados para SetVar: 2750
+27-10-2025 14:13:26 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+27-10-2025 14:13:27 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+27-10-2025 14:13:27 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros leídos de gblItemsAProcesar: 2750
+27-10-2025 14:13:27 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 200
+27-10-2025 14:13:27 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 200
+27-10-2025 14:13:27 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Registros después de eliminar duplicados por clave (Tipo Docto, Nro Docto, Documento Cruce): 200
+27-10-2025 14:13:27 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes y sin duplicados.
+27-10-2025 14:13:27 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 126, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-162', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '27-10-2025 08:01:51', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+27-10-2025 14:13:27 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+27-10-2025 14:13:27 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+27-10-2025 14:13:29 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+27-10-2025 14:13:29 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+27-10-2025 14:13:29 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+27-10-2025 14:13:29 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+27-10-2025 14:13:29 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: 'Restore pages?'
+27-10-2025 14:13:29 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+27-10-2025 14:13:29 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+27-10-2025 14:13:29 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+27-10-2025 14:13:30 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+27-10-2025 14:13:30 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+27-10-2025 14:13:34 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+27-10-2025 14:13:49 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+27-10-2025 14:13:50 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+27-10-2025 14:13:50 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 126, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-162', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '27-10-2025 08:01:51', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+27-10-2025 14:13:50 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-162', 'PE162', 'PE 162']
+27-10-2025 14:14:06 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-162.
+27-10-2025 14:14:22 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE162.
+27-10-2025 14:14:33 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+27-10-2025 14:14:33 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_24309', 'id_h4': 'h4_descripcion_24309', 'texto': 'PE 162'}
+27-10-2025 14:14:33 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_24309
+27-10-2025 14:14:33 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+27-10-2025 14:14:39 | TRACE | Task: 014_BuscarDocumento | Desc: Se extrae el numero de proceso: 12024
+27-10-2025 14:14:39 | TRACE | Task: 014_BuscarDocumento | Desc: Se actualiza gblItemActual: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 126, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-162', 'Nro de Proceso': '12024', 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '27-10-2025 08:01:51', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+27-10-2025 14:14:39 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 140273 bytes', 'extension': '.PDF', 'id': '24383', 'nombre': 'NANCY MONTERO'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 25312 bytes', 'extension': '.PDF', 'id': '24309', 'nombre': 'PE 162'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 207984 bytes', 'extension': '.PDF', 'id': '24308', 'nombre': 'FORLAN HAMES CASTELLANO'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 32021 bytes', 'extension': '.PDF', 'id': '22823', 'nombre': '114.508.500 TIC'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 1118040 bytes', 'extension': '.PDF', 'id': '19413', 'nombre': '85 DS UT HONORARIOS'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 68106 bytes', 'extension': '.PDF', 'id': '19011', 'nombre': 'RequisiciÃ³n de Recursos'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22171502 bytes', 'extension': '.PDF', 'id': '18444', 'nombre': 'CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xls | TamaÃ±o: 1607168 bytes', 'extension': '.XLS', 'id': '17976', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 103809 bytes', 'extension': '.XLSX', 'id': '17975', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 58649 bytes', 'extension': '.PDF', 'id': '17974', 'nombre': 'UT Energi'}]
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 140273 bytes', 'extension': '.PDF', 'id': '24383', 'nombre': 'NANCY MONTERO'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 25312 bytes', 'extension': '.PDF', 'id': '24309', 'nombre': 'PE 162'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 207984 bytes', 'extension': '.PDF', 'id': '24308', 'nombre': 'FORLAN HAMES CASTELLANO'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 32021 bytes', 'extension': '.PDF', 'id': '22823', 'nombre': '114.508.500 TIC'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 1118040 bytes', 'extension': '.PDF', 'id': '19413', 'nombre': '85 DS UT HONORARIOS'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 68106 bytes', 'extension': '.PDF', 'id': '19011', 'nombre': 'Requisición de Recursos'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22171502 bytes', 'extension': '.PDF', 'id': '18444', 'nombre': 'CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xls | Tamaño: 1607168 bytes', 'extension': '.XLS', 'id': '17976', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 103809 bytes', 'extension': '.XLSX', 'id': '17975', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 58649 bytes', 'extension': '.PDF', 'id': '17974', 'nombre': 'UT Energi'}]
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 140273 bytes', 'extension': '.PDF', 'id': '24383', 'nombre': 'NANCY MONTERO'}
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'NANCY MONTERO' convertido a: 'NANCY MONTERO'
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='NANCY MONTERO', loc015IdDocumento='24383', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:14:39 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:14:39 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:14:44 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:14:44 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:14:45 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:14:53 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:14:58 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:14:58 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:14:58 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:14:58 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:14:58 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:14:58 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:14:58 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:14:58 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:14:58 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/NANCY MONTERO.pdf.
+27-10-2025 14:14:59 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/NANCY MONTERO.pdf.
+27-10-2025 14:14:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 25312 bytes', 'extension': '.PDF', 'id': '24309', 'nombre': 'PE 162'}
+27-10-2025 14:14:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:14:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE 162' convertido a: 'PE 162'
+27-10-2025 14:14:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE 162', loc015IdDocumento='24309', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:14:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:14:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:14:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:14:59 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:15:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:15:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:15:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:15:12 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:15:17 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:15:17 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:15:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:15:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:15:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:15:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:15:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/PE 162.pdf.
+27-10-2025 14:15:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/PE 162.pdf.
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 207984 bytes', 'extension': '.PDF', 'id': '24308', 'nombre': 'FORLAN HAMES CASTELLANO'}
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'FORLAN HAMES CASTELLANO' convertido a: 'FORLAN HAMES CASTELLANO'
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='FORLAN HAMES CASTELLANO', loc015IdDocumento='24308', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:15:18 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:15:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:15:23 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:15:24 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:15:24 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:15:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:15:37 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:15:37 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:15:37 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:15:37 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:15:37 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:15:37 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:15:37 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:15:37 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:15:37 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/FORLAN HAMES CASTELLANO.pdf.
+27-10-2025 14:15:38 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/FORLAN HAMES CASTELLANO.pdf.
+27-10-2025 14:15:38 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 32021 bytes', 'extension': '.PDF', 'id': '22823', 'nombre': '114.508.500 TIC'}
+27-10-2025 14:15:38 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:15:38 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: '114.508.500 TIC' convertido a: '114.508.500 TIC'
+27-10-2025 14:15:38 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='114.508.500 TIC', loc015IdDocumento='22823', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:15:38 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:15:38 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:15:38 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:15:38 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:15:43 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:15:43 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:15:43 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:15:51 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:15:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:15:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:15:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:15:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:15:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/114.508.500 TIC.pdf.
+27-10-2025 14:15:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/114.508.500 TIC.pdf.
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 23020 bytes', 'extension': '.PDF', 'id': '20795', 'nombre': 'Fichero (10)'}
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'Fichero (10)' convertido a: 'Fichero (10)'
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='Fichero (10)', loc015IdDocumento='20795', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:15:57 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:15:57 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:16:03 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:16:03 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:16:03 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:16:11 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:16:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:16:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:16:16 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:16:16 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:16:16 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:16:16 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:16:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:16:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:16:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/Fichero (10).pdf.
+27-10-2025 14:16:17 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/Fichero (10).pdf.
+27-10-2025 14:16:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 26811 bytes', 'extension': '.PDF', 'id': '20793', 'nombre': 'Fichero (11)'}
+27-10-2025 14:16:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:16:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'Fichero (11)' convertido a: 'Fichero (11)'
+27-10-2025 14:16:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='Fichero (11)', loc015IdDocumento='20793', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:16:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:16:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:16:17 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:16:17 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:16:22 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:16:22 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:16:22 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:16:30 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:16:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:16:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:16:35 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:16:35 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:16:36 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:16:36 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:16:36 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/Fichero (11).pdf.
+27-10-2025 14:16:36 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/Fichero (11).pdf.
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 12538 bytes', 'extension': '.PDF', 'id': '20794', 'nombre': 'Fichero (9)'}
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'Fichero (9)' convertido a: 'Fichero (9)'
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='Fichero (9)', loc015IdDocumento='20794', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:16:36 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:16:36 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:16:41 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:16:41 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:16:41 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:16:50 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:16:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:16:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:16:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:16:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:16:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/Fichero (9).pdf.
+27-10-2025 14:16:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/Fichero (9).pdf.
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 1118040 bytes', 'extension': '.PDF', 'id': '19413', 'nombre': '85 DS UT HONORARIOS'}
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: '85 DS UT HONORARIOS' convertido a: '85 DS UT HONORARIOS'
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='85 DS UT HONORARIOS', loc015IdDocumento='19413', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:16:55 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:16:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:17:01 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:17:01 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:17:01 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:17:09 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:17:14 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:17:14 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:17:14 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:17:14 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:17:14 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:17:14 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:17:14 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:17:14 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:17:14 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/85 DS UT HONORARIOS.pdf.
+27-10-2025 14:17:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/85 DS UT HONORARIOS.pdf.
+27-10-2025 14:17:15 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 68106 bytes', 'extension': '.PDF', 'id': '19011', 'nombre': 'Requisición de Recursos'}
+27-10-2025 14:17:15 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:17:15 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'Requisición de Recursos' convertido a: 'Requisición de Recursos'
+27-10-2025 14:17:15 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='Requisición de Recursos', loc015IdDocumento='19011', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:17:15 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:17:15 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:17:15 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:17:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:17:20 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:17:20 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:17:20 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:17:28 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:17:33 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:17:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:17:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:17:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:17:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/RequisiciÃ³n de Recursos.pdf.
+27-10-2025 14:17:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/RequisiciÃ³n de Recursos.pdf.
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22171502 bytes', 'extension': '.PDF', 'id': '18444', 'nombre': 'CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed'}
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed' convertido a: 'CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed'
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed', loc015IdDocumento='18444', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:17:34 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:17:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:17:39 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:17:40 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:17:40 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:17:51 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:17:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:17:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:17:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:17:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:17:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:17:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:17:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:17:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:17:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed.pdf.
+27-10-2025 14:17:59 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/CUENTAS DE COBRO GESTORE NUEVOS Y TRASLADOS DESDE TICLINE_compressed.pdf.
+27-10-2025 14:17:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xls | Tamaño: 1607168 bytes', 'extension': '.XLS', 'id': '17976', 'nombre': 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE'}
+27-10-2025 14:17:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.XLS' es válida (extension_valida=True).
+27-10-2025 14:17:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE' convertido a: 'FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE'
+27-10-2025 14:17:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE', loc015IdDocumento='17976', loc015Extension='.XLS', loc015ExtensionValida=True
+27-10-2025 14:17:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:17:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:17:59 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:17:59 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:18:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : ['FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE.xls']
+27-10-2025 14:18:04 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:18:04 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:18:04 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:18:04 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:18:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:18:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE.xls.
+27-10-2025 14:18:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE.xls.
+27-10-2025 14:18:05 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE.xls a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/FORMATO DE INSCRIPCION DE CUENTA ORIGINAL NUEVOS Y TRASLADOS DE TICLINE.xls.
+27-10-2025 14:18:05 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 103809 bytes', 'extension': '.XLSX', 'id': '17975', 'nombre': 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN'}
+27-10-2025 14:18:05 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.XLSX' es válida (extension_valida=True).
+27-10-2025 14:18:05 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN' convertido a: 'FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN'
+27-10-2025 14:18:05 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÓN', loc015IdDocumento='17975', loc015Extension='.XLSX', loc015ExtensionValida=True
+27-10-2025 14:18:05 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:18:05 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:18:05 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:18:05 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:18:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : ['FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N.xlsx']
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:18:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:18:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N.xlsx.
+27-10-2025 14:18:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N.xlsx.
+27-10-2025 14:18:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N.xlsx a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/FORMATO CUENTAS DE COBRO PAGOS GESTORES DE PROMOCIÃ“N.xlsx.
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 58649 bytes', 'extension': '.PDF', 'id': '17974', 'nombre': 'UT Energi'}
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'UT Energi' convertido a: 'UT Energi'
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='UT Energi', loc015IdDocumento='17974', loc015Extension='.PDF', loc015ExtensionValida=True
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+27-10-2025 14:18:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+27-10-2025 14:18:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+27-10-2025 14:18:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+27-10-2025 14:18:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+27-10-2025 14:18:16 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+27-10-2025 14:18:24 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+27-10-2025 14:18:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+27-10-2025 14:18:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+27-10-2025 14:18:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: DS, num: 126, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+27-10-2025 14:18:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:18:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\DS-126
+27-10-2025 14:18:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126
+27-10-2025 14:18:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+27-10-2025 14:18:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+27-10-2025 14:18:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/UT Energi.pdf.
+27-10-2025 14:18:30 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/DS-126/UT Energi.pdf.
+27-10-2025 14:18:31 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+27-10-2025 14:18:34 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+27-10-2025 14:18:34 | TRACE | Task: 019_ProcesarFlujo1 | Desc: Se cambia el estado del item actual: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 126, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-162', 'Nro de Proceso': '12024', 'Doc Alt': None, 'Estado Procesamiento': 'Procesado', 'Fecha Procesamiento': '27-10-2025 08:01:51', 'Observaciones': ''} a PROCESADO.
+27-10-2025 14:18:34 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+27-10-2025 14:18:34 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+27-10-2025 14:18:34 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [5]
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: DS_126_PE-162
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [5]
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 5):
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: DS
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 126
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-162
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 27-10-2025 08:01:51
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 5...
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: DS
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 126
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-162
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: 12024
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 27-10-2025 08:01:51
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: 
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 5 actualizada exitosamente
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 27-10-2025 14:18:35
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+27-10-2025 14:18:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+27-10-2025 14:18:35 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 144, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-162', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '27-10-2025 08:30:03', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+27-10-2025 14:18:35 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+27-10-2025 14:18:35 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+27-10-2025 14:18:37 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+27-10-2025 14:18:37 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Restore pages?'
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Menu - WorkManager E.D.® - Google Chrome'
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Desktop'
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'C:\WINDOWS\SYSTEM32\cmd.exe'
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Task Scheduler'
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Settings'
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Settings'
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+27-10-2025 14:18:37 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Program Manager'
+27-10-2025 14:18:37 | WARNING | Task: 020_ActualizarArchivoDeSeguimiento | Desc: No se encontró ninguna ventana con: Iniciar sesión - Workmanager
+27-10-2025 14:18:37 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+27-10-2025 14:18:37 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+27-10-2025 14:18:53 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el input para el USERNAME
+27-10-2025 14:18:53 | WARNING | Task: 019_ProcesarFlujo1 | Desc: Ocurrio un error al iniciar sesion Workmanager.
+27-10-2025 14:18:53 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: FALLO LOGIN WORKMANAGER
+27-10-2025 14:18:53 | ERROR | Task: 002_NotificacionCorreo | Desc: OcurriÃ³ un error durante el proceso de conexiÃ³n y notificaciÃ³n de correo. | Error: 'utf-8' codec can't decode byte 0xed in position 49: invalid continuation byte
+27-10-2025 14:18:53 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: FIN
+27-10-2025 14:18:54 | ERROR | Task: 002_NotificacionCorreo | Desc: OcurriÃ³ un error durante el proceso de conexiÃ³n y notificaciÃ³n de correo. | Error: 'utf-8' codec can't decode byte 0xed in position 49: invalid continuation byte

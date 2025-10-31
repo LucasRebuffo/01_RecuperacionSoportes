@@ -424,3 +424,169 @@
 24-10-2025 19:07:04 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
 24-10-2025 19:07:23 | ERROR | Task: 007_AbrirWorkManager | Desc: Ocurrio un error al abrir WorkManager. | Error: Message: session not created: Chrome failed to start: crashed.  (session not created: DevToolsActivePort file doesn't exist)  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)Stacktrace:GetHandleVerifier [0x0x10afe43+66515]GetHandleVerifier [0x0x10afe84+66580](No symbol) [0x0xe9dc48](No symbol) [0x0xed3923](No symbol) [0x0xecea2a](No symbol) [0x0xf16ffc](No symbol) [0x0xf168fa](No symbol) [0x0xf0afc6](No symbol) [0x0xedc2ca](No symbol) [0x0xedd154]GetHandleVerifier [0x0x1307353+2521315]GetHandleVerifier [0x0x13022d3+2500707]GetHandleVerifier [0x0x10d7c94+229924]GetHandleVerifier [0x0x10c81f8+165768]GetHandleVerifier [0x0x10cecad+193085]GetHandleVerifier [0x0x10b8158+100072]GetHandleVerifier [0x0x10b82f0+100480]GetHandleVerifier [0x0x10a25aa+11066]BaseThreadInitThunk [0x0x778f62c4+36]RtlSubscribeWnfStateChangeNotification [0x0x77a20969+1081]RtlSubscribeWnfStateChangeNotification [0x0x77a20934+1028]
 24-10-2025 19:07:23 | ERROR | Task: 025_ProcesarFlujo2 | Desc: OcurriÃ³ un error. | Error: name 'gblItemActual' is not defined
+30-10-2025 22:08:55 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+30-10-2025 22:08:55 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+30-10-2025 22:08:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+30-10-2025 22:08:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 22:08:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 22:08:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+30-10-2025 22:08:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Task Manager', '', 'Task Scheduler', 'Settings', '', '', 'Settings', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', 'rocketbot.exe - Shortcut', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'bots_siesa', 'Program Manager']
+30-10-2025 22:08:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+30-10-2025 22:09:00 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+30-10-2025 22:09:03 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+30-10-2025 22:09:03 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Task Manager', '', 'Task Scheduler', 'Settings', '', '', 'Settings', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', 'rocketbot.exe - Shortcut', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'bots_siesa', 'Program Manager']
+30-10-2025 22:09:03 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+30-10-2025 22:09:03 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+30-10-2025 22:09:06 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:09:07 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:09:08 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+30-10-2025 22:09:10 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+30-10-2025 22:09:13 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+30-10-2025 22:09:13 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Rocketbot Debugger', 'Task Manager', '', 'Task Scheduler', 'Settings', '', '', 'Settings', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', 'rocketbot.exe - Shortcut', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'bots_siesa', 'Program Manager']
+30-10-2025 22:09:13 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+30-10-2025 22:09:13 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+30-10-2025 22:09:18 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:09:19 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:09:20 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:09:22 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+30-10-2025 22:09:22 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+30-10-2025 22:09:22 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+30-10-2025 22:09:22 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+30-10-2025 22:09:22 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+30-10-2025 22:09:22 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+30-10-2025 22:09:23 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+30-10-2025 22:09:23 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+30-10-2025 22:09:24 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+30-10-2025 22:09:25 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+30-10-2025 22:09:27 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+30-10-2025 22:09:28 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+30-10-2025 22:09:29 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:09:30 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:09:31 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:09:32 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+30-10-2025 22:09:32 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+30-10-2025 22:09:36 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CM', 'Número de documento': '56'}
+30-10-2025 22:09:36 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+30-10-2025 22:09:37 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+30-10-2025 22:09:38 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CM
+30-10-2025 22:09:39 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 56
+30-10-2025 22:09:40 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+30-10-2025 22:09:43 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:09:44 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:09:45 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:09:46 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+30-10-2025 22:09:46 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+30-10-2025 22:09:50 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+30-10-2025 22:09:50 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:09:51 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:09:52 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:09:53 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+30-10-2025 22:09:53 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+30-10-2025 22:09:53 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doct_Alt:
+30-10-2025 22:09:53 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: P 34548
+30-10-2025 22:09:53 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: P 34548
+30-10-2025 22:09:53 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada: RR
+30-10-2025 22:09:54 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
+30-10-2025 22:09:55 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+30-10-2025 22:09:55 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 1472)
+30-10-2025 22:09:55 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 1472) cerrado exitosamente.
+30-10-2025 22:09:55 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+30-10-2025 22:09:55 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+30-10-2025 22:13:57 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+30-10-2025 22:13:57 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+30-10-2025 22:13:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+30-10-2025 22:13:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 22:13:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 22:14:02 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+30-10-2025 22:14:02 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Task Manager', '', 'Task Scheduler', 'Settings', '', '', 'Settings', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', 'rocketbot.exe - Shortcut', 'bots_siesa', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+30-10-2025 22:14:02 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+30-10-2025 22:14:02 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+30-10-2025 22:14:05 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+30-10-2025 22:14:05 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Task Manager', '', 'Task Scheduler', 'Settings', '', '', 'Settings', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', 'rocketbot.exe - Shortcut', 'bots_siesa', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+30-10-2025 22:14:05 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+30-10-2025 22:14:05 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+30-10-2025 22:14:08 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:14:10 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:14:11 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+30-10-2025 22:14:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+30-10-2025 22:14:15 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+30-10-2025 22:14:15 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Rocketbot Debugger', 'Task Manager', '', 'Task Scheduler', 'Settings', '', '', 'Settings', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', 'rocketbot.exe - Shortcut', 'bots_siesa', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+30-10-2025 22:14:15 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+30-10-2025 22:14:15 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+30-10-2025 22:14:20 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:14:22 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:14:23 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:14:24 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+30-10-2025 22:14:24 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+30-10-2025 22:14:24 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+30-10-2025 22:14:24 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+30-10-2025 22:14:24 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+30-10-2025 22:14:24 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+30-10-2025 22:14:26 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+30-10-2025 22:14:26 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+30-10-2025 22:14:27 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+30-10-2025 22:14:28 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+30-10-2025 22:14:29 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+30-10-2025 22:14:30 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+30-10-2025 22:14:31 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:14:32 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:14:33 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:14:34 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+30-10-2025 22:14:34 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+30-10-2025 22:14:38 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CM', 'Número de documento': '56'}
+30-10-2025 22:14:38 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+30-10-2025 22:14:39 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+30-10-2025 22:14:40 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CM
+30-10-2025 22:14:42 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 56
+30-10-2025 22:14:43 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+30-10-2025 22:14:45 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:14:46 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:14:47 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:14:48 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+30-10-2025 22:14:48 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+30-10-2025 22:14:52 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+30-10-2025 22:14:52 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+30-10-2025 22:14:53 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+30-10-2025 22:14:54 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+30-10-2025 22:14:55 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+30-10-2025 22:14:55 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+30-10-2025 22:14:55 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doct_Alt:
+30-10-2025 22:14:55 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: P 34548
+30-10-2025 22:14:55 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: P 34548
+30-10-2025 22:14:55 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada: RR
+30-10-2025 22:14:56 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
+30-10-2025 22:14:57 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+30-10-2025 22:14:57 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 7408)
+30-10-2025 22:14:57 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 7408) cerrado exitosamente.
+30-10-2025 22:14:57 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+30-10-2025 22:14:57 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+30-10-2025 22:15:02 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+30-10-2025 22:15:02 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+30-10-2025 22:15:02 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+30-10-2025 22:15:02 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+30-10-2025 22:15:02 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+30-10-2025 22:15:02 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+30-10-2025 22:15:02 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+30-10-2025 22:15:02 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+30-10-2025 22:15:03 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+30-10-2025 22:15:08 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+30-10-2025 22:15:23 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+30-10-2025 22:15:26 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+30-10-2025 22:15:44 | WARNING | Task: 011_BuscarPorNumeroDeProceso | Desc: No se pudo encontrar el ultimo elemento de la tabla.
+30-10-2025 22:15:45 | WARNING | Task: 025_ProcesarFlujo2 | Desc: Ocurrio un error al buscar a el documento.

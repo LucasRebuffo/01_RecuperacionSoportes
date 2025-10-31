@@ -124,3 +124,24 @@
 16-10-2025 13:28:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Process', '', '', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
 16-10-2025 13:28:53 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
 16-10-2025 13:28:54 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+30-10-2025 16:14:44 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:\Users\administrator.ENERGIZANDO\Desktop\SISTEMA UNO CLOUD.lnk
+30-10-2025 16:14:44 | WARNING | Task: 003_AbrirSiesa8.5 | Desc: Error al ejecutar el archivo o obtener PID: [WinError 193] %1 is not a valid Win32 application
+30-10-2025 16:16:39 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:16:39 | WARNING | Task: 003_AbrirSiesa8.5 | Desc: Error al ejecutar el archivo: 'builtin_function_or_method' object has no attribute 'sleep'
+30-10-2025 16:18:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:18:39 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Proceso iniciado con PID: 7824
+30-10-2025 16:22:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:22:56 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:04 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:04 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:09 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:09 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:13 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:13 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 16:23:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+30-10-2025 21:58:37 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+30-10-2025 21:58:37 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 8920)
+30-10-2025 21:58:37 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 8920) cerrado exitosamente.
+30-10-2025 21:58:37 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+30-10-2025 21:58:37 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5

@@ -1,0 +1,784 @@
+03-11-2025 08:00:06 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+03-11-2025 08:00:06 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+03-11-2025 08:00:06 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+03-11-2025 08:00:06 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+03-11-2025 08:00:06 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+03-11-2025 08:00:06 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+03-11-2025 08:00:06 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: INICIO
+03-11-2025 08:00:06 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecuciÃ³n | Recupercion de Soportes | 03112025-080006 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+03-11-2025 08:00:07 | TRACE | Task: 002_NotificacionCorreo | Desc: NotificaciÃ³n enviada.
+03-11-2025 08:00:07 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+03-11-2025 08:00:08 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+03-11-2025 08:00:08 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce: de 31,048 a 3,579 filas.
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (3579, 7)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 3,579
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 1 valores unicos
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 10 valores unicos
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 1,925 valores unicos
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 1,504 valores unicos
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+03-11-2025 08:00:27 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                   detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         DS       265  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+1  Ticenergi         DS       407  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-195                                Pendiente
+2  Ticenergi         DS       266  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+3  Ticenergi         DS       126  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-162                                Pendiente
+4  Ticenergi         DS       333  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-203                                Pendiente
+03-11-2025 08:00:27 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: ExtracciÃ³n exitosa.
+03-11-2025 08:00:27 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leÃ­do exitosamente: 2750 filas de datos
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 2750 filas
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 0
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: No hay filas nuevas por agregar.
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 2750
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Eliminando duplicados basados en 'Tipo Docto', 'Nro Docto', 'Documento Cruce'...
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Indices columnas - Tipo Docto: 1, Nro Docto: 2, Documento Cruce: 4
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas duplicadas eliminadas: 0
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas sin duplicados: 2750
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Preparando datos finales para SetVar. Total de filas: 2750
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: NÃºmero de registros preparados para SetVar: 2750
+03-11-2025 08:00:28 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+03-11-2025 08:00:28 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros leídos de gblItemsAProcesar: 2750
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 200
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 200
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Registros después de eliminar duplicados por clave (Tipo Docto, Nro Docto, Documento Cruce): 200
+03-11-2025 08:00:28 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes y sin duplicados.
+03-11-2025 08:00:28 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 499, 'Detalle': 'ANAC FACT FEVP8862 COMISION FIDUCIARIA D SOL LUISA+', 'Documento Cruce': 'PE-223', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:44', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:00:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:00:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:00:34 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+03-11-2025 08:00:34 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+03-11-2025 08:00:34 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+03-11-2025 08:00:34 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: ''
+03-11-2025 08:00:34 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:00:34 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:00:35 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+03-11-2025 08:00:35 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+03-11-2025 08:00:35 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+03-11-2025 08:00:44 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+03-11-2025 08:01:00 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+03-11-2025 08:01:01 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+03-11-2025 08:01:01 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 499, 'Detalle': 'ANAC FACT FEVP8862 COMISION FIDUCIARIA D SOL LUISA+', 'Documento Cruce': 'PE-223', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:44', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:01:01 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-223', 'PE223', 'PE 223']
+03-11-2025 08:01:17 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-223.
+03-11-2025 08:01:32 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE223.
+03-11-2025 08:01:44 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+03-11-2025 08:01:44 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_55585', 'id_h4': 'h4_descripcion_55585', 'texto': 'PE 223'}
+03-11-2025 08:01:44 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_55585
+03-11-2025 08:01:44 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+03-11-2025 08:01:50 | TRACE | Task: 014_BuscarDocumento | Desc: Se extrae el numero de proceso: 13980
+03-11-2025 08:01:50 | TRACE | Task: 014_BuscarDocumento | Desc: Se actualiza gblItemActual: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 499, 'Detalle': 'ANAC FACT FEVP8862 COMISION FIDUCIARIA D SOL LUISA+', 'Documento Cruce': 'PE-223', 'Nro de Proceso': '13980', 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:44', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:01:50 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 19995 bytes', 'extension': '.PDF', 'id': '55585', 'nombre': 'PE 223'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10917 bytes', 'extension': '.PDF', 'id': '34414', 'nombre': '$8.649.468,00'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 60849 bytes', 'extension': '.PDF', 'id': '34301', 'nombre': 'TIC Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 13941 bytes', 'extension': '.PDF', 'id': '32465', 'nombre': 'CA499'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 72937 bytes', 'extension': '.PDF', 'id': '29324', 'nombre': 'BBVA ASSET MANAGEMENT FACT 8862'}]
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 19995 bytes', 'extension': '.PDF', 'id': '55585', 'nombre': 'PE 223'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10917 bytes', 'extension': '.PDF', 'id': '34414', 'nombre': '$8.649.468,00'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 60849 bytes', 'extension': '.PDF', 'id': '34301', 'nombre': 'TIC Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 13941 bytes', 'extension': '.PDF', 'id': '32465', 'nombre': 'CA499'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 72937 bytes', 'extension': '.PDF', 'id': '29324', 'nombre': 'BBVA ASSET MANAGEMENT FACT 8862'}]
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 19995 bytes', 'extension': '.PDF', 'id': '55585', 'nombre': 'PE 223'}
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE 223' convertido a: 'PE 223'
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE 223', loc015IdDocumento='55585', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:01:50 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:01:50 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:01:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:01:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:01:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:02:04 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:02:09 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:02:09 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:02:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 499, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:02:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499
+03-11-2025 08:02:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:02:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:02:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/PE 223.pdf.
+03-11-2025 08:02:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/PE 223.pdf.
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10917 bytes', 'extension': '.PDF', 'id': '34414', 'nombre': '$8.649.468,00'}
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: '$8.649.468,00' convertido a: '$8.649.468,00'
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='$8.649.468,00', loc015IdDocumento='34414', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:02:10 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:02:10 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:02:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:02:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:02:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:02:24 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:02:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:02:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 499, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499
+03-11-2025 08:02:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:02:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:02:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/$8.649.468,00.pdf.
+03-11-2025 08:02:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/$8.649.468,00.pdf.
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 60849 bytes', 'extension': '.PDF', 'id': '34301', 'nombre': 'TIC Energi'}
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'TIC Energi' convertido a: 'TIC Energi'
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='TIC Energi', loc015IdDocumento='34301', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:02:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:02:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:02:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:02:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:02:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:02:43 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:02:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:02:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 499, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499
+03-11-2025 08:02:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:02:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:02:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/TIC Energi.pdf.
+03-11-2025 08:02:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/TIC Energi.pdf.
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 13941 bytes', 'extension': '.PDF', 'id': '32465', 'nombre': 'CA499'}
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'CA499' convertido a: 'CA499'
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='CA499', loc015IdDocumento='32465', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:02:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:02:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:02:54 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:02:54 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:02:54 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:03:02 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:03:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:03:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:03:07 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 499, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:03:07 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:03:07 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:03:07 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499
+03-11-2025 08:03:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:03:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:03:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/CA499.pdf.
+03-11-2025 08:03:08 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/CA499.pdf.
+03-11-2025 08:03:08 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 72937 bytes', 'extension': '.PDF', 'id': '29324', 'nombre': 'BBVA ASSET MANAGEMENT FACT 8862'}
+03-11-2025 08:03:08 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:03:08 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'BBVA ASSET MANAGEMENT FACT 8862' convertido a: 'BBVA ASSET MANAGEMENT FACT 8862'
+03-11-2025 08:03:08 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='BBVA ASSET MANAGEMENT FACT 8862', loc015IdDocumento='29324', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:03:08 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:03:08 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:03:08 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:03:08 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:03:13 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:03:13 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:03:13 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:03:21 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:03:26 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:03:26 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:03:26 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 499, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:03:26 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:03:27 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-499
+03-11-2025 08:03:27 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499
+03-11-2025 08:03:27 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:03:27 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:03:27 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/BBVA ASSET MANAGEMENT FACT 8862.pdf.
+03-11-2025 08:03:27 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-499/BBVA ASSET MANAGEMENT FACT 8862.pdf.
+03-11-2025 08:03:28 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+03-11-2025 08:03:31 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+03-11-2025 08:03:31 | TRACE | Task: 019_ProcesarFlujo1 | Desc: Se cambia el estado del item actual: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 499, 'Detalle': 'ANAC FACT FEVP8862 COMISION FIDUCIARIA D SOL LUISA+', 'Documento Cruce': 'PE-223', 'Nro de Proceso': '13980', 'Doc Alt': None, 'Estado Procesamiento': 'Procesado', 'Fecha Procesamiento': '03-11-2025 07:00:44', 'Observaciones': ''} a PROCESADO.
+03-11-2025 08:03:31 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [465]
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_499_PE-223
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [465]
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 465):
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 499
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC FACT FEVP8862 COMISION FIDUCIARIA D SOL LUISA+
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-223
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:00:44
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 465...
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 499
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC FACT FEVP8862 COMISION FIDUCIARIA D SOL LUISA+
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-223
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: 13980
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:00:44
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: 
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 465 actualizada exitosamente
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 08:03:32
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 08:03:32 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+03-11-2025 08:03:32 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 807, 'Detalle': 'LCASTRI.FEVP20562 COMISION FIDUCIARIA DE OL LUISA RESTREPO', 'Documento Cruce': 'PC-129', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:52', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:03:32 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:03:32 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:03:35 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+03-11-2025 08:03:35 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+03-11-2025 08:03:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+03-11-2025 08:03:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:03:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:03:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:03:35 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+03-11-2025 08:03:35 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+03-11-2025 08:03:35 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+03-11-2025 08:03:55 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+03-11-2025 08:03:55 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+03-11-2025 08:03:55 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+03-11-2025 08:03:59 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+03-11-2025 08:04:14 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+03-11-2025 08:04:16 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+03-11-2025 08:04:16 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 807, 'Detalle': 'LCASTRI.FEVP20562 COMISION FIDUCIARIA DE OL LUISA RESTREPO', 'Documento Cruce': 'PC-129', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:52', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:04:16 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PC-129', 'PC129', 'PC 129']
+03-11-2025 08:04:31 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PC-129.
+03-11-2025 08:04:47 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PC129.
+03-11-2025 08:05:03 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PC 129.
+03-11-2025 08:05:03 | WARNING | Task: 014_BuscarDocumento | Desc: La bÃºsqueda no fue exitosa.
+03-11-2025 08:05:03 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+03-11-2025 08:05:06 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [487]
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_807_PC-129
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [487]
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 487):
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 807
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: LCASTRI.FEVP20562 COMISION FIDUCIARIA DE OL LUISA RESTREPO
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PC-129
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:00:52
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 487...
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 807
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: LCASTRI.FEVP20562 COMISION FIDUCIARIA DE OL LUISA RESTREPO
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PC-129
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: No descargado
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:00:52
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.
+03-11-2025 08:05:06 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 487 actualizada exitosamente
+03-11-2025 08:05:07 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:05:07 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 08:05:06
+03-11-2025 08:05:07 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 08:05:07 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 08:05:07 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 08:05:07 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+03-11-2025 08:05:07 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 924, 'Detalle': 'DC FEVP-25693  COMISION FIDUCIARIA MES D SOL LUISA RESTREPO', 'Documento Cruce': 'PC-134', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:59', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:05:07 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:05:07 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:05:09 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+03-11-2025 08:05:09 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+03-11-2025 08:05:09 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+03-11-2025 08:05:09 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:05:09 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:05:09 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:05:09 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+03-11-2025 08:05:09 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+03-11-2025 08:05:09 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+03-11-2025 08:05:30 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+03-11-2025 08:05:30 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+03-11-2025 08:05:30 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+03-11-2025 08:05:33 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+03-11-2025 08:05:49 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+03-11-2025 08:05:50 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+03-11-2025 08:05:50 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 924, 'Detalle': 'DC FEVP-25693  COMISION FIDUCIARIA MES D SOL LUISA RESTREPO', 'Documento Cruce': 'PC-134', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:59', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:05:50 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PC-134', 'PC134', 'PC 134']
+03-11-2025 08:06:06 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PC-134.
+03-11-2025 08:06:21 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PC134.
+03-11-2025 08:06:37 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PC 134.
+03-11-2025 08:06:37 | WARNING | Task: 014_BuscarDocumento | Desc: La bÃºsqueda no fue exitosa.
+03-11-2025 08:06:37 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+03-11-2025 08:06:40 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+03-11-2025 08:06:40 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [495]
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_924_PC-134
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [495]
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 495):
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 924
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: DC FEVP-25693  COMISION FIDUCIARIA MES D SOL LUISA RESTREPO
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PC-134
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:00:59
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 495...
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 924
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: DC FEVP-25693  COMISION FIDUCIARIA MES D SOL LUISA RESTREPO
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PC-134
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: No descargado
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:00:59
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 495 actualizada exitosamente
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 08:06:41
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 08:06:41 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+03-11-2025 08:06:41 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'GB', 'Nro Docto': 7, 'Detalle': 'ECANOLA GMF GTOS FROS ENERO 2021', 'Documento Cruce': 'NI-115', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:07', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:06:41 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:06:41 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:06:44 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+03-11-2025 08:06:44 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+03-11-2025 08:06:44 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+03-11-2025 08:06:44 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:06:44 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:06:44 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:06:44 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+03-11-2025 08:06:44 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+03-11-2025 08:06:44 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+03-11-2025 08:07:04 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+03-11-2025 08:07:04 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+03-11-2025 08:07:04 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+03-11-2025 08:07:08 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+03-11-2025 08:07:23 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+03-11-2025 08:07:24 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+03-11-2025 08:07:25 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'GB', 'Nro Docto': 7, 'Detalle': 'ECANOLA GMF GTOS FROS ENERO 2021', 'Documento Cruce': 'NI-115', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:07', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:07:25 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['NI-115', 'NI115', 'NI 115']
+03-11-2025 08:07:40 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: NI-115.
+03-11-2025 08:07:56 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: NI115.
+03-11-2025 08:08:12 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: NI 115.
+03-11-2025 08:08:12 | WARNING | Task: 014_BuscarDocumento | Desc: La bÃºsqueda no fue exitosa.
+03-11-2025 08:08:12 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+03-11-2025 08:08:15 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+03-11-2025 08:08:15 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [503]
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: GB_7_NI-115
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [503]
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 503):
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: GB
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 7
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ECANOLA GMF GTOS FROS ENERO 2021
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: NI-115
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:01:07
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 503...
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: GB
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 7
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ECANOLA GMF GTOS FROS ENERO 2021
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: NI-115
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: No descargado
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:01:07
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 503 actualizada exitosamente
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 08:08:16
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 08:08:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+03-11-2025 08:08:16 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 734, 'Detalle': 'LBLANCO FACT FEVP-15778 LIQ INTERESES DE RESTREPO', 'Documento Cruce': 'CR-151', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:15', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:08:16 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:08:16 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:08:18 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+03-11-2025 08:08:18 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+03-11-2025 08:08:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+03-11-2025 08:08:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:08:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:08:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:08:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+03-11-2025 08:08:19 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+03-11-2025 08:08:19 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+03-11-2025 08:08:39 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+03-11-2025 08:08:39 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+03-11-2025 08:08:39 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+03-11-2025 08:08:43 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+03-11-2025 08:08:58 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+03-11-2025 08:08:59 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+03-11-2025 08:08:59 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 734, 'Detalle': 'LBLANCO FACT FEVP-15778 LIQ INTERESES DE RESTREPO', 'Documento Cruce': 'CR-151', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:15', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:08:59 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['CR-151', 'CR151', 'CR 151']
+03-11-2025 08:09:15 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: CR-151.
+03-11-2025 08:09:31 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: CR151.
+03-11-2025 08:09:46 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: CR 151.
+03-11-2025 08:09:46 | WARNING | Task: 014_BuscarDocumento | Desc: La bÃºsqueda no fue exitosa.
+03-11-2025 08:09:46 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+03-11-2025 08:09:51 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+03-11-2025 08:09:51 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [523]
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_734_CR-151
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [523]
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 523):
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 734
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: LBLANCO FACT FEVP-15778 LIQ INTERESES DE RESTREPO
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: CR-151
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:01:15
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 523...
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 734
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: LBLANCO FACT FEVP-15778 LIQ INTERESES DE RESTREPO
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: CR-151
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: No descargado
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:01:15
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 523 actualizada exitosamente
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 08:09:52
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 08:09:52 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+03-11-2025 08:09:52 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 453, 'Detalle': 'ANAC FACT30623429 SERV ENERGIA 30/04 A   21/05 LA UNION SOL LUISA', 'Documento Cruce': 'PE-201', 'Nro de Proceso': '12949', 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:22', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:09:52 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:09:52 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:09:55 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+03-11-2025 08:09:55 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+03-11-2025 08:09:55 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+03-11-2025 08:09:55 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:09:55 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:09:55 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:09:55 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+03-11-2025 08:09:55 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+03-11-2025 08:09:55 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+03-11-2025 08:10:15 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+03-11-2025 08:10:15 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+03-11-2025 08:10:15 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+03-11-2025 08:10:19 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+03-11-2025 08:10:34 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+03-11-2025 08:10:36 | INFO | Task: 013_NavegarABuscarDocumentos | Desc: Se navego correctamente a Administrar procesos
+03-11-2025 08:10:36 | INFO | Task: 014_BuscarDocumento | Desc: itemActual obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 453, 'Detalle': 'ANAC FACT30623429 SERV ENERGIA 30/04 A   21/05 LA UNION SOL LUISA', 'Documento Cruce': 'PE-201', 'Nro de Proceso': '12949', 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:22', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:10:36 | INFO | Task: 014_BuscarDocumento | Desc: Lista de formatos alternativos para documento_cruce: ['PE-201', 'PE201', 'PE 201']
+03-11-2025 08:10:52 | TRACE | Task: 014_BuscarDocumento | Desc: No se pudo encontrar el resultado de la busqueda para: PE-201.
+03-11-2025 08:11:03 | INFO | Task: 014_BuscarDocumento | Desc: Cantidad de elementos obtenidos en loc014ResultadoBusqueda: 1
+03-11-2025 08:11:03 | INFO | Task: 014_BuscarDocumento | Desc: Elemento seleccionado para clickar (último de la lista): {'id_descripcion': 'descripcion_35382', 'id_h4': 'h4_descripcion_35382', 'texto': 'PE201'}
+03-11-2025 08:11:03 | INFO | Task: 014_BuscarDocumento | Desc: id_descripcion del elemento seleccionado: descripcion_35382
+03-11-2025 08:11:03 | INFO | Task: 014_BuscarDocumento | Desc: Variable 'loc014ElementoAClickar' actualizada correctamente.
+03-11-2025 08:11:09 | TRACE | Task: 014_BuscarDocumento | Desc: Se extrae el numero de proceso: 12949
+03-11-2025 08:11:09 | TRACE | Task: 014_BuscarDocumento | Desc: Se actualiza gblItemActual: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 453, 'Detalle': 'ANAC FACT30623429 SERV ENERGIA 30/04 A   21/05 LA UNION SOL LUISA', 'Documento Cruce': 'PE-201', 'Nro de Proceso': '12949', 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:22', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:11:09 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16829 bytes', 'extension': '.PDF', 'id': '35382', 'nombre': 'PE201'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11249 bytes', 'extension': '.PDF', 'id': '35381', 'nombre': '5.921.310'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10937 bytes', 'extension': '.PDF', 'id': '27259', 'nombre': 'PgoCedenar'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61889 bytes', 'extension': '.PDF', 'id': '26415', 'nombre': 'RELACION FACTURA Y CA'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 529801 bytes', 'extension': '.PDF', 'id': '26410', 'nombre': '43 CA'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 60409 bytes', 'extension': '.PDF', 'id': '24084', 'nombre': 'TIC Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 13870 bytes', 'extension': '.XLSX', 'id': '24079', 'nombre': 'CEDENAR'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211953 bytes', 'extension': '.PDF', 'id': '23774', 'nombre': 'CEDENAR 44'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 212701 bytes', 'extension': '.PDF', 'id': '23775', 'nombre': 'CEDENAR 45'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210368 bytes', 'extension': '.PDF', 'id': '23763', 'nombre': 'CEDENAR 33'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210448 bytes', 'extension': '.PDF', 'id': '23764', 'nombre': 'CEDENAR 34'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 212736 bytes', 'extension': '.PDF', 'id': '23765', 'nombre': 'CEDENAR 35'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211906 bytes', 'extension': '.PDF', 'id': '23766', 'nombre': 'CEDENAR 36'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211877 bytes', 'extension': '.PDF', 'id': '23767', 'nombre': 'CEDENAR 37'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211848 bytes', 'extension': '.PDF', 'id': '23768', 'nombre': 'CEDENAR 38'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211911 bytes', 'extension': '.PDF', 'id': '23769', 'nombre': 'CEDENAR 39'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211874 bytes', 'extension': '.PDF', 'id': '23770', 'nombre': 'CEDENAR 40'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211816 bytes', 'extension': '.PDF', 'id': '23771', 'nombre': 'CEDENAR 41'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211292 bytes', 'extension': '.PDF', 'id': '23772', 'nombre': 'CEDENAR 42'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211882 bytes', 'extension': '.PDF', 'id': '23773', 'nombre': 'CEDENAR 43'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211267 bytes', 'extension': '.PDF', 'id': '23753', 'nombre': 'CEDENAR 23'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210435 bytes', 'extension': '.PDF', 'id': '23754', 'nombre': 'CEDENAR 24'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211848 bytes', 'extension': '.PDF', 'id': '23755', 'nombre': 'CEDENAR 25'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 209493 bytes', 'extension': '.PDF', 'id': '23756', 'nombre': 'CEDENAR 26'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211914 bytes', 'extension': '.PDF', 'id': '23757', 'nombre': 'CEDENAR 27'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210440 bytes', 'extension': '.PDF', 'id': '23758', 'nombre': 'CEDENAR 28'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210284 bytes', 'extension': '.PDF', 'id': '23759', 'nombre': 'CEDENAR 29'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211057 bytes', 'extension': '.PDF', 'id': '23760', 'nombre': 'CEDENAR 30'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211220 bytes', 'extension': '.PDF', 'id': '23761', 'nombre': 'CEDENAR 31'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211127 bytes', 'extension': '.PDF', 'id': '23762', 'nombre': 'CEDENAR 32'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211835 bytes', 'extension': '.PDF', 'id': '23749', 'nombre': 'CEDENAR 19'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 212418 bytes', 'extension': '.PDF', 'id': '23750', 'nombre': 'CEDENAR 20'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211969 bytes', 'extension': '.PDF', 'id': '23751', 'nombre': 'CEDENAR 21'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211826 bytes', 'extension': '.PDF', 'id': '23752', 'nombre': 'CEDENAR 22'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211987 bytes', 'extension': '.PDF', 'id': '23742', 'nombre': 'CEDENAR 12'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210971 bytes', 'extension': '.PDF', 'id': '23743', 'nombre': 'CEDENAR 13'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211958 bytes', 'extension': '.PDF', 'id': '23744', 'nombre': 'CEDENAR 14'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211141 bytes', 'extension': '.PDF', 'id': '23745', 'nombre': 'CEDENAR 15'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210457 bytes', 'extension': '.PDF', 'id': '23746', 'nombre': 'CEDENAR 16'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211923 bytes', 'extension': '.PDF', 'id': '23747', 'nombre': 'CEDENAR 17'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 212013 bytes', 'extension': '.PDF', 'id': '23748', 'nombre': 'CEDENAR 18'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211496 bytes', 'extension': '.PDF', 'id': '23731', 'nombre': 'CEDENAR 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210849 bytes', 'extension': '.PDF', 'id': '23732', 'nombre': 'CEDENAR 2'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 209192 bytes', 'extension': '.PDF', 'id': '23733', 'nombre': 'CEDENAR 3'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 209202 bytes', 'extension': '.PDF', 'id': '23734', 'nombre': 'CEDENAR 4'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211503 bytes', 'extension': '.PDF', 'id': '23735', 'nombre': 'CEDENAR 5'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 211461 bytes', 'extension': '.PDF', 'id': '23736', 'nombre': 'CEDENAR 6'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 208182 bytes', 'extension': '.PDF', 'id': '23737', 'nombre': 'CEDENAR 7'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 209610 bytes', 'extension': '.PDF', 'id': '23738', 'nombre': 'CEDENAR 8'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 209579 bytes', 'extension': '.PDF', 'id': '23739', 'nombre': 'CEDENAR 9'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 210435 bytes', 'extension': '.PDF', 'id': '23740', 'nombre': 'CEDENAR 10'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 212100 bytes', 'extension': '.PDF', 'id': '23741', 'nombre': 'CEDENAR 11'}]
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Resultado recibido: [{'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16829 bytes', 'extension': '.PDF', 'id': '35382', 'nombre': 'PE201'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11249 bytes', 'extension': '.PDF', 'id': '35381', 'nombre': '5.921.310'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10937 bytes', 'extension': '.PDF', 'id': '27259', 'nombre': 'PgoCedenar'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61889 bytes', 'extension': '.PDF', 'id': '26415', 'nombre': 'RELACION FACTURA Y CA'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 529801 bytes', 'extension': '.PDF', 'id': '26410', 'nombre': '43 CA'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 60409 bytes', 'extension': '.PDF', 'id': '24084', 'nombre': 'TIC Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 13870 bytes', 'extension': '.XLSX', 'id': '24079', 'nombre': 'CEDENAR'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211953 bytes', 'extension': '.PDF', 'id': '23774', 'nombre': 'CEDENAR 44'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 212701 bytes', 'extension': '.PDF', 'id': '23775', 'nombre': 'CEDENAR 45'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210368 bytes', 'extension': '.PDF', 'id': '23763', 'nombre': 'CEDENAR 33'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210448 bytes', 'extension': '.PDF', 'id': '23764', 'nombre': 'CEDENAR 34'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 212736 bytes', 'extension': '.PDF', 'id': '23765', 'nombre': 'CEDENAR 35'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211906 bytes', 'extension': '.PDF', 'id': '23766', 'nombre': 'CEDENAR 36'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211877 bytes', 'extension': '.PDF', 'id': '23767', 'nombre': 'CEDENAR 37'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211848 bytes', 'extension': '.PDF', 'id': '23768', 'nombre': 'CEDENAR 38'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211911 bytes', 'extension': '.PDF', 'id': '23769', 'nombre': 'CEDENAR 39'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211874 bytes', 'extension': '.PDF', 'id': '23770', 'nombre': 'CEDENAR 40'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211816 bytes', 'extension': '.PDF', 'id': '23771', 'nombre': 'CEDENAR 41'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211292 bytes', 'extension': '.PDF', 'id': '23772', 'nombre': 'CEDENAR 42'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211882 bytes', 'extension': '.PDF', 'id': '23773', 'nombre': 'CEDENAR 43'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211267 bytes', 'extension': '.PDF', 'id': '23753', 'nombre': 'CEDENAR 23'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210435 bytes', 'extension': '.PDF', 'id': '23754', 'nombre': 'CEDENAR 24'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211848 bytes', 'extension': '.PDF', 'id': '23755', 'nombre': 'CEDENAR 25'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 209493 bytes', 'extension': '.PDF', 'id': '23756', 'nombre': 'CEDENAR 26'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211914 bytes', 'extension': '.PDF', 'id': '23757', 'nombre': 'CEDENAR 27'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210440 bytes', 'extension': '.PDF', 'id': '23758', 'nombre': 'CEDENAR 28'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210284 bytes', 'extension': '.PDF', 'id': '23759', 'nombre': 'CEDENAR 29'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211057 bytes', 'extension': '.PDF', 'id': '23760', 'nombre': 'CEDENAR 30'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211220 bytes', 'extension': '.PDF', 'id': '23761', 'nombre': 'CEDENAR 31'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211127 bytes', 'extension': '.PDF', 'id': '23762', 'nombre': 'CEDENAR 32'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211835 bytes', 'extension': '.PDF', 'id': '23749', 'nombre': 'CEDENAR 19'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 212418 bytes', 'extension': '.PDF', 'id': '23750', 'nombre': 'CEDENAR 20'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211969 bytes', 'extension': '.PDF', 'id': '23751', 'nombre': 'CEDENAR 21'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211826 bytes', 'extension': '.PDF', 'id': '23752', 'nombre': 'CEDENAR 22'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211987 bytes', 'extension': '.PDF', 'id': '23742', 'nombre': 'CEDENAR 12'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210971 bytes', 'extension': '.PDF', 'id': '23743', 'nombre': 'CEDENAR 13'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211958 bytes', 'extension': '.PDF', 'id': '23744', 'nombre': 'CEDENAR 14'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211141 bytes', 'extension': '.PDF', 'id': '23745', 'nombre': 'CEDENAR 15'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210457 bytes', 'extension': '.PDF', 'id': '23746', 'nombre': 'CEDENAR 16'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211923 bytes', 'extension': '.PDF', 'id': '23747', 'nombre': 'CEDENAR 17'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 212013 bytes', 'extension': '.PDF', 'id': '23748', 'nombre': 'CEDENAR 18'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211496 bytes', 'extension': '.PDF', 'id': '23731', 'nombre': 'CEDENAR 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210849 bytes', 'extension': '.PDF', 'id': '23732', 'nombre': 'CEDENAR 2'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 209192 bytes', 'extension': '.PDF', 'id': '23733', 'nombre': 'CEDENAR 3'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 209202 bytes', 'extension': '.PDF', 'id': '23734', 'nombre': 'CEDENAR 4'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211503 bytes', 'extension': '.PDF', 'id': '23735', 'nombre': 'CEDENAR 5'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 211461 bytes', 'extension': '.PDF', 'id': '23736', 'nombre': 'CEDENAR 6'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 208182 bytes', 'extension': '.PDF', 'id': '23737', 'nombre': 'CEDENAR 7'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 209610 bytes', 'extension': '.PDF', 'id': '23738', 'nombre': 'CEDENAR 8'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 209579 bytes', 'extension': '.PDF', 'id': '23739', 'nombre': 'CEDENAR 9'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 210435 bytes', 'extension': '.PDF', 'id': '23740', 'nombre': 'CEDENAR 10'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 212100 bytes', 'extension': '.PDF', 'id': '23741', 'nombre': 'CEDENAR 11'}]
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Se detectó que hay resultado (hay_resultado=True).
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variable 'loc015CheckResultado' seteada a: True
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16829 bytes', 'extension': '.PDF', 'id': '35382', 'nombre': 'PE201'}
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PE201' convertido a: 'PE201'
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PE201', loc015IdDocumento='35382', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:11:09 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:11:09 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:11:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:11:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:11:15 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:11:23 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:11:28 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:11:28 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:11:28 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 453, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:11:28 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:11:28 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:11:28 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453
+03-11-2025 08:11:28 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:11:28 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:11:28 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/PE201.pdf.
+03-11-2025 08:11:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/PE201.pdf.
+03-11-2025 08:11:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11249 bytes', 'extension': '.PDF', 'id': '35381', 'nombre': '5.921.310'}
+03-11-2025 08:11:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:11:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: '5.921.310' convertido a: '5.921.310'
+03-11-2025 08:11:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='5.921.310', loc015IdDocumento='35381', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:11:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:11:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:11:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:11:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:11:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:11:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:11:34 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:11:42 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:11:47 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:11:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 453, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453
+03-11-2025 08:11:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:11:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:11:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/5.921.310.pdf.
+03-11-2025 08:11:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/5.921.310.pdf.
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10937 bytes', 'extension': '.PDF', 'id': '27259', 'nombre': 'PgoCedenar'}
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'PgoCedenar' convertido a: 'PgoCedenar'
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='PgoCedenar', loc015IdDocumento='27259', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:11:48 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:11:48 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:11:54 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:11:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:11:55 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:12:05 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:12:11 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:12:11 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:12:11 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 453, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:12:11 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:12:11 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:12:11 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453
+03-11-2025 08:12:11 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:12:11 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:12:11 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/PgoCedenar.pdf.
+03-11-2025 08:12:12 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/PgoCedenar.pdf.
+03-11-2025 08:12:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61889 bytes', 'extension': '.PDF', 'id': '26415', 'nombre': 'RELACION FACTURA Y CA'}
+03-11-2025 08:12:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:12:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'RELACION FACTURA Y CA' convertido a: 'RELACION FACTURA Y CA'
+03-11-2025 08:12:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='RELACION FACTURA Y CA', loc015IdDocumento='26415', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:12:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:12:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:12:12 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:12:12 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:12:17 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:12:17 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:12:17 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:12:25 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:12:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:12:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 453, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453
+03-11-2025 08:12:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:12:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:12:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/RELACION FACTURA Y CA.pdf.
+03-11-2025 08:12:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/RELACION FACTURA Y CA.pdf.
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 529801 bytes', 'extension': '.PDF', 'id': '26410', 'nombre': '43 CA'}
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: '43 CA' convertido a: '43 CA'
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='43 CA', loc015IdDocumento='26410', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:12:32 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:12:32 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:12:38 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:12:38 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:12:38 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:12:51 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:12:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:12:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:12:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 453, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:12:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:12:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:12:56 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453
+03-11-2025 08:12:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:12:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:12:56 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/43 CA.pdf.
+03-11-2025 08:13:02 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/43 CA.pdf.
+03-11-2025 08:13:02 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 60409 bytes', 'extension': '.PDF', 'id': '24084', 'nombre': 'TIC Energi'}
+03-11-2025 08:13:02 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.PDF' es válida (extension_valida=True).
+03-11-2025 08:13:02 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'TIC Energi' convertido a: 'TIC Energi'
+03-11-2025 08:13:02 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='TIC Energi', loc015IdDocumento='24084', loc015Extension='.PDF', loc015ExtensionValida=True
+03-11-2025 08:13:02 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:13:02 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:13:02 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:13:02 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:13:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : []
+03-11-2025 08:13:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la ultima pestania.
+03-11-2025 08:13:07 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia al iFrame.
+03-11-2025 08:13:18 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se hace click en boton download.
+03-11-2025 08:13:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cierra la ultima pestania.
+03-11-2025 08:13:29 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se cambia a la pestania Resumen Proceso
+03-11-2025 08:13:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 453, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:13:29 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453
+03-11-2025 08:13:30 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:13:30 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf.
+03-11-2025 08:13:30 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/TIC Energi.pdf.
+03-11-2025 08:13:30 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se movio correctamente el archivo de C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/document.pdf a //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/TIC Energi.pdf.
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Documento recibido: {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 13870 bytes', 'extension': '.XLSX', 'id': '24079', 'nombre': 'CEDENAR'}
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Extensión '.XLSX' es válida (extension_valida=True).
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Nombre original: 'CEDENAR' convertido a: 'CEDENAR'
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Variables seteadas: loc015NombreDocumento='CEDENAR', loc015IdDocumento='24079', loc015Extension='.XLSX', loc015ExtensionValida=True
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Comienza el proceso de borrado de carpeta.
+03-11-2025 08:13:30 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Finaliza el proceso de borrado de carpetas.
+03-11-2025 08:13:30 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se borra contenido de carpeta de descargas.
+03-11-2025 08:13:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Filtro el .gitkeep : ['c404d8fa-325c-4431-a2d0-ee81972fdb28.tmp']
+03-11-2025 08:13:35 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Iniciando creación de carpeta principal con tipo: CA, num: 453, base: //10.238.99.5/temporales/ROCKETBOT/Compartida
+03-11-2025 08:13:35 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Intentando crear carpeta principal: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:13:35 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Carpeta principal creada o ya existente: //10.238.99.5/temporales/ROCKETBOT/Compartida\CA-453
+03-11-2025 08:13:35 | INFO | Task: 015_DescargarArchivosDeWorkflow | Desc: Proceso de creación de carpeta principal finalizado. Carpeta: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453
+03-11-2025 08:13:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crearon las carpetas correctamente.
+03-11-2025 08:13:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/c404d8fa-325c-4431-a2d0-ee81972fdb28.tmp.
+03-11-2025 08:13:35 | TRACE | Task: 015_DescargarArchivosDeWorkflow | Desc: Se crea la ruta del archivo desino: //10.238.99.5/temporales/ROCKETBOT/Compartida/CA-453/CEDENAR.xlsx.
+03-11-2025 08:14:01 | ERROR | Task: 015_DescargarArchivosDeWorkflow | Desc: OcurriÃ³ un error al descargar archivos del workflow. | Error: [Errno 2] No such file or directory: 'C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas/c404d8fa-325c-4431-a2d0-ee81972fdb28.tmp'
+03-11-2025 08:14:01 | WARNING | Task: 019_ProcesarFlujo1 | Desc: Ocurrio un error al descargar los archivos.
+03-11-2025 08:14:01 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al procesar el flujo: 1.
+03-11-2025 08:14:01 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+03-11-2025 08:14:26 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+03-11-2025 08:14:26 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [529]
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_453_PE-201
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [529]
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 529):
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 453
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC FACT30623429 SERV ENERGIA 30/04 A   21/05 LA UNION SOL LUISA
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-201
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: 12949
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:01:22
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 529...
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 453
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC FACT30623429 SERV ENERGIA 30/04 A   21/05 LA UNION SOL LUISA
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-201
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: 12949
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Pendiente
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:01:22
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: Ocurrio un error al descargar documentos de Workmanager. Revisar archivo de logs.
+03-11-2025 08:14:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 529 actualizada exitosamente
+03-11-2025 08:14:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:14:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 08:14:27
+03-11-2025 08:14:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 08:14:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 08:14:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 08:14:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+03-11-2025 08:14:28 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 454, 'Detalle': 'ANAC FACT30623422 SERV ENERGIA 30/04 A   31/05 LEIVA SOL LUISA', 'Documento Cruce': 'PE-201', 'Nro de Proceso': '12949', 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:29', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:14:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:14:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:15:54 | ERROR | Task: 007_AbrirWorkManager | Desc: Ocurrio un error al abrir WorkManager. | Error: Message: timeout: Timed out receiving message from renderer: 1.067  (Session info: chrome=142.0.7444.59)Stacktrace:GetHandleVerifier [0x0x10afe43+66515]GetHandleVerifier [0x0x10afe84+66580](No symbol) [0x0xe9dc48](No symbol) [0x0xe8e1bc](No symbol) [0x0xe8deef](No symbol) [0x0xe8be60](No symbol) [0x0xe8c937](No symbol) [0x0xe9963e](No symbol) [0x0xeab195](No symbol) [0x0xeb0d26](No symbol) [0x0xe8cfb6](No symbol) [0x0xeaaee2](No symbol) [0x0xf2cedf](No symbol) [0x0xf0afc6](No symbol) [0x0xedc2ca](No symbol) [0x0xedd154]GetHandleVerifier [0x0x1307353+2521315]GetHandleVerifier [0x0x13022d3+2500707]GetHandleVerifier [0x0x10d7c94+229924]GetHandleVerifier [0x0x10c81f8+165768]GetHandleVerifier [0x0x10cecad+193085]GetHandleVerifier [0x0x10b8158+100072]GetHandleVerifier [0x0x10b82f0+100480]GetHandleVerifier [0x0x10a25aa+11066]BaseThreadInitThunk [0x0x778f62c4+36]RtlSubscribeWnfStateChangeNotification [0x0x77a20969+1081]RtlSubscribeWnfStateChangeNotification [0x0x77a20934+1028]
+03-11-2025 08:15:54 | WARNING | Task: 019_ProcesarFlujo1 | Desc: Ocurrio un error al abrir Workmanager.
+03-11-2025 08:15:54 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al procesar el flujo: 1.
+03-11-2025 08:15:54 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+03-11-2025 08:16:21 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+03-11-2025 08:16:21 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [530]
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_454_PE-201
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [530]
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 530):
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 454
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC FACT30623422 SERV ENERGIA 30/04 A   31/05 LEIVA SOL LUISA
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-201
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: 12949
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:01:29
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 530...
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 454
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC FACT30623422 SERV ENERGIA 30/04 A   31/05 LEIVA SOL LUISA
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-201
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: 12949
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Pendiente
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:01:29
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 08:16:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 530 actualizada exitosamente
+03-11-2025 08:16:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 08:16:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 08:16:22
+03-11-2025 08:16:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 08:16:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 08:16:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 08:16:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+03-11-2025 08:16:23 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 455, 'Detalle': 'ANAC FACT30701912 SERV ENERGIA 22/04 A   21/05 CHACHAGUI SOL LUISA', 'Documento Cruce': 'PE-201', 'Nro de Proceso': '12949', 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:01:37', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 08:16:23 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 08:16:23 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+03-11-2025 08:16:34 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+03-11-2025 08:16:35 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Restore pages?'
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Menu - WorkManager E.D.® - Google Chrome'
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'C:\WINDOWS\SYSTEM32\cmd.exe'
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Task Scheduler'
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: ''
+03-11-2025 08:16:36 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Ventana encontrada: 'Program Manager'
+03-11-2025 08:16:36 | WARNING | Task: 020_ActualizarArchivoDeSeguimiento | Desc: No se encontró ninguna ventana con: Iniciar sesión - Workmanager
+03-11-2025 08:16:36 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+03-11-2025 08:16:36 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+03-11-2025 08:16:52 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el input para el USERNAME
+03-11-2025 08:16:52 | WARNING | Task: 019_ProcesarFlujo1 | Desc: Ocurrio un error al iniciar sesion Workmanager.
+03-11-2025 08:16:52 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: FALLO LOGIN WORKMANAGER
+03-11-2025 08:16:53 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [ERROR] | Fallo al realizar Login en workmanager | Recupercion de Soportes | 03112025-080006 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+03-11-2025 08:16:55 | TRACE | Task: 002_NotificacionCorreo | Desc: NotificaciÃ³n enviada.
+03-11-2025 08:16:55 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: FIN
+03-11-2025 08:16:55 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [FIN] | Finaliza ejecuciÃ³n | Recupercion de Soportes | 03112025-080006 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+03-11-2025 08:16:56 | TRACE | Task: 002_NotificacionCorreo | Desc: NotificaciÃ³n enviada.

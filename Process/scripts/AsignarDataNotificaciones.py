@@ -20,7 +20,7 @@ adjunto = ''
 cuerpo = cuerpo.replace("\n","<br>")
 
 # Reemplazar parametros generales o de uso frecuente
-asunto = asunto.replace("NombreProceso",nombreProceso).replace("[Fecha]",fechaProceso)
+asunto = asunto.replace("[NombreProceso]",nombreProceso).replace("[Fecha]",fechaProceso)
 cuerpo = cuerpo.replace("[Mensaje]","""{gblMensajeError}""")
 
 # Reemplazar parametros especificos de cada tipo de notificacion
@@ -29,6 +29,7 @@ if tipoNotificacion == "FALLA-RESOLUCION":
 
 elif tipoNotificacion == "FALLO EN TRATAMIENTO DE ITEM":
   cuerpo = cuerpo.replace("[NroDoc]","{gblNroDoc}").replace("[TipoDoc]","{gblTipoDoc}")
+  asunto = asunto.replace("[NroDoc]","{gblNroDoc}").replace("[TipoDoc]","{gblTipoDoc}")
 
 elif tipoNotificacion == "FIN":
   adjunto = "{gblRutaLogs}"

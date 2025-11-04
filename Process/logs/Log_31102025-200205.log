@@ -1,0 +1,6 @@
+31-10-2025 20:02:05 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+31-10-2025 20:02:05 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+31-10-2025 20:02:05 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+31-10-2025 20:02:05 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+31-10-2025 20:02:05 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+31-10-2025 20:02:05 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.

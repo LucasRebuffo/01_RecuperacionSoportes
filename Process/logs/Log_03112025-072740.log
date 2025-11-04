@@ -1,0 +1,108 @@
+03-11-2025 07:27:40 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+03-11-2025 07:27:40 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+03-11-2025 07:27:42 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+03-11-2025 07:27:42 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+03-11-2025 07:27:42 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+03-11-2025 07:27:42 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+03-11-2025 07:27:47 | TRACE | Task: 002_NotificacionCorreo | Desc: Conexi贸n exitosa con el servidor de correos. Tipo de notificaci贸n: INICIO
+03-11-2025 07:27:47 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecuci贸n | [Recupercion de Soportes] | 03112025-072740 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+03-11-2025 07:27:48 | TRACE | Task: 002_NotificacionCorreo | Desc: Notificaci贸n enviada.
+03-11-2025 07:27:48 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+03-11-2025 07:27:50 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+03-11-2025 07:27:50 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce: de 31,048 a 3,579 filas.
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (3579, 7)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 3,579
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 1 valores unicos
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 10 valores unicos
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 1,925 valores unicos
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 1,504 valores unicos
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+03-11-2025 07:28:09 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                   detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         DS       265  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+1  Ticenergi         DS       407  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-195                                Pendiente
+2  Ticenergi         DS       266  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+3  Ticenergi         DS       126  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-162                                Pendiente
+4  Ticenergi         DS       333  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-203                                Pendiente
+03-11-2025 07:28:09 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Extracci贸n exitosa.
+03-11-2025 07:28:10 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+03-11-2025 07:28:11 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo le铆do exitosamente: 2750 filas de datos
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 2750 filas
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 3579 filas
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 0
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: No hay filas nuevas por agregar.
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 2750
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Eliminando duplicados basados en 'Tipo Docto', 'Nro Docto', 'Documento Cruce'...
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Indices columnas - Tipo Docto: 1, Nro Docto: 2, Documento Cruce: 4
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas duplicadas eliminadas: 0
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas sin duplicados: 2750
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Preparando datos finales para SetVar. Total de filas: 2750
+03-11-2025 07:28:12 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: N煤mero de registros preparados para SetVar: 2750
+03-11-2025 07:28:12 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+03-11-2025 07:28:12 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+03-11-2025 07:28:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros le韉os de gblItemsAProcesar: 2750
+03-11-2025 07:28:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 200
+03-11-2025 07:28:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 200
+03-11-2025 07:28:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Registros despu閟 de eliminar duplicados por clave (Tipo Docto, Nro Docto, Documento Cruce): 200
+03-11-2025 07:28:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes y sin duplicados.
+03-11-2025 07:28:14 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 140, 'Detalle': 'ANAC RR288 FACT FVEP4438 CC110158 PAGO   COMISION FIDUCIARIA MES AGOSTO SOL YULIA', 'Documento Cruce': 'PE-47', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:37', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+03-11-2025 07:28:14 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+03-11-2025 07:28:14 | ERROR | Task: 018_ProcesarRegistro | Desc: Ocurri贸 un error al procesar el registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 140, 'Detalle': 'ANAC RR288 FACT FVEP4438 CC110158 PAGO   COMISION FIDUCIARIA MES AGOSTO SOL YULIA', 'Documento Cruce': 'PE-47', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Pendiente', 'Fecha Procesamiento': '03-11-2025 07:00:37', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'} | Error: name 'SetVAr' is not defined
+03-11-2025 07:28:16 | TRACE | Task: 002_NotificacionCorreo | Desc: Conexi贸n exitosa con el servidor de correos. Tipo de notificaci贸n: FALLO EN TRATAMIENTO DE ITEM
+03-11-2025 07:28:16 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [ERROR] | Fallo al procesar el item -140 | [Recupercion de Soportes] | 03112025-072740 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+03-11-2025 07:28:17 | TRACE | Task: 002_NotificacionCorreo | Desc: Notificaci贸n enviada.
+03-11-2025 07:28:17 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 2750 filas de datos
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [456]
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_140_PE-47
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [456]
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 456):
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 140
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC RR288 FACT FVEP4438 CC110158 PAGO   COMISION FIDUCIARIA MES AGOSTO SOL YULIA
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-47
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Pendiente
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 03-11-2025 07:00:37
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 456...
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 140
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC RR288 FACT FVEP4438 CC110158 PAGO   COMISION FIDUCIARIA MES AGOSTO SOL YULIA
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-47
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: None
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Pendiente
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 03-11-2025 07:00:37
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 456 actualizada exitosamente
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 03-11-2025 07:28:18
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 2751
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+03-11-2025 07:28:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizaci贸n de archivo de seguimiento exitosa.

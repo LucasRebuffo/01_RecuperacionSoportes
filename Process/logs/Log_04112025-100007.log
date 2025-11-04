@@ -1,0 +1,14 @@
+04-11-2025 10:00:07 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+04-11-2025 10:00:07 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+04-11-2025 10:00:07 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+04-11-2025 10:00:07 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+04-11-2025 10:00:07 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+04-11-2025 10:00:07 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+04-11-2025 10:00:12 | TRACE | Task: 002_NotificacionCorreo | Desc: Conexión exitosa con el servidor de correos. Tipo de notificación: INICIO
+04-11-2025 10:00:12 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecución | Recupercion de Soportes | 04112025-100007 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+04-11-2025 10:00:15 | TRACE | Task: 002_NotificacionCorreo | Desc: Notificación enviada.
+04-11-2025 10:00:15 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+04-11-2025 10:00:17 | ERROR | Task: 016_ObtenerInformacionArchivoBase | Desc: Ocurrió un error al obtener información de archivo de insumo. | Error: [Errno 22] Invalid argument: '//10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx'
+04-11-2025 10:00:17 | TRACE | Task: 002_NotificacionCorreo | Desc: Conexión exitosa con el servidor de correos. Tipo de notificación: FALLO OBTENCION INSUMO
+04-11-2025 10:00:17 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [ERROR] | Fallo en obtención de insumo | Recupercion de Soportes | 04112025-100007 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+04-11-2025 10:00:18 | TRACE | Task: 002_NotificacionCorreo | Desc: Notificación enviada.

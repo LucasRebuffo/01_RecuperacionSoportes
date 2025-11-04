@@ -590,3 +590,629 @@
 30-10-2025 22:15:26 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
 30-10-2025 22:15:44 | WARNING | Task: 011_BuscarPorNumeroDeProceso | Desc: No se pudo encontrar el ultimo elemento de la tabla.
 30-10-2025 22:15:45 | WARNING | Task: 025_ProcesarFlujo2 | Desc: Ocurrio un error al buscar a el documento.
+31-10-2025 09:56:50 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+31-10-2025 09:56:50 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+31-10-2025 09:56:50 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+31-10-2025 09:56:50 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+31-10-2025 09:56:50 | INFO | Task: DeaultTask | Desc: Ventana encontrada: '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome'
+31-10-2025 09:56:50 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 09:56:50 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 09:56:50 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+31-10-2025 09:56:50 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+31-10-2025 09:56:56 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 09:57:00 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 09:57:15 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 09:59:23 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 14:01:25 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 14:01:30 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 14:01:46 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 14:01:59 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 14:53:50 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 14:54:11 | ERROR | Task: 009_IniciarSesionWorkManager | Desc: OcurriÃ³ un error al iniciar sesiÃ³n en WorkManager. | Error: The item is not available to be clicked
+31-10-2025 14:56:34 | ERROR | Task: 010_NavegarAdministrarProcesos | Desc: OcurriÃ³ un error al navegar a Administrar procesos. | Error: Message: element click intercepted: Element <a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a> is not clickable at point (572, 25). Other element would receive the click: <td>...</td>  (Session info: chrome=142.0.7444.59)Stacktrace:GetHandleVerifier [0x0x10afe43+66515]GetHandleVerifier [0x0x10afe84+66580](No symbol) [0x0xe9dc48](No symbol) [0x0xeeec10](No symbol) [0x0xeecf73](No symbol) [0x0xeeaa17](No symbol) [0x0xee9c8d](No symbol) [0x0xede115](No symbol) [0x0xf0b1cc](No symbol) [0x0xeddb74](No symbol) [0x0xf0b384](No symbol) [0x0xf2cba7](No symbol) [0x0xf0afc6](No symbol) [0x0xedc2ca](No symbol) [0x0xedd154]GetHandleVerifier [0x0x1307353+2521315]GetHandleVerifier [0x0x13022d3+2500707]GetHandleVerifier [0x0x10d7c94+229924]GetHandleVerifier [0x0x10c81f8+165768]GetHandleVerifier [0x0x10cecad+193085]GetHandleVerifier [0x0x10b8158+100072]GetHandleVerifier [0x0x10b82f0+100480]GetHandleVerifier [0x0x10a25aa+11066]BaseThreadInitThunk [0x0x778f62c4+36]RtlSubscribeWnfStateChangeNotification [0x0x77a20969+1081]RtlSubscribeWnfStateChangeNotification [0x0x77a20934+1028]
+31-10-2025 14:57:00 | WARNING | Task: 011_BuscarPorNumeroDeProceso | Desc: No se pudo encontrar el input para buscar proceso.
+31-10-2025 14:57:09 | ERROR | Task: 010_NavegarAdministrarProcesos | Desc: OcurriÃ³ un error al navegar a Administrar procesos. | Error: Message: element click intercepted: Element <a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a> is not clickable at point (572, 25). Other element would receive the click: <div id="sucursalesrWindowModal" class="modal fade in" role="dialog" aria-hidden="false" style="display: block;">...</div>  (Session info: chrome=142.0.7444.59)Stacktrace:GetHandleVerifier [0x0x10afe43+66515]GetHandleVerifier [0x0x10afe84+66580](No symbol) [0x0xe9dc48](No symbol) [0x0xeeec10](No symbol) [0x0xeecf73](No symbol) [0x0xeeaa17](No symbol) [0x0xee9c8d](No symbol) [0x0xede115](No symbol) [0x0xf0b1cc](No symbol) [0x0xeddb74](No symbol) [0x0xf0b384](No symbol) [0x0xf2cba7](No symbol) [0x0xf0afc6](No symbol) [0x0xedc2ca](No symbol) [0x0xedd154]GetHandleVerifier [0x0x1307353+2521315]GetHandleVerifier [0x0x13022d3+2500707]GetHandleVerifier [0x0x10d7c94+229924]GetHandleVerifier [0x0x10c81f8+165768]GetHandleVerifier [0x0x10cecad+193085]GetHandleVerifier [0x0x10b8158+100072]GetHandleVerifier [0x0x10b82f0+100480]GetHandleVerifier [0x0x10a25aa+11066]BaseThreadInitThunk [0x0x778f62c4+36]RtlSubscribeWnfStateChangeNotification [0x0x77a20969+1081]RtlSubscribeWnfStateChangeNotification [0x0x77a20934+1028]
+31-10-2025 14:57:41 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+31-10-2025 14:57:42 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+31-10-2025 14:57:42 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+31-10-2025 14:57:42 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+31-10-2025 14:57:42 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 14:57:42 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 14:57:42 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+31-10-2025 14:57:42 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+31-10-2025 14:57:46 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 14:58:06 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+31-10-2025 14:58:06 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+31-10-2025 14:58:06 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+31-10-2025 14:58:09 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 14:58:25 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 14:59:13 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 14:59:24 | ERROR | Task: 011_BuscarPorNumeroDeProceso | Desc: OcurriÃ³ un error al navegar al buscar el proceso. | Error: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+31-10-2025 15:02:31 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+31-10-2025 15:02:31 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+31-10-2025 15:02:46 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+31-10-2025 15:02:46 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+31-10-2025 15:02:46 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+31-10-2025 15:03:23 | WARNING | Task: 010_NavegarAdministrarProcesos | Desc: No se pudo encontrar el dropdown de -> Configuracion <-.
+31-10-2025 15:03:32 | WARNING | Task: 010_NavegarAdministrarProcesos | Desc: No se pudo encontrar el dropdown de -> Configuracion <-.
+31-10-2025 15:03:51 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+31-10-2025 15:03:51 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+31-10-2025 15:03:51 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+31-10-2025 15:03:51 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+31-10-2025 15:03:51 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:03:51 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:03:51 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+31-10-2025 15:03:51 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+31-10-2025 15:03:57 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 15:04:17 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+31-10-2025 15:04:17 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+31-10-2025 15:04:17 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+31-10-2025 15:04:21 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 15:04:36 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 15:09:58 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 15:12:57 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+31-10-2025 15:12:58 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+31-10-2025 15:13:12 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+31-10-2025 15:13:12 | WARNING | Task: 011_BuscarPorNumeroDeProceso | Desc: No se pudo encontrar el ultimo elemento de la tabla.
+31-10-2025 15:13:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+31-10-2025 15:13:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+31-10-2025 15:13:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+31-10-2025 15:13:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 15:13:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 15:13:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 15:13:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'C:\\Rocketbot\\rocketbot.exe', 'Untitled - Notepad', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:13:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 15:13:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 15:13:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 15:13:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'C:\\Rocketbot\\rocketbot.exe', 'Untitled - Notepad', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:13:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+31-10-2025 15:13:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+31-10-2025 15:13:27 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:13:28 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:13:29 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+31-10-2025 15:13:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+31-10-2025 15:13:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+31-10-2025 15:13:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'C:\\Rocketbot\\rocketbot.exe', 'Untitled - Notepad', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:13:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 15:13:35 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 15:13:40 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:13:41 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:13:42 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:13:43 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 15:13:43 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+31-10-2025 15:13:43 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 15:13:43 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+31-10-2025 15:13:43 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+31-10-2025 15:13:44 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+31-10-2025 15:13:45 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+31-10-2025 15:13:45 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+31-10-2025 15:13:46 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+31-10-2025 15:13:47 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+31-10-2025 15:13:48 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+31-10-2025 15:13:49 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+31-10-2025 15:13:50 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:13:52 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:13:53 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:13:54 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 15:13:54 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 15:13:57 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CM', 'Número de documento': '56'}
+31-10-2025 15:13:58 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+31-10-2025 15:13:59 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+31-10-2025 15:14:00 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CM
+31-10-2025 15:14:01 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 56
+31-10-2025 15:14:02 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+31-10-2025 15:14:04 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:14:05 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:14:06 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:14:08 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 15:14:08 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 15:14:11 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+31-10-2025 15:14:11 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:14:12 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:14:14 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:14:15 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+31-10-2025 15:14:15 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+31-10-2025 15:14:15 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doct_Alt:
+31-10-2025 15:14:15 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: P 34548
+31-10-2025 15:14:15 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: P 34548
+31-10-2025 15:14:15 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada: RR
+31-10-2025 15:14:16 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
+31-10-2025 15:14:16 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+31-10-2025 15:14:16 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 7716)
+31-10-2025 15:14:16 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 7716) cerrado exitosamente.
+31-10-2025 15:14:16 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+31-10-2025 15:14:16 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+31-10-2025 15:14:20 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+31-10-2025 15:14:20 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+31-10-2025 15:14:20 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+31-10-2025 15:14:20 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+31-10-2025 15:14:20 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Restore pages?'
+31-10-2025 15:14:20 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:14:20 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:14:20 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+31-10-2025 15:14:20 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+31-10-2025 15:14:21 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 15:14:41 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+31-10-2025 15:14:41 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+31-10-2025 15:14:41 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+31-10-2025 15:14:45 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 15:15:00 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 15:15:02 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 15:15:05 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+31-10-2025 15:15:05 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+31-10-2025 15:15:21 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+31-10-2025 15:15:21 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+31-10-2025 15:15:21 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+31-10-2025 15:15:22 | ERROR | Task: 025_ProcesarFlujo2 | Desc: OcurriÃ³ un error. | Error: NameError: name 'loc019BusquedaExitosa' is not defined
+31-10-2025 15:19:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+31-10-2025 15:19:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+31-10-2025 15:19:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+31-10-2025 15:19:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 15:19:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 15:19:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 15:19:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'C:\\Rocketbot\\rocketbot.exe', 'Untitled - Notepad', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:19:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 15:19:25 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 15:19:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 15:19:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'C:\\Rocketbot\\rocketbot.exe', 'Untitled - Notepad', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:19:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+31-10-2025 15:19:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+31-10-2025 15:19:31 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:19:32 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:19:33 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+31-10-2025 15:19:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+31-10-2025 15:19:37 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+31-10-2025 15:19:37 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'C:\\Rocketbot\\rocketbot.exe', 'Untitled - Notepad', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:19:37 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 15:19:38 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 15:19:43 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:19:44 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:19:45 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:19:46 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 15:19:46 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+31-10-2025 15:19:46 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 15:19:46 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+31-10-2025 15:19:46 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+31-10-2025 15:19:47 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+31-10-2025 15:19:48 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+31-10-2025 15:19:48 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+31-10-2025 15:19:49 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+31-10-2025 15:19:50 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+31-10-2025 15:19:51 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+31-10-2025 15:19:52 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+31-10-2025 15:19:53 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:19:54 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:19:55 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:19:57 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 15:19:57 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 15:20:00 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CM', 'Número de documento': '56'}
+31-10-2025 15:20:00 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+31-10-2025 15:20:02 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+31-10-2025 15:20:03 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CM
+31-10-2025 15:20:04 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 56
+31-10-2025 15:20:05 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+31-10-2025 15:20:07 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:20:08 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:20:09 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:20:10 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 15:20:10 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 15:20:14 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+31-10-2025 15:20:14 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:20:15 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:20:16 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:20:17 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+31-10-2025 15:20:17 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+31-10-2025 15:20:17 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doct_Alt:
+31-10-2025 15:20:17 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: P 34548
+31-10-2025 15:20:17 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: P 34548
+31-10-2025 15:20:17 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada: RR
+31-10-2025 15:20:19 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
+31-10-2025 15:20:19 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+31-10-2025 15:20:19 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 4152)
+31-10-2025 15:20:19 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 4152) cerrado exitosamente.
+31-10-2025 15:20:19 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+31-10-2025 15:20:19 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+31-10-2025 15:20:22 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+31-10-2025 15:20:23 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+31-10-2025 15:20:23 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+31-10-2025 15:20:23 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+31-10-2025 15:20:23 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Restore pages?'
+31-10-2025 15:20:23 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:20:23 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:20:23 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+31-10-2025 15:20:23 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+31-10-2025 15:20:24 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 15:20:44 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+31-10-2025 15:20:44 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+31-10-2025 15:20:44 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+31-10-2025 15:20:47 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 15:21:03 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 15:21:05 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 15:21:08 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+31-10-2025 15:21:08 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+31-10-2025 15:21:24 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+31-10-2025 15:21:24 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+31-10-2025 15:21:24 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+31-10-2025 15:21:25 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+31-10-2025 15:21:25 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+31-10-2025 15:21:25 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+31-10-2025 15:21:25 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+31-10-2025 15:21:25 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+31-10-2025 15:21:25 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: [WinError 3] The system cannot find the path specified: 'D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Descargas'
+31-10-2025 15:21:26 | WARNING | Task: 025_ProcesarFlujo2 | Desc: Ocurrio un error al descargar los archivos.
+31-10-2025 15:38:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+31-10-2025 15:38:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+31-10-2025 15:38:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+31-10-2025 15:38:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 15:38:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 15:38:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 15:38:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'Untitled - Notepad', 'C:\\Rocketbot\\rocketbot.exe', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:38:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 15:38:41 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 15:38:44 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 15:38:44 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'Untitled - Notepad', 'C:\\Rocketbot\\rocketbot.exe', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:38:44 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+31-10-2025 15:38:44 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+31-10-2025 15:38:47 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:38:48 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:38:50 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+31-10-2025 15:38:51 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+31-10-2025 15:38:53 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+31-10-2025 15:38:53 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'Untitled - Notepad', 'C:\\Rocketbot\\rocketbot.exe', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 15:38:53 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 15:38:54 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 15:38:59 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:39:00 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:39:01 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:39:02 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 15:39:02 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+31-10-2025 15:39:02 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 15:39:02 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+31-10-2025 15:39:02 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+31-10-2025 15:39:03 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+31-10-2025 15:39:04 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+31-10-2025 15:39:04 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+31-10-2025 15:39:05 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+31-10-2025 15:39:06 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+31-10-2025 15:39:07 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+31-10-2025 15:39:08 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+31-10-2025 15:39:09 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:39:11 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:39:12 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:39:13 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 15:39:13 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 15:39:16 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CM', 'Número de documento': '56'}
+31-10-2025 15:39:16 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+31-10-2025 15:39:18 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+31-10-2025 15:39:19 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CM
+31-10-2025 15:39:20 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 56
+31-10-2025 15:39:21 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+31-10-2025 15:39:23 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:39:24 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:39:25 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:39:26 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 15:39:26 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 15:39:30 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+31-10-2025 15:39:30 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 15:39:31 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 15:39:32 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 15:39:34 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+31-10-2025 15:39:34 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+31-10-2025 15:39:34 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doct_Alt:
+31-10-2025 15:39:34 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: P 34548
+31-10-2025 15:39:34 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: P 34548
+31-10-2025 15:39:34 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada: RR
+31-10-2025 15:39:35 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
+31-10-2025 15:39:35 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+31-10-2025 15:39:35 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 1764)
+31-10-2025 15:39:35 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 1764) cerrado exitosamente.
+31-10-2025 15:39:35 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+31-10-2025 15:39:35 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+31-10-2025 15:39:39 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+31-10-2025 15:39:39 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+31-10-2025 15:39:39 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+31-10-2025 15:39:39 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+31-10-2025 15:39:39 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Restore pages?'
+31-10-2025 15:39:39 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:39:39 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 15:39:39 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+31-10-2025 15:39:39 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+31-10-2025 15:39:40 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 15:39:46 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 15:40:01 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 15:40:03 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 15:40:06 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+31-10-2025 15:40:07 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+31-10-2025 15:40:22 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+31-10-2025 15:40:22 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+31-10-2025 15:40:22 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+31-10-2025 15:40:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+31-10-2025 15:40:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+31-10-2025 15:40:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+31-10-2025 15:40:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+31-10-2025 15:40:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+31-10-2025 15:40:23 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: [WinError 3] The system cannot find the path specified: 'D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Descargas'
+31-10-2025 16:03:08 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+31-10-2025 16:03:08 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+31-10-2025 16:03:09 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+31-10-2025 16:03:09 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 16:03:09 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+31-10-2025 16:03:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 16:03:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'Untitled - Notepad', 'C:\\Rocketbot\\rocketbot.exe', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 16:03:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 16:03:13 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 16:03:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+31-10-2025 16:03:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'Untitled - Notepad', 'C:\\Rocketbot\\rocketbot.exe', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 16:03:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+31-10-2025 16:03:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+31-10-2025 16:03:19 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 16:03:21 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 16:03:22 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+31-10-2025 16:03:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+31-10-2025 16:03:25 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+31-10-2025 16:03:25 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Rocketbot Debugger', 'db', '', 'Task Scheduler', '', '', 'Untitled - Notepad', 'C:\\Rocketbot\\rocketbot.exe', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+31-10-2025 16:03:25 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+31-10-2025 16:03:26 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+31-10-2025 16:03:31 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 16:03:32 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 16:03:33 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 16:03:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+31-10-2025 16:03:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+31-10-2025 16:03:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+31-10-2025 16:03:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+31-10-2025 16:03:34 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+31-10-2025 16:03:35 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+31-10-2025 16:03:36 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+31-10-2025 16:03:36 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+31-10-2025 16:03:37 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+31-10-2025 16:03:38 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+31-10-2025 16:03:39 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+31-10-2025 16:03:40 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+31-10-2025 16:03:41 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 16:03:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 16:03:44 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 16:03:45 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 16:03:45 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 16:03:48 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CM', 'Número de documento': '56'}
+31-10-2025 16:03:49 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+31-10-2025 16:03:50 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+31-10-2025 16:03:51 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CM
+31-10-2025 16:03:52 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 56
+31-10-2025 16:03:53 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+31-10-2025 16:03:55 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 16:03:56 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 16:03:57 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 16:03:59 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+31-10-2025 16:03:59 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+31-10-2025 16:04:02 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+31-10-2025 16:04:02 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+31-10-2025 16:04:04 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+31-10-2025 16:04:05 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+31-10-2025 16:04:06 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+31-10-2025 16:04:06 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+31-10-2025 16:04:06 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doct_Alt:
+31-10-2025 16:04:06 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: P 34548
+31-10-2025 16:04:06 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: P 34548
+31-10-2025 16:04:06 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada: RR
+31-10-2025 16:04:07 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
+31-10-2025 16:04:07 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+31-10-2025 16:04:07 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 6180)
+31-10-2025 16:04:07 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 6180) cerrado exitosamente.
+31-10-2025 16:04:07 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+31-10-2025 16:04:07 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+31-10-2025 16:04:11 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+31-10-2025 16:04:11 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+31-10-2025 16:04:11 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+31-10-2025 16:04:11 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+31-10-2025 16:04:11 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Restore pages?'
+31-10-2025 16:04:11 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 16:04:11 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+31-10-2025 16:04:11 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+31-10-2025 16:04:11 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+31-10-2025 16:04:12 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+31-10-2025 16:04:18 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+31-10-2025 16:04:33 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+31-10-2025 16:04:35 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+31-10-2025 16:04:38 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+31-10-2025 16:04:39 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+31-10-2025 16:04:54 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+31-10-2025 16:04:54 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+31-10-2025 16:04:54 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+31-10-2025 16:04:55 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+31-10-2025 16:04:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+31-10-2025 16:04:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+31-10-2025 16:04:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+31-10-2025 16:04:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+31-10-2025 16:04:55 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: [WinError 3] The system cannot find the path specified: 'D:/Laburo/VORTEX/PROYECTOS/01_RecupercionSoportes/Input/Descargas'
+04-11-2025 10:07:23 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+04-11-2025 10:07:24 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+04-11-2025 10:07:24 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+04-11-2025 10:07:24 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+04-11-2025 10:07:24 | INFO | Task: DeaultTask | Desc: Ventana encontrada: '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome'
+04-11-2025 10:07:24 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 10:07:24 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 10:07:24 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+04-11-2025 10:07:24 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+04-11-2025 10:07:37 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+04-11-2025 10:07:42 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+04-11-2025 10:07:57 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+04-11-2025 10:12:15 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+04-11-2025 10:12:26 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+04-11-2025 10:12:26 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+04-11-2025 10:12:42 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+04-11-2025 10:12:42 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+04-11-2025 10:12:42 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+04-11-2025 11:25:51 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+04-11-2025 11:25:51 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+04-11-2025 11:25:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+04-11-2025 11:25:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: ''
+04-11-2025 11:25:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 11:25:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 11:25:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+04-11-2025 11:25:51 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+04-11-2025 11:26:30 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+04-11-2025 11:26:36 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+04-11-2025 11:26:51 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+04-11-2025 11:27:09 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+04-11-2025 11:27:34 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+04-11-2025 11:27:34 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+04-11-2025 11:27:49 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+04-11-2025 11:27:49 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+04-11-2025 11:27:50 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+04-11-2025 11:28:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 11:29:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" no existe. Creando carpeta...
+04-11-2025 11:29:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" creada exitosamente.
+04-11-2025 11:33:01 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 11:33:02 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 11:33:02 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 11:33:02 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+04-11-2025 11:33:02 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+04-11-2025 11:33:03 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 11:33:03 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 11:33:03 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 11:33:04 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: SyntaxError: invalid syntax (<string>, line 1)
+04-11-2025 11:33:49 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 11:33:49 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 11:33:54 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 11:33:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 11:33:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 11:33:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+04-11-2025 11:33:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+04-11-2025 11:33:56 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 11:33:56 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 11:33:56 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 11:33:56 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 11:34:03 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: NameError: name 'loc015ArchivosDescargados' is not defined
+04-11-2025 11:34:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 11:34:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 11:34:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 11:34:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+04-11-2025 11:34:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+04-11-2025 11:34:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 11:34:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 11:34:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 11:34:56 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 11:35:15 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: IndexError: list index out of range
+04-11-2025 11:54:29 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+04-11-2025 11:54:29 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+04-11-2025 11:54:29 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+04-11-2025 11:54:29 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: ''
+04-11-2025 11:54:29 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 11:54:29 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 11:54:29 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+04-11-2025 11:54:29 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+04-11-2025 11:54:32 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+04-11-2025 11:54:38 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+04-11-2025 11:54:54 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+04-11-2025 11:55:00 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+04-11-2025 11:55:07 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+04-11-2025 11:55:07 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+04-11-2025 11:55:23 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+04-11-2025 11:55:23 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+04-11-2025 11:55:23 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+04-11-2025 12:00:55 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:00:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 12:00:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:00:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+04-11-2025 12:00:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+04-11-2025 12:00:56 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:00:56 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:00:56 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:00:57 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:00:58 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: [WinError 5] Access is denied: 'C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas'
+04-11-2025 12:01:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" no existe. Creando carpeta...
+04-11-2025 12:01:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" creada exitosamente.
+04-11-2025 12:02:05 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:02:05 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:02:15 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:02:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 12:02:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:02:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+04-11-2025 12:02:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+04-11-2025 12:02:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:02:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:02:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:02:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:02:24 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="iframeId"]"}  (Session info: chrome=142.0.7444.60)Stacktrace:Symbols not available. Dumping unresolved backtrace:0x16358c30x16359040x144e76d0x149a09d0x149a47b0x14e18020x14bc9b40x14deea60x14bc7660x148dac00x148ede40x18b79740x18b2bea0x165e5b40x164dd280x1654d8d0x163ded80x163e09c0x1627d1a0x73d262c40x76f209890x76f20954
+04-11-2025 12:03:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: None
+04-11-2025 12:03:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 12:03:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: None
+04-11-2025 12:03:14 | WARNING | Task: 012_DescargarArchivosDeProceso | Desc: No se detectó resultado (hay_resultado=False).
+04-11-2025 12:03:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: False
+04-11-2025 12:03:15 | WARNING | Task: 012_DescargarArchivosDeProceso | Desc: El script de extracciÃ³n no trajo resultados.
+04-11-2025 12:03:50 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+04-11-2025 12:03:50 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+04-11-2025 12:04:05 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+04-11-2025 12:04:05 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+04-11-2025 12:04:06 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+04-11-2025 12:04:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:04:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 12:04:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:04:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+04-11-2025 12:04:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+04-11-2025 12:04:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:04:17 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:04:17 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:04:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:04:30 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:04:36 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:04:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:04:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:04:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:04:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:04:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:05:00 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:05:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:05:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:05:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:05:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:05:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:05:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:05:27 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:05:28 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:05:28 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:05:29 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:05:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:05:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:05:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:05:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:05:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:05:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:06:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:06:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:06:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:06:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:06:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:06:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.

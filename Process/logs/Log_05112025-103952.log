@@ -1,0 +1,40 @@
+05-11-2025 10:39:52 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+05-11-2025 10:39:52 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+05-11-2025 10:39:52 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+05-11-2025 10:39:52 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+05-11-2025 10:39:52 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+05-11-2025 10:39:52 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+05-11-2025 10:39:58 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 10:39:59 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 10:39:59 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce y tipo_docto: de 31,048 a 3,578 filas.
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (3578, 7)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 3,578
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 1 valores unicos
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 9 valores unicos
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 1,925 valores unicos
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 1,503 valores unicos
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 467 valores unicos
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+05-11-2025 10:40:18 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                   detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         DS       265  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+1  Ticenergi         DS       407  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-195                                Pendiente
+2  Ticenergi         DS       266  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-163                                Pendiente
+3  Ticenergi         DS       126  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-162                                Pendiente
+4  Ticenergi         DS       333  ANAC CC110178 SERV PROF GESTOR PROMOCION          PE-203                                Pendiente
+05-11-2025 10:40:18 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Extracción exitosa.

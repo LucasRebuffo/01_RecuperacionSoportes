@@ -1216,3 +1216,599 @@
 04-11-2025 12:06:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
 04-11-2025 12:06:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
 04-11-2025 12:06:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:54:44 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+04-11-2025 12:54:44 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+04-11-2025 12:54:45 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+04-11-2025 12:54:45 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+04-11-2025 12:54:45 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+04-11-2025 12:54:48 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+04-11-2025 12:54:48 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'prueba_documentos', 'Downloads', 'Task Scheduler', '', '', 'Server Manager', 'rocketbot.exe - Shortcut', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+04-11-2025 12:54:48 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+04-11-2025 12:54:49 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+04-11-2025 12:54:52 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+04-11-2025 12:54:52 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'prueba_documentos', 'Downloads', 'Task Scheduler', '', '', 'Server Manager', 'rocketbot.exe - Shortcut', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+04-11-2025 12:54:52 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+04-11-2025 12:54:52 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+04-11-2025 12:54:55 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+04-11-2025 12:54:56 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+04-11-2025 12:54:57 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+04-11-2025 12:54:59 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+04-11-2025 12:55:01 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+04-11-2025 12:55:01 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Rocketbot Debugger', 'prueba_documentos', 'Downloads', 'Task Scheduler', '', '', 'Server Manager', 'rocketbot.exe - Shortcut', 'Administrator: C:\\WINDOWS\\system32\\cmd.exe', 'Snipping Tool', '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome', 'Program Manager']
+04-11-2025 12:55:01 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+04-11-2025 12:55:02 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+04-11-2025 12:55:07 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+04-11-2025 12:55:08 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+04-11-2025 12:55:09 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+04-11-2025 12:55:10 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+04-11-2025 12:55:10 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+04-11-2025 12:55:10 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+04-11-2025 12:55:10 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+04-11-2025 12:55:10 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+04-11-2025 12:55:11 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+04-11-2025 12:55:12 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+04-11-2025 12:55:12 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+04-11-2025 12:55:13 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+04-11-2025 12:55:14 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+04-11-2025 12:55:15 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+04-11-2025 12:55:17 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+04-11-2025 12:55:18 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+04-11-2025 12:55:19 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+04-11-2025 12:55:20 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+04-11-2025 12:55:21 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+04-11-2025 12:55:21 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+04-11-2025 12:55:25 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CM', 'Número de documento': '56'}
+04-11-2025 12:55:25 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+04-11-2025 12:55:26 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+04-11-2025 12:55:27 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CM
+04-11-2025 12:55:28 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 56
+04-11-2025 12:55:29 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+04-11-2025 12:55:31 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+04-11-2025 12:55:33 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+04-11-2025 12:55:34 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+04-11-2025 12:55:35 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+04-11-2025 12:55:35 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+04-11-2025 12:55:38 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt y doc_ref
+04-11-2025 12:55:38 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+04-11-2025 12:55:40 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+04-11-2025 12:55:41 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+04-11-2025 12:55:42 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+04-11-2025 12:55:42 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+04-11-2025 12:55:42 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta fue la coincidencia de doc_alt que se encontro en el aplicativo Siesa 8.5: Doct_Alt:
+04-11-2025 12:55:42 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la informacion obtenida de la opcion doc_alt: P 34548
+04-11-2025 12:55:42 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: P 34548
+04-11-2025 12:55:42 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion correspondiente al doc_ref del aplicativo Siesa 8.5, informacion asignada: RR
+04-11-2025 12:55:43 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: 34548
+04-11-2025 12:55:44 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+04-11-2025 12:55:44 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 7896)
+04-11-2025 12:55:44 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 7896) cerrado exitosamente.
+04-11-2025 12:55:44 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+04-11-2025 12:55:44 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+04-11-2025 12:55:47 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+04-11-2025 12:55:47 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+04-11-2025 12:55:47 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+04-11-2025 12:55:47 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+04-11-2025 12:55:47 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 12:55:47 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+04-11-2025 12:55:48 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+04-11-2025 12:55:48 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+04-11-2025 12:55:48 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+04-11-2025 12:55:55 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+04-11-2025 12:56:10 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+04-11-2025 12:56:12 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+04-11-2025 12:56:15 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+04-11-2025 12:56:15 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+04-11-2025 12:56:31 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+04-11-2025 12:56:31 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+04-11-2025 12:56:31 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+04-11-2025 12:56:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .xlsx | TamaÃ±o: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:56:32 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc015ResultadoExtraccion)...
+04-11-2025 12:56:32 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3584 bytes', 'extension': '.PDF', 'id': '120397', 'nombre': 'PE 371'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 10886 bytes', 'extension': '.pdf', 'id': '120396', 'nombre': '2.464.241 exitoso'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3347 bytes', 'extension': '.PDF', 'id': '117770', 'nombre': 'CM 0056 $ 49.950'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 63036 bytes', 'extension': '.pdf', 'id': '116185', 'nombre': 'UT Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 312353 bytes', 'extension': '.pdf', 'id': '116129', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .xlsx | Tamaño: 2878568 bytes', 'extension': '.xlsx', 'id': '116130', 'nombre': '17. Caja menor de Juan David Camargo (Diciembre 2)'}]
+04-11-2025 12:56:32 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+04-11-2025 12:56:32 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+04-11-2025 12:56:32 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:56:32 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:56:32 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:56:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:56:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:56:46 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:56:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:56:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:56:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:56:46 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:56:55 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:57:00 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:57:00 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:57:00 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:57:00 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:57:00 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:57:09 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:57:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:57:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:57:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:57:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:57:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:57:22 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:57:27 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:57:27 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:57:27 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:57:27 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:57:27 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:57:36 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+04-11-2025 12:57:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+04-11-2025 12:57:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+04-11-2025 12:57:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+04-11-2025 12:57:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+04-11-2025 12:57:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+04-11-2025 12:57:48 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+04-11-2025 12:57:51 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+04-11-2025 12:57:52 | TRACE | Task: 025_ProcesarFlujo2 | Desc: Se cambia el estado del item actual: {'TipoDoc': 'DS', 'NumeroDoc': '190543', 'Doc_Alt': 'Doc_alt encontrado', 'Observaciones_Doct_Alt': 'El doc_alt encontrado en el aplicativo Siesa cumple con las reglas de negocio. doc_alt encontrado: 34548', 'Estado Procesamiento': 'Procesado', 'Observaciones': ''} a PROCESADO.
+05-11-2025 16:45:09 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+05-11-2025 16:45:09 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+05-11-2025 16:45:09 | INFO | Task: DeaultTask | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+05-11-2025 16:45:09 | INFO | Task: DeaultTask | Desc: Ventana encontrada: ''
+05-11-2025 16:45:09 | INFO | Task: DeaultTask | Desc: Ventana encontrada: '025_ProcesarFlujo2 -RocketBot Studio - Google Chrome'
+05-11-2025 16:45:09 | INFO | Task: DeaultTask | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 16:45:09 | INFO | Task: DeaultTask | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 16:45:09 | INFO | Task: DeaultTask | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+05-11-2025 16:45:09 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+05-11-2025 16:45:13 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 16:45:18 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+05-11-2025 16:45:33 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+05-11-2025 16:45:40 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+05-11-2025 16:48:20 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 16:48:20 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 16:48:20 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 16:48:20 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 16:48:20 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 16:48:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:48:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:48:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:48:24 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:48:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:48:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:48:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:48:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:48:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:48:48 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:48:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:49:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:49:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:49:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:49:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:49:12 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:49:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:49:29 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:49:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:49:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:49:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:49:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:49:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:49:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:49:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:49:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:49:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:49:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:50:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:50:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:50:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:50:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:50:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:50:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:50:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:50:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:50:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:50:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:50:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:50:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:50:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:51:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:51:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:51:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:51:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:51:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:51:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:51:29 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:51:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:51:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:51:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:51:36 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:51:48 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:51:54 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:51:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:51:59 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:51:59 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:52:00 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:52:12 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:52:18 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:52:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:52:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:52:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:52:24 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:52:36 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:52:42 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:52:47 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:52:47 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:52:47 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:52:48 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:53:00 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:53:06 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:53:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:53:11 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:53:11 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:53:12 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:53:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 16:53:30 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 16:53:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 16:53:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 16:53:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 16:53:36 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 16:53:52 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: Message: element not interactable  (Session info: chrome=142.0.7444.60)Stacktrace:Symbols not available. Dumping unresolved backtrace:0x16358c30x16359040x144e5bb0x149b2dd0x148fdf50x14bc96c0x148f8540x14bcb240x14deea60x14bc7660x148dac00x148ede40x18b79740x18b2bea0x165e5b40x164dd280x1654d8d0x163ded80x163e09c0x1627d1a0x73d262c40x76f209890x76f20954
+05-11-2025 18:04:46 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+05-11-2025 18:04:46 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+05-11-2025 18:04:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+05-11-2025 18:04:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: ''
+05-11-2025 18:04:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 18:04:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 18:04:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+05-11-2025 18:04:46 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+05-11-2025 18:05:24 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 18:05:30 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+05-11-2025 18:05:45 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+05-11-2025 18:06:12 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+05-11-2025 18:09:54 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:09:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 18:09:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:09:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 18:09:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 18:09:56 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:09:57 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:09:57 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:09:58 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:10:10 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:10:16 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:10:20 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:10:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:10:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:10:22 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:10:34 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:10:40 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:10:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:10:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:10:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:10:46 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:10:58 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:11:04 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:11:08 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:11:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:11:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:11:10 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:11:22 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:11:28 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:11:33 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:11:33 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:11:33 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:11:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:11:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:11:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:11:57 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:11:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:11:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:11:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:12:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:12:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:12:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:12:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:12:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:12:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:12:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:12:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:12:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:12:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:12:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:12:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:12:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:13:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:13:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:13:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:13:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:13:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:13:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:13:29 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:13:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:13:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:13:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:13:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:13:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:13:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:13:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:13:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:13:58 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:14:00 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:14:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:14:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:14:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:14:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:14:22 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:14:24 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:14:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:14:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:14:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:14:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:14:46 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:14:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:14:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:15:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:15:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:15:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:15:10 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:15:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:15:28 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: Message: element not interactable  (Session info: chrome=142.0.7444.60)Stacktrace:Symbols not available. Dumping unresolved backtrace:0x16358c30x16359040x144e5bb0x149b2dd0x148fdf50x14bc96c0x148f8540x14bcb240x14deea60x14bc7660x148dac00x148ede40x18b79740x18b2bea0x165e5b40x164dd280x1654d8d0x163ded80x163e09c0x1627d1a0x73d262c40x76f209890x76f20954
+05-11-2025 18:24:38 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+05-11-2025 18:24:38 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+05-11-2025 18:24:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+05-11-2025 18:24:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: ''
+05-11-2025 18:24:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 18:24:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 18:24:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+05-11-2025 18:24:38 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+05-11-2025 18:25:07 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 18:25:13 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+05-11-2025 18:25:28 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+05-11-2025 18:25:58 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+05-11-2025 18:43:34 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+05-11-2025 18:43:34 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+05-11-2025 18:43:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+05-11-2025 18:43:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: ''
+05-11-2025 18:43:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 18:43:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 18:43:34 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+05-11-2025 18:43:34 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+05-11-2025 18:43:44 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 18:43:50 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+05-11-2025 18:44:05 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+05-11-2025 18:44:16 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+05-11-2025 18:45:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:45:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 18:45:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:45:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 18:45:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 18:45:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:45:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:45:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:45:18 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:45:20 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: Message: element click intercepted: Element <a href="#" class="abrir_archivo text-info" data-id="51713" onclick="event.preventDefault(); DownLoadFile('51713', '2b0959fd7f404aca849f1f0ea9b19d5e.pdf');" id="link_51713" style="text-decoration: none;">...</a> is not clickable at point (1265, 8). Other element would receive the click: <div class="navbar-collapse collapse">...</div>  (Session info: chrome=142.0.7444.60)Stacktrace:Symbols not available. Dumping unresolved backtrace:0x16358c30x16359040x144e76d0x14a05e00x149e9430x149c3e70x149b65d0x148fdf50x14bc96c0x148f8540x14bcb240x14deea60x14bc7660x148dac00x148ede40x18b79740x18b2bea0x165e5b40x164dd280x1654d8d0x163ded80x163e09c0x1627d1a0x73d262c40x76f209890x76f20954
+05-11-2025 18:46:06 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:46:06 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 18:46:06 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:46:06 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 18:46:06 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 18:46:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:46:08 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:46:08 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:46:09 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:46:20 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:46:26 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:46:30 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:46:30 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:46:30 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:46:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:46:44 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:46:50 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:46:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:46:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:46:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:46:56 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:47:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:47:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:47:18 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:47:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:47:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:47:20 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:47:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:47:38 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:47:43 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:47:43 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:47:43 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:47:44 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:47:56 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:48:02 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:48:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:48:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:48:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:48:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:48:20 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:48:26 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:48:31 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:48:31 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:48:31 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:48:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:48:44 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:48:50 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:48:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:48:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:48:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:48:56 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:49:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:49:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:49:18 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:49:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:49:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:49:20 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:49:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:49:38 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:49:43 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:49:43 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:49:43 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:49:44 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:49:56 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:50:02 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:50:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:50:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:50:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:50:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:50:20 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:50:26 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:50:30 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:50:31 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:50:31 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:50:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:50:44 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:50:50 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:50:54 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:50:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:50:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:50:56 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:51:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:51:14 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:51:18 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:51:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:51:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:51:20 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:51:31 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:51:38 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:51:42 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:51:42 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:51:42 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:51:43 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:51:55 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:52:01 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:58:40 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:58:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 18:58:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 18:58:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 18:58:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 18:58:42 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:58:42 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:58:42 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:58:43 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:58:55 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:59:01 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:59:06 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:59:06 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:59:06 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:59:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:59:19 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 18:59:25 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 18:59:30 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 18:59:30 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 18:59:30 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 18:59:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 18:59:39 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="iframeId"]"}  (Session info: chrome=142.0.7444.60)Stacktrace:Symbols not available. Dumping unresolved backtrace:0x16358c30x16359040x144e76d0x149a09d0x149a47b0x14e18020x14bc9b40x14deea60x14bc7660x148dac00x148ede40x18b79740x18b2bea0x165e5b40x164dd280x1654d8d0x163ded80x163e09c0x1627d1a0x73d262c40x76f209890x76f20954
+05-11-2025 19:00:44 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+05-11-2025 19:00:45 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+05-11-2025 19:00:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+05-11-2025 19:00:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: ''
+05-11-2025 19:00:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 19:00:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 19:00:45 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+05-11-2025 19:00:45 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+05-11-2025 19:00:48 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 19:00:55 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+05-11-2025 19:01:10 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+05-11-2025 19:01:11 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 19:01:26 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el input para el USERNAME
+05-11-2025 19:01:36 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+05-11-2025 19:02:21 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 19:02:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 19:02:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 19:02:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 19:02:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 19:02:24 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:02:24 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:02:24 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:02:26 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:02:38 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:02:44 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:02:49 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:02:49 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:02:49 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:02:51 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:03:02 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:03:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:03:13 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:03:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:03:14 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:03:15 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:03:27 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:03:33 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:03:37 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:03:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:03:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:03:39 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:03:51 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:03:57 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:04:02 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:04:02 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:04:02 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:04:03 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:04:15 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:04:21 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:04:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:04:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:04:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:04:28 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:04:40 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:04:46 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:04:50 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:04:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:04:51 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:04:52 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:05:04 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:05:10 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:05:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:05:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:05:15 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:05:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:05:29 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:05:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:05:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:05:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:05:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:05:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:05:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:05:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:06:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:06:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:06:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:06:06 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:06:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:06:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:06:28 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:06:28 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:06:28 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:06:30 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:06:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:06:47 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:06:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:06:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:06:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:06:54 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:07:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:07:11 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:07:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:07:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:07:16 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:07:17 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:07:29 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:07:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:07:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:07:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:07:40 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:07:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:07:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:07:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 19:08:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 19:08:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 19:08:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 19:08:05 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 19:08:16 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 19:08:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.

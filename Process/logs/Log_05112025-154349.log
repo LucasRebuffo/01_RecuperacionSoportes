@@ -1,0 +1,512 @@
+05-11-2025 15:43:49 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+05-11-2025 15:43:49 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+05-11-2025 15:43:49 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+05-11-2025 15:43:49 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+05-11-2025 15:43:49 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+05-11-2025 15:43:49 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+05-11-2025 15:43:50 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: INICIO
+05-11-2025 15:43:50 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecuciÃ³n | Recupercion de Soportes | 05112025-154349 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+05-11-2025 15:43:51 | TRACE | Task: 002_NotificacionCorreo | Desc: NotificaciÃ³n enviada.
+05-11-2025 15:43:51 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 15:43:52 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 15:43:52 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce y tipo_docto: de 31,048 a 9,901 filas.
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (9901, 7)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 9,901
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 2 valores unicos
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 16 valores unicos
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 3,428 valores unicos
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 4,428 valores unicos
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+05-11-2025 15:44:11 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                  detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         NI       129    ECANOLA TRASLADO AL COSTO NOMINA 2021                                                Pendiente
+1  Ticenergi         NI       138                          ECANOLA AJUSTES                                                Pendiente
+2  Ticenergi         NI       189  LRESTREP/MAYOR VALOR AJUSTADO EN NI 138                                                Pendiente
+3  Ticenergi         NI       129    ECANOLA TRASLADO AL COSTO NOMINA 2021                                                Pendiente
+4  Ticenergi         NI       138    ECANOLA TRASLADO AL GASTO NOMINA 2021                                                Pendiente
+05-11-2025 15:44:11 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: ExtracciÃ³n exitosa.
+05-11-2025 15:44:11 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leÃ­do exitosamente: 4772 filas de datos
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 4772 filas
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 9901 filas
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 0
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: No hay filas nuevas por agregar.
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 4772
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Eliminando duplicados basados en 'Tipo Docto', 'Nro Docto', 'Documento Cruce'...
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Indices columnas - Tipo Docto: 1, Nro Docto: 2, Documento Cruce: 4
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas duplicadas eliminadas: 0
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas sin duplicados: 4772
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Preparando datos finales para SetVar. Total de filas: 4772
+05-11-2025 15:44:13 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: NÃºmero de registros preparados para SetVar: 4772
+05-11-2025 15:44:13 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+05-11-2025 15:44:14 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+05-11-2025 15:44:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros leídos de gblItemsAProcesar: 4772
+05-11-2025 15:44:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 100
+05-11-2025 15:44:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 100
+05-11-2025 15:44:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Registros después de eliminar duplicados por clave (Tipo Docto, Nro Docto, Documento Cruce): 100
+05-11-2025 15:44:14 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes y sin duplicados.
+05-11-2025 15:44:14 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 52, 'Detalle': 'ANAC RR 12 FACT FEVP 3237 CC 110158 COMI SION FIDUCIARIA MES JUNIO SOL YULIANA', 'Documento Cruce': 'PE-18', 'Nro de Proceso': '12', 'Doc Alt': '12', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 14:39:55', 'Observaciones': 'Ocurrio un error al descargar documentos de Workmanager. Revisar archivo de logs.'}
+05-11-2025 15:44:14 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+05-11-2025 15:44:14 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+05-11-2025 15:44:14 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+05-11-2025 15:44:14 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+05-11-2025 15:44:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+05-11-2025 15:44:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 15:44:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 15:44:18 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 15:44:18 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:44:18 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 15:44:19 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 15:44:22 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 15:44:22 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:44:22 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+05-11-2025 15:44:22 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+05-11-2025 15:44:25 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:44:26 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:44:27 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+05-11-2025 15:44:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+05-11-2025 15:44:31 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+05-11-2025 15:44:31 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:44:31 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 15:44:31 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 15:44:36 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:44:37 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:44:38 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 15:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+05-11-2025 15:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 15:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+05-11-2025 15:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+05-11-2025 15:44:40 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+05-11-2025 15:44:41 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+05-11-2025 15:44:41 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+05-11-2025 15:44:42 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+05-11-2025 15:44:43 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+05-11-2025 15:44:44 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+05-11-2025 15:44:45 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+05-11-2025 15:44:46 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:44:47 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:44:48 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:44:49 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 15:44:49 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 15:44:52 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CA', 'Número de documento': 52}
+05-11-2025 15:44:53 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+05-11-2025 15:44:54 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+05-11-2025 15:44:55 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CA
+05-11-2025 15:44:56 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 52
+05-11-2025 15:44:57 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+05-11-2025 15:44:59 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:45:00 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:45:01 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:45:03 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 15:45:03 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 15:45:06 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt
+05-11-2025 15:45:06 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:45:07 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:45:08 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:45:09 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles: Using username "energizando".
+Last login: Wed Nov  5 15:05:56 2025 from 190.145.210.50
++------------------------------------------------------------------------------+ | Ver.006.20250218           CONTABILIDAD GENERAL          NOVIEMBRE  05, 2025 | | UFCG1021            DOCUMENTOS - CONSULTA POR NUMERO                ROCKET   | +------------------------[ UFCG1C01.Ver.011.20250218 ]-------------------------+ +---------------------------------[ DOCUMENTO ]--------------------------------+ |Empresa : TI  C.O: 001 Doc.Nro: CA-000052 Fecha: 2020/06/30 Doct_Alt: 12      | |Tercero : 860048608          BBVA ASSET MANAGEMENT SA                         | |Doc_Ref.: FEVP-3237                                                           | | Libro          Valor_Docto       Valor_Debito      Valor_Credito             | | NCIF          8,356,685.00       8,356,685.00       8,356,685.00             | +------------------------------------------------------------------------------+                         +-------------------------+                                                      |   OPCIONES A CONSULTAR  |                                                      |-------------------------|                                                      |> Otros Datos Basicos    |                                                      |  Contabilizacion        |                                                      |  Movimiento - Cartera   |                                                      +-------------------------+                                                                                                                                                                                                                                                                                                                                                                                                                                                Enter-Acepta                                         PageDown PageUp ESC-Retorna na
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Obteniendo variable 'gblInfoPantalla' para procesar en obtenerInfoSiesa.
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Texto de entrada: Using username "energizando".
+Last login: Wed Nov  5 15:05:56 2025 from 190.145.210.50
++------------------------------------------------------------------------------+ | Ver.006.20250218           CONTABILIDAD GENERAL          NOVIEMBRE  05, 2025 | | UFCG1021            DOCUMENTOS - CONSULTA POR NUMERO                ROCKET   | +------------------------[ UFCG1C01.Ver.011.20250218 ]-------------------------+ +---------------------------------[ DOCUMENTO ]--------------------------------+ |Empre...
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Iniciando extracción de información de Siesa.
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Lista de patrones utilizados para buscar doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:', 'Doc_Alt:']
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Buscando patrón de doc_alt: Doct_Alt:
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Patrón de doc_alt encontrado: Doct_Alt:
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Valor extraído de doc_alt: '12'
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Buscando el campo Doc_Ref en el texto de entrada.
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Valor extraído de Doc_Ref: 'FEVP-3237'
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Diccionario elementos extraído: {'Doct_Alt': '12', 'Doc_Ref': 'FEVP-3237'}
+05-11-2025 15:45:09 | INFO | Task: 024_ConsultaDocAlt | Desc: Diccionario de elementos finales: {'Doct_Alt': '12', 'Doc_Ref': 'FEVP-3237'}
+05-11-2025 15:45:09 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 52, 'Detalle': 'ANAC RR 12 FACT FEVP 3237 CC 110158 COMI SION FIDUCIARIA MES JUNIO SOL YULIANA', 'Documento Cruce': 'PE-18', 'Nro de Proceso': '12', 'Doc Alt': '12', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 14:39:55', 'Observaciones': 'Ocurrio un error al descargar documentos de Workmanager. Revisar archivo de logs.'}
+05-11-2025 15:45:09 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 52, 'Detalle': 'ANAC RR 12 FACT FEVP 3237 CC 110158 COMI SION FIDUCIARIA MES JUNIO SOL YULIANA', 'Documento Cruce': 'PE-18', 'Nro de Proceso': '12', 'Doc Alt': '12', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 14:39:55', 'Observaciones': 'Ocurrio un error al descargar documentos de Workmanager. Revisar archivo de logs.'}
+05-11-2025 15:45:09 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+05-11-2025 15:45:09 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 700)
+05-11-2025 15:45:09 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 700) cerrado exitosamente.
+05-11-2025 15:45:09 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+05-11-2025 15:45:09 | TRACE | Task: 026_CerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+05-11-2025 15:45:11 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+05-11-2025 15:45:11 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+05-11-2025 15:45:11 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+05-11-2025 15:45:11 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+05-11-2025 15:45:11 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 15:45:11 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 15:45:11 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+05-11-2025 15:45:11 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+05-11-2025 15:45:12 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 15:45:15 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+05-11-2025 15:45:31 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+05-11-2025 15:45:32 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+05-11-2025 15:45:35 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+05-11-2025 15:45:35 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+05-11-2025 15:45:50 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+05-11-2025 15:45:50 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+05-11-2025 15:45:51 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+05-11-2025 15:45:52 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 15:45:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 15:45:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61318 bytes', 'extension': '.pdf', 'id': '51713', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 103892 bytes', 'extension': '.pdf', 'id': '41441', 'nombre': '194,698,599'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 104458 bytes', 'extension': '.pdf', 'id': '41440', 'nombre': '131,750,703'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 31084 bytes', 'extension': '.pdf', 'id': '41436', 'nombre': 'PE 045736 ELECTRO SERVIMOS CORREGIDA'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159271 bytes', 'extension': '.pdf', 'id': '41356', 'nombre': '1,093,297,842'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 165749 bytes', 'extension': '.pdf', 'id': '40455', 'nombre': '$1,101,597,303.15'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 16158026 bytes', 'extension': '.pdf', 'id': '39279', 'nombre': 'PE 045736 ELECTRO SERVIMOS 4'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 17364475 bytes', 'extension': '.pdf', 'id': '39278', 'nombre': 'PE 045736 ELECTRO SERVIMOS 3'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 22846070 bytes', 'extension': '.pdf', 'id': '39262', 'nombre': 'PE 045736 ELECTRO SERVIMOS 2'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14779512 bytes', 'extension': '.pdf', 'id': '39261', 'nombre': 'PE 045736 ELECTRO SERVIMOS 1'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 11796 bytes', 'extension': '.pdf', 'id': '190', 'nombre': 'CC 35017 FT 3051'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 457750 bytes', 'extension': '.pdf', 'id': '86', 'nombre': 'REMISION 51141'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 14250 bytes', 'extension': '.pdf', 'id': '84', 'nombre': 'EA-038072'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 9973 bytes', 'extension': '.pdf', 'id': '83', 'nombre': 'TO-49686'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 133542 bytes', 'extension': '.pdf', 'id': '32', 'nombre': 'ELECTROSERVIMOS FACT 3051'}]
+05-11-2025 15:45:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 15:45:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 15:45:53 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:45:53 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:45:53 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:45:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:46:01 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:46:06 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:46:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:46:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:46:07 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:46:07 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:46:16 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:46:21 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:46:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:46:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:46:21 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:46:21 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:46:30 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:46:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:46:36 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:46:36 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:46:36 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:46:36 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:46:44 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:46:49 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:46:50 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:46:50 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:46:50 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:46:50 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:46:59 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:47:04 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:47:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:47:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:47:04 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:47:04 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:47:13 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:47:18 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:47:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:47:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:47:19 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:47:19 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:47:28 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:47:33 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:47:36 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:47:36 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:47:36 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:47:36 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:47:45 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:47:50 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:47:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:47:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:47:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:47:52 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:48:01 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:48:06 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:48:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:48:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:48:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:48:09 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:48:18 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:48:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:48:25 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:48:25 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:48:25 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:48:25 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:48:33 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:48:38 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:48:39 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:48:39 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:48:39 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:48:39 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:48:48 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:48:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:48:53 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:48:53 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:48:53 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:48:53 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:49:02 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:49:07 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:49:08 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:49:08 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:49:08 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:49:08 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:49:23 | ERROR | Task: 012_DescargarArchivosDeProceso | Desc: OcurriÃ³ un error al descargar archivos del proceso. | Error: Message: element not interactable  (Session info: chrome=142.0.7444.60)Stacktrace:Symbols not available. Dumping unresolved backtrace:0x16358c30x16359040x144e5bb0x149b2dd0x148fdf50x14bc96c0x148f8540x14bcb240x14deea60x14bc7660x148dac00x148ede40x18b79740x18b2bea0x165e5b40x164dd280x1654d8d0x163ded80x163e09c0x1627d1a0x73d262c40x76f209890x76f20954
+05-11-2025 15:49:23 | WARNING | Task: 025_ProcesarFlujo2 | Desc: Ocurrio un error al descargar los archivos.
+05-11-2025 15:49:23 | WARNING | Task: 018_ProcesarRegistro | Desc: Algo fallo al realizar la busqueda por numero de proceso.
+05-11-2025 15:49:23 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+05-11-2025 15:49:26 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+05-11-2025 15:49:26 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 4772 filas de datos
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [451]
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_52_PE-18
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [451]
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 451):
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 52
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC RR 12 FACT FEVP 3237 CC 110158 COMI SION FIDUCIARIA MES JUNIO SOL YULIANA
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-18
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: 12
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: 12
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Buscado por Documento Cruce
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 05-11-2025 14:39:55
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al descargar documentos de Workmanager. Revisar archivo de logs.
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 451...
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 52
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC RR 12 FACT FEVP 3237 CC 110158 COMI SION FIDUCIARIA MES JUNIO SOL YULIANA
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-18
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: 12
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: 12
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Buscado por Documento Cruce
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 05-11-2025 14:39:55
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: Ocurrio un error al descargar documentos de Workmanager. Revisar archivo de logs.
+05-11-2025 15:49:27 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 451 actualizada exitosamente
+05-11-2025 15:49:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+05-11-2025 15:49:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 05-11-2025 15:49:27
+05-11-2025 15:49:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+05-11-2025 15:49:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 4773
+05-11-2025 15:49:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+05-11-2025 15:49:28 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+05-11-2025 15:49:28 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 727, 'Detalle': 'LBLANCO FACT FEVP15103 COMISION FIDUCIAR SOL LUISA RESTREPO', 'Documento Cruce': 'PC-128', 'Nro de Proceso': None, 'Doc Alt': 'P128601', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 14:53:49', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+05-11-2025 15:49:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+05-11-2025 15:49:28 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+05-11-2025 15:49:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+05-11-2025 15:49:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+05-11-2025 15:49:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+05-11-2025 15:49:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 15:49:29 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 15:49:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 15:49:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:49:32 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 15:49:33 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 15:49:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 15:49:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:49:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+05-11-2025 15:49:36 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+05-11-2025 15:49:39 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:49:40 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:49:41 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+05-11-2025 15:49:43 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+05-11-2025 15:49:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+05-11-2025 15:49:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:49:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 15:49:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 15:49:50 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:49:51 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:49:52 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:49:54 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 15:49:54 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+05-11-2025 15:49:54 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 15:49:54 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+05-11-2025 15:49:54 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+05-11-2025 15:49:54 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+05-11-2025 15:49:55 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+05-11-2025 15:49:55 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+05-11-2025 15:49:56 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+05-11-2025 15:49:57 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+05-11-2025 15:49:58 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+05-11-2025 15:49:59 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+05-11-2025 15:50:00 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:50:01 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:50:02 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:50:03 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 15:50:03 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 15:50:06 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'CA', 'Número de documento': 727}
+05-11-2025 15:50:07 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+05-11-2025 15:50:08 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+05-11-2025 15:50:09 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: CA
+05-11-2025 15:50:10 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 727
+05-11-2025 15:50:11 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+05-11-2025 15:50:13 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:50:14 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:50:16 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:50:17 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 15:50:17 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 15:50:20 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt
+05-11-2025 15:50:20 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 15:50:21 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 15:50:22 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 15:50:23 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles: Using username "energizando".
+Last login: Wed Nov  5 15:44:17 2025 from 190.145.210.50
++------------------------------------------------------------------------------+ | Ver.006.20250218           CONTABILIDAD GENERAL          NOVIEMBRE  05, 2025 | | UFCG1021            DOCUMENTOS - CONSULTA POR NUMERO                ROCKET   | +------------------------[ UFCG1C01.Ver.011.20250218 ]-------------------------+ +---------------------------------[ DOCUMENTO ]--------------------------------+ |Empresa : TI  C.O: 001 Doc.Nro: CA-000727 Fecha: 2022/11/30 Doct_Alt: P128601 | |Tercero : 860048608          BBVA ASSET MANAGEMENT SA                         | |Doc_Ref.: FEVP-15103                                                          | | Libro          Valor_Docto       Valor_Debito      Valor_Credito             | | NCIF          9,520,000.00       9,520,000.00       9,520,000.00             | +------------------------------------------------------------------------------+                         +-------------------------+                                                      |   OPCIONES A CONSULTAR  |                                                      |-------------------------|                                                      |> Otros Datos Basicos    |                                                      |  Contabilizacion        |                                                      |  Movimiento - Cartera   |                                                      +-------------------------+                                                                                                                                                                                                                                                                                                                                                                                                                                                Enter-Acepta                                         PageDown PageUp ESC-Retorna na
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Obteniendo variable 'gblInfoPantalla' para procesar en obtenerInfoSiesa.
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Texto de entrada: Using username "energizando".
+Last login: Wed Nov  5 15:44:17 2025 from 190.145.210.50
++------------------------------------------------------------------------------+ | Ver.006.20250218           CONTABILIDAD GENERAL          NOVIEMBRE  05, 2025 | | UFCG1021            DOCUMENTOS - CONSULTA POR NUMERO                ROCKET   | +------------------------[ UFCG1C01.Ver.011.20250218 ]-------------------------+ +---------------------------------[ DOCUMENTO ]--------------------------------+ |Empre...
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Iniciando extracción de información de Siesa.
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Lista de patrones utilizados para buscar doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:', 'Doc_Alt:']
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Buscando patrón de doc_alt: Doct_Alt:
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Patrón de doc_alt encontrado: Doct_Alt:
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Valor extraído de doc_alt: 'P128601'
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Buscando el campo Doc_Ref en el texto de entrada.
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Valor extraído de Doc_Ref: 'FEVP-15103'
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Diccionario elementos extraído: {'Doct_Alt': 'P128601', 'Doc_Ref': 'FEVP-15103'}
+05-11-2025 15:50:23 | INFO | Task: 024_ConsultaDocAlt | Desc: Diccionario de elementos finales: {'Doct_Alt': 'P128601', 'Doc_Ref': 'FEVP-15103'}
+05-11-2025 15:50:23 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 727, 'Detalle': 'LBLANCO FACT FEVP15103 COMISION FIDUCIAR SOL LUISA RESTREPO', 'Documento Cruce': 'PC-128', 'Nro de Proceso': None, 'Doc Alt': 'P128601', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 14:53:49', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+05-11-2025 15:50:23 | TRACE | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en el aplicativo Siesa 8.5 cumple con las reglas de negocio. doc_alt obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 727, 'Detalle': 'LBLANCO FACT FEVP15103 COMISION FIDUCIAR SOL LUISA RESTREPO', 'Documento Cruce': 'PC-128', 'Nro de Proceso': '128601', 'Doc Alt': 'P128601', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 14:53:49', 'Observaciones': 'Ocurrio un error al abrir Workmanager. Revisar archivo de logs.'}
+05-11-2025 15:50:23 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+05-11-2025 15:50:23 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 7752)
+05-11-2025 15:50:23 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 7752) cerrado exitosamente.
+05-11-2025 15:50:23 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+05-11-2025 15:50:23 | TRACE | Task: 026_CerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+05-11-2025 15:50:25 | TRACE | Task: 007_AbrirWorkManager | Desc: Se abre el navegador.
+05-11-2025 15:50:25 | TRACE | Task: 007_AbrirWorkManager | Desc: Se va a maximizar la pagina.
+05-11-2025 15:50:25 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Buscando ventana con título: Iniciar sesión - Workmanager
+05-11-2025 15:50:25 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana encontrada: ''
+05-11-2025 15:50:25 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 15:50:25 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana con el título 'Iniciar sesión - Workmanager' encontrada: 'Iniciar sesión - WorkManager E.D.® - Google Chrome'
+05-11-2025 15:50:26 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Ventana 'Iniciar sesión - WorkManager E.D.® - Google Chrome' traída al frente y maximizada.
+05-11-2025 15:50:26 | TRACE | Task: 007_AbrirWorkManager | Desc: El navegador se cargo correctamente.
+05-11-2025 15:50:26 | TRACE | Task: 009_IniciarSesionWorkManager | Desc: Comienza el inicio de sesiÃ³n de WorkManager.
+05-11-2025 15:50:46 | WARNING | Task: 009_IniciarSesionWorkManager | Desc: No esta disponible el botÃ³n para elegir la EMPRESA.
+05-11-2025 15:50:46 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Se va a ver si se puede recuperar del error,
+05-11-2025 15:50:46 | INFO | Task: 009_IniciarSesionWorkManager | Desc: Texto de error: El usuario lucas.rebuffo tiene una sesiÃ³n abierta, tambiÃ©n es posible que haya salido de la aplicaciÃ³n de forma incorrecta. En este momento se cerraron todas las sesiones por favor vuelva intentar.
+05-11-2025 15:50:49 | TRACE | Task: 008_ChequearWorkManagerAbierto | Desc: Se va a chequear que la sesiÃ³n este iniciada.
+05-11-2025 15:51:05 | WARNING | Task: 008_ChequearWorkManagerAbierto | Desc: No esta iniciada la sesion.
+05-11-2025 15:51:06 | INFO | Task: 010_NavegarAdministrarProcesos | Desc: Se navego correctamente a Administrar procesos
+05-11-2025 15:51:09 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: se pudo encontrar el botÃ³n para buscar proceso.
+05-11-2025 15:51:09 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se da click en el boton que permitira buscar el proceso
+05-11-2025 15:51:25 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se encontraron registros con el numero de proceso buscado
+05-11-2025 15:51:25 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Se logro detectar el ultimo elemento de la tabla
+05-11-2025 15:51:25 | TRACE | Task: 011_BuscarPorNumeroDeProceso | Desc: Damos click en el ultimo elemento de la tabla
+05-11-2025 15:51:26 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se obtiene la tabla de archivos: [{'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 8709 bytes', 'extension': '.pdf', 'id': '537609', 'nombre': 'TPE 397'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 340339 bytes', 'extension': '.pdf', 'id': '530709', 'nombre': '81,134,200'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 159829 bytes', 'extension': '.pdf', 'id': '530710', 'nombre': 'TPE 98'}, {'detalle': 'VersiÃ³n: 1 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 212765 bytes', 'extension': '.pdf', 'id': '530708', 'nombre': 'PC 128 TI'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .PDF | TamaÃ±o: 3590 bytes', 'extension': '.PDF', 'id': '344993', 'nombre': 'CA TIENERGY 727 $9.520.000'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 61608 bytes', 'extension': '.pdf', 'id': '340911', 'nombre': 'TIC Energi'}, {'detalle': 'VersiÃ³n: 0 | Es versiÃ³n actual? Si | ExtensiÃ³n: .pdf | TamaÃ±o: 72943 bytes', 'extension': '.pdf', 'id': '339980', 'nombre': 'BBVA ASSET FACT 15103'}]
+05-11-2025 15:51:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Iniciando verificación del resultado de extracción (loc012ResultadoExtraccion)...
+05-11-2025 15:51:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Resultado recibido: [{'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 8709 bytes', 'extension': '.pdf', 'id': '537609', 'nombre': 'TPE 397'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 340339 bytes', 'extension': '.pdf', 'id': '530709', 'nombre': '81,134,200'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 159829 bytes', 'extension': '.pdf', 'id': '530710', 'nombre': 'TPE 98'}, {'detalle': 'Versión: 1 | Es versión actual? Si | Extensión: .pdf | Tamaño: 212765 bytes', 'extension': '.pdf', 'id': '530708', 'nombre': 'PC 128 TI'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .PDF | Tamaño: 3590 bytes', 'extension': '.PDF', 'id': '344993', 'nombre': 'CA TIENERGY 727 $9.520.000'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 61608 bytes', 'extension': '.pdf', 'id': '340911', 'nombre': 'TIC Energi'}, {'detalle': 'Versión: 0 | Es versión actual? Si | Extensión: .pdf | Tamaño: 72943 bytes', 'extension': '.pdf', 'id': '339980', 'nombre': 'BBVA ASSET FACT 15103'}]
+05-11-2025 15:51:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Se detectó que hay resultado (hay_resultado=True).
+05-11-2025 15:51:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Variable 'loc012CheckResultado' seteada a: True
+05-11-2025 15:51:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:51:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:51:26 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:51:26 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:51:35 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:51:40 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:51:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:51:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:51:41 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:51:41 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:51:49 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:51:54 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:51:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:51:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:51:55 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:51:55 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:52:04 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:52:09 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:52:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:52:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:52:09 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:52:09 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:52:18 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:52:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:52:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:52:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:52:23 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:52:23 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:52:32 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:52:37 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:52:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:52:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:52:38 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:52:38 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:52:46 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:52:51 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:52:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: La carpeta "C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Descargas" ya existe.
+05-11-2025 15:52:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Comienza el proceso de borrado de carpeta.
+05-11-2025 15:52:52 | INFO | Task: 012_DescargarArchivosDeProceso | Desc: Finaliza el proceso de borrado de carpetas.
+05-11-2025 15:52:52 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se borra contenido de carpeta de descargas.
+05-11-2025 15:53:00 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se hace click en boton download.
+05-11-2025 15:53:06 | TRACE | Task: 012_DescargarArchivosDeProceso | Desc: Se cierra la ultima pestania.
+05-11-2025 15:53:07 | INFO | Task: 021_CerrarWorkmanager | Desc: Se intenta cerrar Workmanager con Close Browser.
+05-11-2025 15:53:10 | INFO | Task: 021_CerrarWorkmanager | Desc: Se cierra WorkManager con Ã©xito.
+05-11-2025 15:53:10 | TRACE | Task: 025_ProcesarFlujo2 | Desc: Se cambia el estado del item actual: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 727, 'Detalle': 'LBLANCO FACT FEVP15103 COMISION FIDUCIAR SOL LUISA RESTREPO', 'Documento Cruce': 'PC-128', 'Nro de Proceso': '128601', 'Doc Alt': 'P128601', 'Estado Procesamiento': 'Procesado', 'Fecha Procesamiento': '05-11-2025 14:53:49', 'Observaciones': ''} a PROCESADO.
+05-11-2025 15:53:10 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 4772 filas de datos
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [480]
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: CA_727_PC-128
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [480]
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 480):
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: CA
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 727
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: LBLANCO FACT FEVP15103 COMISION FIDUCIAR SOL LUISA RESTREPO
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PC-128
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: P128601
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Buscado por Documento Cruce
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 05-11-2025 14:53:49
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: Ocurrio un error al abrir Workmanager. Revisar archivo de logs.
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 480...
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: CA
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 727
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: LBLANCO FACT FEVP15103 COMISION FIDUCIAR SOL LUISA RESTREPO
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PC-128
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: 128601
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: P128601
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Procesado
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 05-11-2025 14:53:49
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: 
+05-11-2025 15:53:11 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 480 actualizada exitosamente
+05-11-2025 15:53:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+05-11-2025 15:53:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 05-11-2025 15:53:11
+05-11-2025 15:53:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+05-11-2025 15:53:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 4773
+05-11-2025 15:53:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+05-11-2025 15:53:12 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+05-11-2025 15:53:12 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'CA', 'Nro Docto': 731, 'Detalle': 'LBLANCO FACT FEVP-15518 COMISION FIDUCIA SOL LUISA RESTREPO', 'Documento Cruce': 'PC-128', 'Nro de Proceso': None, 'Doc Alt': 'P129424', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 14:55:51', 'Observaciones': 'Ocurrio un error al buscar el proceso en Workmanager o no se encontraron resultados de la busqueda. Revisar archivo de logs.'}
+05-11-2025 15:53:12 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+05-11-2025 15:53:12 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+05-11-2025 15:53:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+05-11-2025 15:53:12 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+05-11-2025 15:53:13 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+05-11-2025 15:53:13 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 15:53:13 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 15:53:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 15:53:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:53:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 15:53:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 15:53:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 15:53:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Task Scheduler', 'Desktop', '', '', '', 'Server Manager', 'Log_05112025-143322.log - Visual Studio Code [Administrator]', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 15:53:20 | WARNING | Task: 003_AbrirSiesa8.5 | Desc: No se encontró ninguna ventana con el nombre que contenga: 'Sistema Uno'

@@ -1,0 +1,413 @@
+05-11-2025 11:43:01 | TRACE | Task: 001_InicializarVariables | Desc: Se inicializan las rutas del robot.
+05-11-2025 11:43:01 | TRACE | Task: 001_InicializarVariables | Desc: Se leen los datos parametrizados en el archivo: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Process/config/Config.xlsx y se inicializan las variables del proceso.
+05-11-2025 11:43:01 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesWorkManager.
+05-11-2025 11:43:01 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial CredencialesSiesa.
+05-11-2025 11:43:01 | TRACE | Task: 001_InicializarVariables | Desc: Se obtiene las credencial O365.
+05-11-2025 11:43:01 | TRACE | Task: 001_InicializarVariables | Desc: Se deja lista la plantilla del reporte.
+05-11-2025 11:43:02 | TRACE | Task: 002_NotificacionCorreo | Desc: ConexiÃ³n exitosa con el servidor de correos. Tipo de notificaciÃ³n: INICIO
+05-11-2025 11:43:02 | INFO | Task: 002_NotificacionCorreo | Desc: Asunto: [INICIO] | Inicio de ejecuciÃ³n | Recupercion de Soportes | 05112025-114301 - Destinatarios: contabilidad.finanzas@energizan,julian.lopez@energizando.com,yhonatan.ospina@energizando.com
+05-11-2025 11:43:03 | TRACE | Task: 002_NotificacionCorreo | Desc: NotificaciÃ³n enviada.
+05-11-2025 11:43:03 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar el archivo base de la ruta //10.238.99.5/temporales/ROCKETBOT/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 11:43:04 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Se va a descargar exitosamente el archivo base en C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 11:43:04 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: Comienza el proceso de extraccion de informacion del archivo base.
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Filtrado por documento_cruce y tipo_docto: de 31,048 a 9,901 filas.
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Archivo leido exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Inusmo busqueda masiva - UT Ticenergi.xlsx
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Dimensiones del DataFrame: (9901, 7)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: Columnas extraidas: ['empresa', 'tipo_docto', 'nro_docto', 'detalle', 'documento_cruce', 'fecha_procesamiento', 'estado_procesamiento']
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: RESUMEN DE DATOS:
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de filas: 9,901
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    Total de columnas: 7
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: VALORES NULOS POR COLUMNA:
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 0 (0.0%)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 0 (0.0%)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 0 (0.0%)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 0 (0.0%)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 0 (0.0%)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 0 (0.0%)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 0 (0.0%)
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: ESTADISTICAS POR COLUMNA:
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    empresa: 2 valores unicos
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    tipo_docto: 16 valores unicos
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    nro_docto: 3,428 valores unicos
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    detalle: 4,428 valores unicos
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    documento_cruce: 468 valores unicos
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    fecha_procesamiento: 1 valores unicos
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc:    estado_procesamiento: 1 valores unicos
+05-11-2025 11:43:23 | INFO | Task: 016_ObtenerInformacionArchivoBase | Desc: PRIMERAS 5 FILAS:
+     empresa tipo_docto nro_docto                                  detalle documento_cruce fecha_procesamiento estado_procesamiento
+0  Ticenergi         NI       129    ECANOLA TRASLADO AL COSTO NOMINA 2021                                                Pendiente
+1  Ticenergi         NI       138                          ECANOLA AJUSTES                                                Pendiente
+2  Ticenergi         NI       189  LRESTREP/MAYOR VALOR AJUSTADO EN NI 138                                                Pendiente
+3  Ticenergi         NI       129    ECANOLA TRASLADO AL COSTO NOMINA 2021                                                Pendiente
+4  Ticenergi         NI       138    ECANOLA TRASLADO AL GASTO NOMINA 2021                                                Pendiente
+05-11-2025 11:43:23 | TRACE | Task: 016_ObtenerInformacionArchivoBase | Desc: ExtracciÃ³n exitosa.
+05-11-2025 11:43:23 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Se van a obtener los datos a trabajar del archivo de seguimiento.
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Encabezados encontrados: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo leÃ­do exitosamente: 4772 filas de datos
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo existente cargado: 4772 filas
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Columnas: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Datos de entrada: 9901 filas
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Filas nuevas a agregar: 0
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: No hay filas nuevas por agregar.
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas en el archivo: 4772
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Eliminando duplicados basados en 'Tipo Docto', 'Nro Docto', 'Documento Cruce'...
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Indices columnas - Tipo Docto: 1, Nro Docto: 2, Documento Cruce: 4
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas duplicadas eliminadas: 0
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de filas sin duplicados: 4772
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Preparando datos finales para SetVar. Total de filas: 4772
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: NÃºmero de registros preparados para SetVar: 4772
+05-11-2025 11:43:25 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Extraccion exitosa.
+05-11-2025 11:43:25 | TRACE | Task: 017_ObtenerInformacionAProcesar | Desc: Filtro pendientes.
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros leídos de gblItemsAProcesar: 4772
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Tamanio de lote a tomar: 100
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Total de registros con 'Pendiente' en estado_procesamiento: 100
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Registros después de eliminar duplicados por clave (Tipo Docto, Nro Docto, Documento Cruce): 100
+05-11-2025 11:43:25 | INFO | Task: 017_ObtenerInformacionAProcesar | Desc: Variable 'gblItemsAProcesar' actualizada con registros pendientes y sin duplicados.
+05-11-2025 11:43:25 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 266, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 11:32:58', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:43:25 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+05-11-2025 11:43:25 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+05-11-2025 11:43:26 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+05-11-2025 11:43:26 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+05-11-2025 11:43:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+05-11-2025 11:43:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:43:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:43:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 11:43:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'config', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 11:43:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 11:43:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 11:43:33 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 11:43:33 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'config', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 11:43:33 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+05-11-2025 11:43:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+05-11-2025 11:43:37 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:43:38 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:43:39 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+05-11-2025 11:43:40 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+05-11-2025 11:43:42 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+05-11-2025 11:43:42 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'config', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 11:43:42 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 11:43:42 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 11:43:48 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:43:49 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:43:50 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:43:51 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 11:43:51 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+05-11-2025 11:43:51 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 11:43:51 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+05-11-2025 11:43:51 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+05-11-2025 11:43:51 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+05-11-2025 11:43:52 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+05-11-2025 11:43:52 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+05-11-2025 11:43:53 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+05-11-2025 11:43:54 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+05-11-2025 11:43:55 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+05-11-2025 11:43:57 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+05-11-2025 11:43:58 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:43:59 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:44:00 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:44:01 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 11:44:01 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 11:44:04 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'DS', 'Número de documento': 266}
+05-11-2025 11:44:04 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+05-11-2025 11:44:05 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+05-11-2025 11:44:06 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: DS
+05-11-2025 11:44:08 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 266
+05-11-2025 11:44:09 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+05-11-2025 11:44:11 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:44:12 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:44:13 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:44:14 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 11:44:14 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 11:44:17 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt
+05-11-2025 11:44:17 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:44:18 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:44:20 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:44:21 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+05-11-2025 11:44:21 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+05-11-2025 11:44:21 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 266, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Nro de Proceso': None, 'Doc Alt': '', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 11:32:58', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:44:21 | WARNING | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en Siesa 8.5 no cumple las reglas de negocio; no es posible continuar con el proceso. doc_alt obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 266, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'PE-163', 'Nro de Proceso': None, 'Doc Alt': '', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 11:32:58', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:44:21 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+05-11-2025 11:44:21 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 1076)
+05-11-2025 11:44:21 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 1076) cerrado exitosamente.
+05-11-2025 11:44:21 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+05-11-2025 11:44:21 | TRACE | Task: 026_CerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+05-11-2025 11:44:21 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 4772 filas de datos
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [4]
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: DS_266_PE-163
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [4]
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 4):
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: DS
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 266
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: PE-163
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Buscado por Documento Cruce
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 05-11-2025 11:32:58
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 4...
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: DS
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 266
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: PE-163
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: 
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Buscado por Numero de Proceso
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 05-11-2025 11:32:58
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: La opcion doc_alt encontrada en siesa no contiene informacion.
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 4 actualizada exitosamente
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 05-11-2025 11:44:22
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+05-11-2025 11:44:22 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 4773
+05-11-2025 11:44:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+05-11-2025 11:44:23 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+05-11-2025 11:44:23 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 481, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'NI-190', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 11:33:15', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:44:23 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+05-11-2025 11:44:23 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+05-11-2025 11:44:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+05-11-2025 11:44:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+05-11-2025 11:44:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+05-11-2025 11:44:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:44:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:44:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 11:44:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'config', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 11:44:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 11:44:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 11:44:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 11:44:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'config', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 11:44:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+05-11-2025 11:44:31 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+05-11-2025 11:44:34 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:44:35 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:44:36 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+05-11-2025 11:44:37 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+05-11-2025 11:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+05-11-2025 11:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'config', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Program Manager']
+05-11-2025 11:44:39 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 11:44:40 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 11:44:45 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:44:46 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:44:47 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:44:48 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 11:44:48 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+05-11-2025 11:44:48 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 11:44:48 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+05-11-2025 11:44:48 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+05-11-2025 11:44:48 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+05-11-2025 11:44:49 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+05-11-2025 11:44:49 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+05-11-2025 11:44:50 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+05-11-2025 11:44:51 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+05-11-2025 11:44:52 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+05-11-2025 11:44:53 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+05-11-2025 11:44:55 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:44:56 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:44:57 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:44:58 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 11:44:58 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 11:45:01 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'DS', 'Número de documento': 481}
+05-11-2025 11:45:01 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+05-11-2025 11:45:02 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+05-11-2025 11:45:03 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: DS
+05-11-2025 11:45:05 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 481
+05-11-2025 11:45:06 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+05-11-2025 11:45:08 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:45:09 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:45:10 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:45:11 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 11:45:11 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 11:45:14 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt
+05-11-2025 11:45:14 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:45:15 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:45:16 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:45:18 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+05-11-2025 11:45:18 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+05-11-2025 11:45:18 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 481, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'NI-190', 'Nro de Proceso': None, 'Doc Alt': '', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 11:33:15', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:45:18 | WARNING | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en Siesa 8.5 no cumple las reglas de negocio; no es posible continuar con el proceso. doc_alt obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 481, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'NI-190', 'Nro de Proceso': None, 'Doc Alt': '', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '05-11-2025 11:33:15', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:45:18 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+05-11-2025 11:45:18 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 8996)
+05-11-2025 11:45:18 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 8996) cerrado exitosamente.
+05-11-2025 11:45:18 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+05-11-2025 11:45:18 | TRACE | Task: 026_CerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+05-11-2025 11:45:18 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 4772 filas de datos
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [12]
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: DS_481_NI-190
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [12]
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 12):
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: DS
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 481
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: NI-190
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Buscado por Documento Cruce
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 05-11-2025 11:33:15
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 12...
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: DS
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 481
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: NI-190
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: 
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Buscado por Numero de Proceso
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 05-11-2025 11:33:15
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: La opcion doc_alt encontrada en siesa no contiene informacion.
+05-11-2025 11:45:19 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 12 actualizada exitosamente
+05-11-2025 11:45:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+05-11-2025 11:45:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 05-11-2025 11:45:19
+05-11-2025 11:45:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+05-11-2025 11:45:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 4773
+05-11-2025 11:45:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+05-11-2025 11:45:20 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+05-11-2025 11:45:20 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 379, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'NI-190', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '27-10-2025 08:41:18', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:45:20 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+05-11-2025 11:45:20 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+05-11-2025 11:45:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+05-11-2025 11:45:20 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+05-11-2025 11:45:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+05-11-2025 11:45:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:45:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:45:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 11:45:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'config', 'Program Manager']
+05-11-2025 11:45:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 11:45:24 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 11:45:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 11:45:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'config', 'Program Manager']
+05-11-2025 11:45:27 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+05-11-2025 11:45:28 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+05-11-2025 11:45:31 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:45:32 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:45:33 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de usuario'
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'codigo de seguridad'
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'siesa'
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'autoriza el uso de esta copia'
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Patrón encontrado: 'serial:'
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Detectada pantalla de login de SIESA.
+05-11-2025 11:45:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se abrio el aplicativo correctamente.
+05-11-2025 11:45:36 | INFO | Task: 005_LoginSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: ''
+05-11-2025 11:45:36 | INFO | Task: 005_LoginSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'rocketbot.exe - Shortcut', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'config', 'Program Manager']
+05-11-2025 11:45:36 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+05-11-2025 11:45:37 | INFO | Task: 005_LoginSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+05-11-2025 11:45:42 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:45:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:45:44 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:45:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Validando pantalla de login SIESA...
+05-11-2025 11:45:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Patrón encontrado: 'financiero'
+05-11-2025 11:45:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Pantalla de login SIESA detectada exitosamente.
+05-11-2025 11:45:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Detectada pantalla de post login de SIESA.
+05-11-2025 11:45:45 | INFO | Task: 005_LoginSiesa8.5 | Desc: Se inicio sesion en el aplicativo correctamente.
+05-11-2025 11:45:45 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se inicio el bot de navegacion en el menu del aplicativo Siesa 8.5
+05-11-2025 11:45:46 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Esta es la navegacion que se realizara en el aplicativo Siesa 8.5: {'Financiero': 'f', 'Contabilidad General': 'g', 'Contab': 'n', 'Auditoria de Documentos': 'r', 'Consulta por Numero': 'n'}
+05-11-2025 11:45:46 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Financiero con la letra de referencia f
+05-11-2025 11:45:47 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contabilidad General con la letra de referencia g
+05-11-2025 11:45:48 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Contab con la letra de referencia n
+05-11-2025 11:45:49 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Auditoria de Documentos con la letra de referencia r
+05-11-2025 11:45:50 | TRACE | Task: 006_NavegacionMenuSiesa | Desc: Navega en la opcion Consulta por Numero con la letra de referencia n
+05-11-2025 11:45:52 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:45:53 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:45:54 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:45:55 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 11:45:55 | INFO | Task: 006_NavegacionMenuSiesa | Desc: Se encontró la palabra de referencia 'Empresa' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 11:45:58 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se ingresará la información de la factura en el aplicativo Siesa 8.5 de la siguiente manera: {'Empresa': 'TI', 'Centro de costos': '001', 'Tipo de documento': 'DS', 'Número de documento': 379}
+05-11-2025 11:45:58 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Empresa. Valor que se ingresara: TI
+05-11-2025 11:45:59 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Centro de costos. Valor que se ingresara: 001
+05-11-2025 11:46:00 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: Tipo de documento. Valor que se ingresara: DS
+05-11-2025 11:46:02 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: A continuacion se ingresara la informacion en el aplicativo Siesa 8.5. Opcion en la que se ingresara la informacion: NÃºmero de documento. Valor que se ingresara: 379
+05-11-2025 11:46:03 | TRACE | Task: 022_IngresoFacturaSiesa | Desc: Se envio un enter para confirmar el numero de documento ingresado
+05-11-2025 11:46:05 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:46:06 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:46:07 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:46:08 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se obtiene la información del portapapeles
+05-11-2025 11:46:08 | INFO | Task: 022_IngresoFacturaSiesa | Desc: Se encontró la palabra de referencia 'contabilizacion' en la información procesada del aplicativo Siesa, la navegación se realizó exitosamente
+05-11-2025 11:46:11 | INFO | Task: 024_ConsultaDocAlt | Desc: Se inicia el bot que obtiene la informacion correspondiente a doc_alt
+05-11-2025 11:46:11 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+05-11-2025 11:46:12 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+05-11-2025 11:46:13 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+05-11-2025 11:46:15 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se obtuvo la informacion contenida en el aplicativo Siesa 8.5 desde el portapapeles
+05-11-2025 11:46:15 | INFO | Task: 024_ConsultaDocAlt | Desc: Esta es la lista de coincidencias que se buscaron para el campo doc_alt: ['Doct_Alt:', 'Doc.Alt.:', 'Doc_alt:', 'Doc.Alt:']
+05-11-2025 11:46:15 | TRACE | Task: 024_ConsultaDocAlt | Desc: Se asigna la informacion encontrada en el campo doc_alt, informacion encontrada: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 379, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'NI-190', 'Nro de Proceso': None, 'Doc Alt': '', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '27-10-2025 08:41:18', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:46:15 | WARNING | Task: 025_ProcesarFlujo2 | Desc: El doc_alt obtenido en Siesa 8.5 no cumple las reglas de negocio; no es posible continuar con el proceso. doc_alt obtenido: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 379, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'NI-190', 'Nro de Proceso': None, 'Doc Alt': '', 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '27-10-2025 08:41:18', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:46:15 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Inicia Bot encargado de cerrar el aplicativo siesa 8.5
+05-11-2025 11:46:15 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Intentando cerrar putty.exe (PID 6620)
+05-11-2025 11:46:15 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 6620) cerrado exitosamente.
+05-11-2025 11:46:15 | INFO | Task: 026_CerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
+05-11-2025 11:46:15 | TRACE | Task: 026_CerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+05-11-2025 11:46:15 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Comienza la actualizacion del archivo de seguimiento.
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo cargado: 4772 filas de datos
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Columnas disponibles: ['Empresa', 'Tipo Docto', 'Nro Docto', 'Detalle', 'Documento Cruce', 'Nro de Proceso', 'Doc Alt', 'Estado Procesamiento', 'Fecha Procesamiento', 'Observaciones']
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Filas encontradas: [16]
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Se encontraron 1 filas con la clave compuesta: DS_379_NI-190
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Clave compuesta: Tipo Docto + Nro Docto + Documento Cruce
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Indices de filas encontradas: [16]
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Datos actuales de la fila 1 (indice 16):
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Empresa: Ticenergi
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Tipo Docto: DS
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro Docto: 379
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Documento Cruce: NI-190
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Nro de Proceso: None
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Doc Alt: None
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Estado Procesamiento: Buscado por Documento Cruce
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Fecha Procesamiento: 27-10-2025 08:41:18
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Observaciones: No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizando fila 16...
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Empresa: Ticenergi
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Tipo Docto: DS
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro Docto: 379
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Detalle: ANAC CC110178 SERV PROF GESTOR PROMOCION
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Documento Cruce: NI-190
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Nro de Proceso: None
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Doc Alt: 
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Estado Procesamiento: Buscado por Numero de Proceso
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Fecha Procesamiento: 27-10-2025 08:41:18
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc:   Actualizado Observaciones: La opcion doc_alt encontrada en siesa no contiene informacion.
+05-11-2025 11:46:16 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fila 16 actualizada exitosamente
+05-11-2025 11:46:17 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Archivo actualizado exitosamente: C:/Users/administrator.ENERGIZANDO/Documents/01_RecuperacionSoportes/Input/Archivo de Seguimiento.xlsx
+05-11-2025 11:46:17 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Fecha de procesamiento: 05-11-2025 11:46:16
+05-11-2025 11:46:17 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas actualizadas: 1
+05-11-2025 11:46:17 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Total de filas en el archivo: 4773
+05-11-2025 11:46:17 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: Actualizacion completada exitosamente
+05-11-2025 11:46:17 | INFO | Task: 020_ActualizarArchivoDeSeguimiento | Desc: ActualizaciÃ³n de archivo de seguimiento exitosa.
+05-11-2025 11:46:17 | INFO | Task: 018_ProcesarRegistro | Desc: Comienza el procesamiento del registro: {'Empresa': 'Ticenergi', 'Tipo Docto': 'DS', 'Nro Docto': 380, 'Detalle': 'ANAC CC110178 SERV PROF GESTOR PROMOCION', 'Documento Cruce': 'NI-190', 'Nro de Proceso': None, 'Doc Alt': None, 'Estado Procesamiento': 'Buscado por Documento Cruce', 'Fecha Procesamiento': '27-10-2025 08:42:58', 'Observaciones': 'No se encontraron resultados de la busqueda. Chequear manualmente el nombre correcto a buscar.'}
+05-11-2025 11:46:17 | TRACE | Task: 018_ProcesarRegistro | Desc: Se procede a clasificar curso de accion a tomar.
+05-11-2025 11:46:17 | TRACE | Task: 018_ProcesarRegistro | Desc: Flujo a trabajar: 1
+05-11-2025 11:46:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+05-11-2025 11:46:17 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+05-11-2025 11:46:18 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+05-11-2025 11:46:18 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:46:18 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+05-11-2025 11:46:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+05-11-2025 11:46:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['Sistema Uno', '', 'C:\\WINDOWS\\SYSTEM32\\cmd.exe', 'Task Scheduler', '', '', '', '', 'Server Manager', '000_MasterProceso -RocketBot Studio - Google Chrome', 'rocketbot.exe - Shortcut', 'config', 'Program Manager']
+05-11-2025 11:46:21 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.

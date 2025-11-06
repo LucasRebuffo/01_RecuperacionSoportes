@@ -1,43 +1,60 @@
-[4144:9032:1105/193718.258:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
-[4144:6188:1105/193718.461:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[4144:7712:1105/193718.551:WARNING:components\value_store\value_store_frontend.cc:47] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[4144:6188:1105/193718.619:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[4144:7712:1105/193718.619:WARNING:components\value_store\value_store_frontend.cc:47] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[4144:6188:1105/193718.635:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[4144:6188:1105/193718.638:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[4144:9032:1105/193718.881:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
-[4144:9032:1105/193718.881:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
-[4144:9032:1105/193718.881:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
-[4144:9032:1105/193718.881:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
-[4144:9032:1105/193718.881:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
-[4144:9032:1105/193718.881:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
-[4144:9032:1105/193719.763:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
-[4144:9032:1105/193721.172:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
-[4144:9032:1105/193721.172:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
-[4144:9032:1105/193721.172:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
-[4144:9032:1105/193721.172:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
-[4144:9032:1105/193721.172:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
-[4144:9032:1105/193721.172:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
-[4144:9032:1105/193721.502:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
-[4192:1736:1105/193721.672:ERROR:services\audio\output_device_mixer_manager.cc:284] Adding OutputDeviceMixer failed: invalid output parameters
-[4192:1736:1105/193721.672:ERROR:media\audio\audio_manager_base.cc:440] Invalid audio output parameters received; using fake audio path: format: PCM_LINEAR, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: NONE, mic_positions: , latency_tag: LatencyUnknown
-[4144:8636:1105/193724.307:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
-[4144:9032:1105/193739.880:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
-[4144:9032:1105/193739.880:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
-[4144:9032:1105/193739.880:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
-[4144:9032:1105/193739.880:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
-[4144:9032:1105/193739.880:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
-[4144:9032:1105/193739.880:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
-[4144:9032:1105/193740.281:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
-[4192:1736:1105/193740.495:ERROR:services\audio\output_device_mixer_manager.cc:284] Adding OutputDeviceMixer failed: invalid output parameters
-[4192:1736:1105/193740.495:ERROR:media\audio\audio_manager_base.cc:440] Invalid audio output parameters received; using fake audio path: format: PCM_LINEAR, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: NONE, mic_positions: , latency_tag: LatencyUnknown
-[4144:8636:1105/193749.431:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
-[4144:9032:1105/193759.789:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
-[4144:9032:1105/193759.789:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
-[4144:9032:1105/193759.789:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
-[4144:9032:1105/193759.789:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
-[4144:9032:1105/193759.789:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
-[4144:9032:1105/193759.789:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
-[4144:9032:1105/193800.337:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
-[4192:1736:1105/193801.269:ERROR:services\audio\output_device_mixer_manager.cc:284] Adding OutputDeviceMixer failed: invalid output parameters
-[4192:1736:1105/193801.269:ERROR:media\audio\audio_manager_base.cc:440] Invalid audio output parameters received; using fake audio path: format: PCM_LINEAR, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: NONE, mic_positions: , latency_tag: LatencyUnknown
+[3280:6916:1106/000833.008:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
+[3280:6492:1106/000833.211:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[3280:6492:1106/000833.244:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[3280:6924:1106/000833.250:WARNING:components\value_store\value_store_frontend.cc:47] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[3280:6492:1106/000833.294:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[3280:6924:1106/000833.294:WARNING:components\value_store\value_store_frontend.cc:47] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[3280:6492:1106/000833.297:WARNING:components\leveldb_proto\internal\leveldb_database.cc:125] Unable to open C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata: IO error: C:\Users\administrator.ENERGIZANDO\Documents\01_RecuperacionSoportes\Process\profile\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[3280:6916:1106/000833.603:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[3280:6916:1106/000833.603:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
+[3280:6916:1106/000833.603:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
+[3280:6916:1106/000833.603:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
+[3280:6916:1106/000833.603:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
+[3280:6916:1106/000833.603:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
+[3280:6916:1106/000834.170:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
+[3280:356:1106/000836.718:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+[3280:6916:1106/000837.681:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[3280:6916:1106/000837.682:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
+[3280:6916:1106/000837.682:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
+[3280:6916:1106/000837.682:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
+[3280:6916:1106/000837.682:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
+[3280:6916:1106/000837.682:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
+[3280:6916:1106/000837.997:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
+[3280:6916:1106/000856.510:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[3280:6916:1106/000856.510:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
+[3280:6916:1106/000856.510:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
+[3280:6916:1106/000856.510:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
+[3280:6916:1106/000856.510:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
+[3280:6916:1106/000856.510:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
+[3280:6916:1106/000856.826:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
+[5320:1360:1106/000856.986:ERROR:services\audio\output_device_mixer_manager.cc:284] Adding OutputDeviceMixer failed: invalid output parameters
+[5320:1360:1106/000856.987:ERROR:media\audio\audio_manager_base.cc:440] Invalid audio output parameters received; using fake audio path: format: PCM_LINEAR, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: NONE, mic_positions: , latency_tag: LatencyUnknown
+[3280:356:1106/000905.216:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+[3280:6916:1106/000915.270:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[3280:6916:1106/000915.270:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
+[3280:6916:1106/000915.270:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
+[3280:6916:1106/000915.270:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
+[3280:6916:1106/000915.270:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
+[3280:6916:1106/000915.270:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
+[3280:6916:1106/000915.597:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
+[5320:1360:1106/000915.739:ERROR:services\audio\output_device_mixer_manager.cc:284] Adding OutputDeviceMixer failed: invalid output parameters
+[5320:1360:1106/000915.739:ERROR:media\audio\audio_manager_base.cc:440] Invalid audio output parameters received; using fake audio path: format: PCM_LINEAR, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: NONE, mic_positions: , latency_tag: LatencyUnknown
+[3280:356:1106/000955.664:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+[3280:356:1106/001144.756:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+[3280:356:1106/001537.090:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+[3280:356:1106/002331.078:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+[3280:6916:1106/002415.928:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[3280:6916:1106/002415.928:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
+[3280:6916:1106/002415.928:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.", source:  (0)
+[3280:6916:1106/002415.928:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-not-rendered'.", source:  (0)
+[3280:6916:1106/002415.928:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'execution-while-out-of-viewport'.", source:  (0)
+[3280:6916:1106/002415.928:INFO:CONSOLE:0] "Error with Permissions-Policy header: Unrecognized feature: 'navigation-override'.", source:  (0)
+[3280:6916:1106/002416.260:INFO:CONSOLE:1] "appSrcUrl: http://10.238.99.3:81/webroot/ith/ith-app.js", source: http://10.238.99.3:81/webroot/ith/ith-app.js (1)
+[2188:7780:1106/025805.436:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[7572:5888:1106/072404.612:ERROR:ui\gl\direct_composition_support.cc:513] QueryVideoProcessorCustomExtForHDR: Failed to retrieve D3D11 device
+[7572:5888:1106/072404.613:ERROR:ui\gl\direct_composition_support.cc:513] QueryVideoProcessorCustomExtForHDR: Failed to retrieve D3D11 device
+[3280:6916:1106/072939.389:WARNING:chrome\browser\ui\sad_tab.cc:258] Tab Killed: http://10.238.99.3:81/
+[3280:356:1106/072949.424:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+[3280:6916:1106/072949.424:ERROR:content\browser\network_service_instance_impl.cc:613] Network service crashed, restarting service.
+[3280:6916:1106/072954.439:ERROR:content\browser\gpu\gpu_process_host.cc:999] GPU process exited unexpectedly: exit_code=-1073741510
+[3280:6916:1106/072954.439:WARNING:content\browser\gpu\gpu_process_host.cc:1441] The GPU process has crashed 1 time(s)

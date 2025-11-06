@@ -145,3 +145,43 @@
 30-10-2025 21:58:37 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Proceso putty.exe (PID 8920) cerrado exitosamente.
 30-10-2025 21:58:37 | INFO | Task: 026_cerrarAplicativoSiesa | Desc: Se cerraron 1 instancia(s) de putty.exe.
 30-10-2025 21:58:37 | TRACE | Task: 026_cerrarAplicativoSiesa | Desc: Se cerro correctamente el aplicativo Siesa 8.5
+06-11-2025 08:01:14 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+06-11-2025 08:01:14 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+06-11-2025 08:01:15 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+06-11-2025 08:01:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+06-11-2025 08:01:16 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+06-11-2025 08:01:19 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+06-11-2025 08:01:19 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Task Scheduler', '', '', 'Input', '', '', 'Server Manager', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+06-11-2025 08:01:19 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+06-11-2025 08:01:19 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+06-11-2025 08:01:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+06-11-2025 08:01:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Task Scheduler', '', '', 'Input', '', '', 'Server Manager', 'rocketbot.exe - Shortcut', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+06-11-2025 08:01:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+06-11-2025 08:01:23 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+06-11-2025 08:01:26 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+06-11-2025 08:01:28 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+06-11-2025 08:01:29 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+06-11-2025 08:01:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+06-11-2025 08:01:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: No se encontró el patrón requerido en pantalla: 'codigo de usuario'
+06-11-2025 08:01:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: No se detecta pantalla de login.
+06-11-2025 08:01:31 | WARNING | Task: 003_AbrirSiesa8.5 | Desc: No se pudo validar la pantalla de Login.
+06-11-2025 08:04:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Se va a iniciar el aplicativo de Siesa 8.5.
+06-11-2025 08:04:30 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Esperando 1 segundo antes de ejecutar pyautogui.hotkey('win', 'd').
+06-11-2025 08:04:31 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Enviando hotkey 'win' + 'd' para mostrar el escritorio.
+06-11-2025 08:04:31 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Intentando ejecutar: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+06-11-2025 08:04:31 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ejecutando: C:/Users/administrator.ENERGIZANDO/Desktop/SISTEMA UNO CLOUD.lnk
+06-11-2025 08:04:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+06-11-2025 08:04:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', '', 'Sistema Uno', 'Rocketbot Debugger', 'Prueba.log - Visual Studio Code [Administrator]', 'Task Scheduler', '', '', '', '', 'Server Manager', 'rocketbot.exe - Shortcut', 'logs', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+06-11-2025 08:04:34 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando enfocar.
+06-11-2025 08:04:35 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana enfocada: Sistema Uno
+06-11-2025 08:04:38 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Buscando ventanas abiertas para encontrar coincidencia con el nombre: 'Sistema Uno'
+06-11-2025 08:04:38 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Títulos de ventanas encontradas: ['', 'Sistema Uno', 'Rocketbot Debugger', 'Prueba.log - Visual Studio Code [Administrator]', 'Task Scheduler', '', '', '', '', 'Server Manager', 'rocketbot.exe - Shortcut', 'logs', '003_AbrirSiesa8.5 -RocketBot Studio - Google Chrome', 'Program Manager']
+06-11-2025 08:04:38 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana encontrada con coincidencia: 'Sistema Uno'. Intentando maximizar y enfocar.
+06-11-2025 08:04:39 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Ventana maximizada: Sistema Uno
+06-11-2025 08:04:42 | INFO | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se va a extraer el texto de la pantalla de Siesa8.5.
+06-11-2025 08:04:43 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Se abre menu contextual.
+06-11-2025 08:04:44 | TRACE | Task: 004_ObtenerInformacionDePantallaSiesa8.5 | Desc: Copiar al portapapeles.
+06-11-2025 08:04:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: Validando pantalla de login SIESA...
+06-11-2025 08:04:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: No se encontró el patrón requerido en pantalla: 'codigo de usuario'
+06-11-2025 08:04:46 | INFO | Task: 003_AbrirSiesa8.5 | Desc: No se detecta pantalla de login.
+06-11-2025 08:04:46 | WARNING | Task: 003_AbrirSiesa8.5 | Desc: No se pudo validar la pantalla de Login.
